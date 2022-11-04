@@ -614,7 +614,7 @@ section#logistika {
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 300px) {
   .nav a {
     display: none;
   }
@@ -626,90 +626,156 @@ section#logistika {
     padding-bottom: 1.5rem;
   }
   .servis {
-    width: 1100px;
-    margin-left: 5px;
+    width: 300px;
+    margin-left: 2px;
+  }
+  .nav i {
+    transform: translate(100px, -2px);
+  }
+  .servis img {
+    width: 72px;
+    transform: translate(-20px, 1px);
+  }
+  .Inport {
+    width: 300px;
+    height: 300px;
+    background-image: url(/images/foto1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .portion h1 {
+    text-align: center;
+    transform: translate(-630px, -150px);
+    font-size: 16px;
+  }
+  .portion p {
+    transform: translate(-630px, -350px);
+    font-size: 9px;
+    font-weight: 600;
+    color: black;
   }
   .text {
-    transform: translate(-390px, 0px);
+    transform: translate(-10px, -1px);
   }
   .biz {
-    text-align: center;
+    margin-left: 65px;
+    font-size: 22px;
+  }
+  .haqimizda {
+    font-size: 12px;
+    margin-left: 28px;
   }
   .masteri img {
-    width: 420px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     display: grid;
-    transform: translate(1px, -510px);
+    transform: translate(-610px, -38px);
   }
   .malumot {
-    width: 455px;
+    width: 245px;
     text-align: inherit;
-    margin-left: 55px;
+    margin-left: 5px;
   }
   .btn {
     margin: 5px;
+    transform: translate(10px, 250px);
   }
   section#master h1 {
     width: 500px;
     text-align: center;
-    margin-left: 310px;
+    font-size: 25px;
+    transform: translate(-100px, -220px);
   }
   .xizmatlar {
     margin: 2rem 0;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 4rem;
-    margin-left: 250px;
+    margin-left: 20px;
+  }
+  section#master {
+    transform: translate(1px, 320px);
   }
   .beton {
-    width: 680px;
-    height: 400px;
+    width: 290px;
+    height: 320px;
   }
   .xizmat-turi {
-    width: 510px;
+    width: 280px;
     line-height: 26px;
     font-size: 25px;
-    margin-left: 110px;
+    margin-left: 10px;
     text-align: inherit;
   }
   .xizmat-haqida {
-    width: 650px;
-    text-align: center;
+    width: 280px;
+    text-align: inherit;
     margin-left: -5px;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
   }
+  section#logistika {
+    transform: translate(-100px, 100px);
+  }
+  .klent {
+    width: 100px;
+  }
   .homiy {
-    margin-left: 140px;
+    margin-left: 130px;
+    width: 100px;
+  }
+  .homiylar {
+    display: grid;
+    margin-left: 50px;
   }
   .bnt {
-    margin-left: 485px;
+    transform: translate(-450px, -10px);
+    border-radius: 155px;
+    padding: 7px 25px;
+  }
+  section#garden {
+    transform: translate(-300px, 100px);
   }
   .klent h5 {
-    margin-left: -15px;
+    width: 400px;
+    font-size: 22px;
+    margin-left: -45px;
   }
   .boglanish {
-    width: 680px;
-    transform: translate(215px, -50px);
+    width: 300px;
+    transform: translate(300px, -50px);
     margin-bottom: 20px;
   }
   .karta .lakatsiya {
-    transform: translate(235px, -50px);
+    width: 300px;
+    transform: translate(300px, -50px);
+    height: 300px;
+    border-radius: 50px;
   }
   .manzil {
-    transform: translate(180px, 0px);
+    transform: translate(10px, 0px);
   }
   .tarmoq {
-    transform: translate(180px, 0px);
+    transform: translate(10px, 0px);
   }
   .tell {
-    transform: translate(180px, 0px);
+    transform: translate(10px, 0px);
+  }
+  .manzil a p {
+    font-size: 12px;
+  }
+  .tarmoq p {
+    font-size: 12px;
+  }
+  .tell p {
+    font-size: 12px;
+    margin-left: -10px;
   }
   .boglanish span {
-    margin: 155px;
+    margin: 1px;
   }
   .croy {
-    transform: translate(105px, -38px);
+    transform: translate(-68px, -35px);
   }
   .lakatsiya {
     width: 630px;
@@ -735,19 +801,20 @@ section#logistika {
     transform: translate(10px, 175px);
   }
   .qonun {
-    transform: translate(-340px, 200px);
+    transform: translate(0px, 180px);
   }
   .tugadildi {
-    width: 1100px;
+    width: 300px;
     margin-left: 5px;
     height: 675px;
   }
   .tugadildi img {
     width: 140px;
+    margin-left: 1px;
   }
   .rastameks {
     font-size: 22px;
-    transform: translate(-280px, -110px);
+    transform: translate(55px, -115px);
   }
   .bottom h1 {
     font-size: 25px;
@@ -761,5 +828,18 @@ section#logistika {
   }
   .bottom a {
     transform: translate(-170px, 0px);
+  }
+  footer {
+    transform: translate(1px, 100px);
+  }
+  .tugadildi p {
+    width: 300px;
+    text-align: inherit;
+    margin-left: 15px;
+    transform: translate(1px, -50px);
+  }
+  .menyula {
+    margin-left: -45px;
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */
