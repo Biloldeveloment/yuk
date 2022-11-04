@@ -12,6 +12,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0;
 }
 
 ul {
@@ -105,6 +106,8 @@ header#header ul {
   width: 1200px;
   height: 550px;
   border-radius: 5px;
+  background-position: center;
+  background-size: cover;
 }
 
 .portion h1 {
@@ -114,7 +117,7 @@ header#header ul {
   line-height: 36px;
   color: black;
   text-align: center;
-  padding: 12rem 0;
+  padding: 8rem 0;
   margin-left: 579px;
 }
 
@@ -127,10 +130,10 @@ section#show {
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
-  color: black;
+  color: #fff;
   text-align: center;
   margin-left: 555px;
-  transform: translate(0px, -155px);
+  transform: translate(0px, -85px);
 }
 
 .biz {
@@ -614,7 +617,7 @@ section#logistika {
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 120px) {
   .nav a {
     display: none;
   }
@@ -645,11 +648,11 @@ section#logistika {
   }
   .portion h1 {
     text-align: center;
-    transform: translate(-630px, -150px);
+    transform: translate(-630px, -50px);
     font-size: 16px;
   }
   .portion p {
-    transform: translate(-630px, -350px);
+    transform: translate(-630px, -180px);
     font-size: 9px;
     font-weight: 600;
     color: black;
