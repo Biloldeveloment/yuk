@@ -617,7 +617,7 @@ section#logistika {
   display: none;
 }
 
-@media only screen and (max-width: 120px) {
+@media only screen and (max-width: 320px) {
   .nav a {
     display: none;
   }
@@ -809,7 +809,7 @@ section#logistika {
   .tugadildi {
     width: 300px;
     margin-left: 5px;
-    height: 675px;
+    height: 700px;
   }
   .tugadildi img {
     width: 140px;
