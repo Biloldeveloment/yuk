@@ -189,13 +189,14 @@ a{
     display: inline-block;
     padding: 8px 28px;
     border-radius: 6px;
+    margin-left: 15px;
   }
 
 
   .xizmatlar{
    
     display: flex;
-    transform: translate(-48px, 10px);
+    transform: translate(-15px, 10px);
   }
 
   section#master h1{
@@ -729,7 +730,7 @@ a{
     display: none;
   }
 
-  @media only screen and (max-width: 375px){
+  @media only screen and (max-width: px){
     .nav a{
     display: none;
    }
@@ -886,28 +887,28 @@ a{
    }
 
    .boglanish{
-    width: 300px;
-    transform: translate(300px, -50px);
+    width: 1200px;
+    transform: translate(333px, -50px);
     margin-bottom: 20px;
    }
 
    .karta .lakatsiya{
-    width: 300px;
-    transform: translate(300px, -50px);
-    height: 300px;
+    width: 1200px;
+    transform: translate(333px, -50px);
+    height: 350px;
     border-radius: 50px;
    }
 
    .manzil{
-    transform: translate(10px, 0px);
+    transform: translate(430px, 0px);
    }
 
    .tarmoq{
-    transform: translate(10px, 0px);
+    transform: translate(430px, 0px);
    }
 
    .tell{
-    transform: translate(10px, 0px);
+    transform: translate(430px, 0px);
    }
 
    .manzil a p{
@@ -924,11 +925,11 @@ a{
    }
 
    .boglanish span{
-    margin: 1px;
+    margin: 400px;
    }
 
    .croy{
-    transform: translate(-68px, -35px);
+    transform: translate(350px, -35px);
    }
 
    .lakatsiya{
@@ -965,10 +966,22 @@ a{
   }
 
   .tugadildi{
-    width: 300px;
-    margin-left: 5px;
-    height: 700px;
+    width: 1200px;
+    margin-left: 25px;
+    height: 600px;
+  }
 
+  .transport{
+    margin-left: -770px;
+    margin-top: 455px;
+  }
+
+  .logosi h3{
+    margin-left: -850px;
+  }
+
+  .people h2{
+    margin-top: 50px;
   }
 
   .tugadildi img{
