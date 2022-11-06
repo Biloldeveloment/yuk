@@ -107,6 +107,7 @@ header#header ul {
   border-radius: 5px;
   background-position: center;
   background-size: cover;
+  transform: translate(2px, 0px);
 }
 
 .portion h1 {
@@ -185,7 +186,7 @@ section#show {
   display: inline-block;
   padding: 8px 28px;
   border-radius: 6px;
-  margin-left: 15px;
+  margin-left: 22px;
 }
 
 .xizmatlar {
@@ -266,7 +267,7 @@ section#master h1 {
   width: 380px;
   height: 250px;
   gap: 35px;
-  transform: translate(10px, -250px);
+  transform: translate(15px, -250px);
   margin-left: 25px;
   padding: 1px 5px;
   border: 5px solid cadetblue;
