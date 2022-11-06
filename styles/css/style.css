@@ -94,7 +94,7 @@ header#header ul {
   height: 59px;
   padding: 20px;
   border-radius: 5px;
-  transform: translate(5px, 0px);
+  transform: translate(10px, 0px);
 }
 
 .servis img {
@@ -108,7 +108,7 @@ header#header ul {
   border-radius: 5px;
   background-position: center;
   background-size: cover;
-  transform: translate(5px, 0px);
+  transform: translate(10px, 0px);
 }
 
 .portion h1 {
@@ -636,7 +636,7 @@ section#logistika {
   height: 480px;
   background: darkgray;
   border-radius: 10px;
-  transform: translate(5px, 0px);
+  transform: translate(10px, 0px);
 }
 
 .footer-col1 h2 {
