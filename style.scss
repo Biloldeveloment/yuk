@@ -95,7 +95,7 @@ a{
     height: 59px;
     padding: 20px;
     border-radius: 5px;
-    transform: translate(18px, 0px);
+    transform: translate(16px, 0px);
   }
 
   .servis img{
@@ -110,7 +110,7 @@ a{
     border-radius: 5px;
     background-position: center;
     background-size: cover;
-    transform: translate(18px, 0px);
+    transform: translate(16px, 0px);
   }
 
   .portion h1{
@@ -264,7 +264,7 @@ a{
   }
 
   .body2{
-    padding: 5rem 5rem;
+    padding: 5rem 3rem;
     background: grey;
   }
 
@@ -647,7 +647,7 @@ a{
     height: 480px;
     background: darkgray;
     border-radius: 10px;
-    transform: translate(18px, 0px);
+    transform: translate(16px, 0px);
   }
 
   .footer-col1 h2{
@@ -735,7 +735,7 @@ a{
     display: none;
   }
 
- media only screen and (max-width: px){
+ @media only screen and (max-width: px){
     .nav a{
     display: none;
    }
@@ -1032,4 +1032,6 @@ a{
    margin-left: -45px;
    font-size: 12px;
   }
+
   }
+
