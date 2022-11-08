@@ -294,7 +294,7 @@ section#master h1 {
 .xizmat-haqida {
   width: 350px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 18px;
   text-align: inherit;
   color: grey;
@@ -364,6 +364,8 @@ section#logistika {
 .boglanish span {
   margin: 26px;
   color: #fff;
+  display: flex;
+  transform: translate(0px, -20px);
 }
 
 .tarmoq {
@@ -401,7 +403,7 @@ section#logistika {
 .croy {
   display: flex;
   gap: 10px;
-  transform: translate(-22px, -38px);
+  transform: translate(-22px, -70px);
 }
 
 .telegram {
@@ -624,9 +626,14 @@ section#logistika {
   text-align: inherit;
 }
 
-.tugadildi a:hover {
+.tugadildi .girls a:hover {
   color: white;
   padding-left: 10px;
+}
+
+.xizmat-turi i {
+  margin-left: 10px;
+  color: teal;
 }
 
 .people p:hover {
