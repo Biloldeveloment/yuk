@@ -636,6 +636,15 @@ section#logistika {
   color: teal;
 }
 
+.xizmat-haqida i {
+  color: teal;
+  margin-left: 10px;
+}
+
+.xizmat-haqida span {
+  color: teal;
+}
+
 .people p:hover {
   color: #fff;
   padding-left: 10px;
