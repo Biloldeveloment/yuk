@@ -131,10 +131,14 @@ section#show {
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
-  color: #fff;
+  color: black;
   text-align: center;
   margin-left: 555px;
   transform: translate(0px, -85px);
+}
+
+.portion i {
+  color: teal;
 }
 
 .biz {
