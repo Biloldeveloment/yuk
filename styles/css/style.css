@@ -199,6 +199,7 @@ section#show {
   padding: 8px 28px;
   border-radius: 6px;
   margin-left: 22px;
+  font-weight: 600;
   box-shadow: 1px 0px 15px;
 }
 
@@ -283,6 +284,7 @@ section#master h1 {
   transform: translate(11px, -250px);
   margin-left: 25px;
   border-radius: 10px;
+  box-shadow: 1px 1px 15px;
   padding: 2rem 1rem;
   border: 5px solid cadetblue;
 }
@@ -345,6 +347,7 @@ section#logistika {
   display: inline-block;
   padding: 8px 38px;
   border-radius: 6px;
+  font-weight: 600;
   margin-left: 550px;
   margin-top: 25px;
   box-shadow: 1px 0px 15px;
