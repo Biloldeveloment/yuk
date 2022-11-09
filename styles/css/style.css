@@ -69,7 +69,7 @@ header#header {
 }
 
 header#header ul {
-  color: #fff;
+  color: black;
   font-size: 15px;
   font-weight: 400;
   gap: 2rem;
