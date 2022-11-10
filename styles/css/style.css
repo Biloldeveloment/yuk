@@ -773,6 +773,10 @@ section#logistika {
   transform: translate(1px, 50px);
 }
 
+.servis i {
+  display: none;
+}
+
 .nav i {
   display: none;
 }
@@ -785,6 +789,9 @@ section#logistika {
   .nav a {
     display: none;
   }
+  .servis i {
+    display: block;
+  }
   body {
     background-color: darkkhaki;
   }
@@ -796,35 +803,50 @@ section#logistika {
     padding-bottom: 1.5rem;
   }
   .servis {
-    width: 1300px;
+    width: 1350px;
+    position: fixed;
+    z-index: 17;
+    height: 100px;
+    border-radius: 10px;
+  }
+  .servis i {
+    font-size: 55px;
   }
   .nav i {
     transform: translate(100px, -2px);
+    font-size: 45px;
   }
   .servis img {
-    width: 72px;
-    transform: translate(-20px, 1px);
+    width: 150px;
+    transform: translate(120px, 1px);
   }
   .Inport {
-    width: 1300px;
+    width: 1350px;
     height: 600px;
     background-image: url(/images/foto1.jpg);
     background-position: center;
     background-size: cover;
     box-shadow: 1px 1px 15px;
+    margin-top: 100px;
   }
   .portion h1 {
     text-align: center;
-    font-size: 46px;
+    font-size: 78px;
+    line-height: 76px;
+    font-weight: 600;
   }
   .portion p {
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 45px;
+    line-height: 56px;
     font-weight: 600;
     color: black;
+    width: 1200px;
+    margin-left: 100px;
   }
   .text {
-    transform: translate(-10px, -1px);
+    transform: translate(110px, -1px);
+    font-size: 45px;
+    font-weight: 600;
   }
   .biz {
     text-align: center;
@@ -837,16 +859,16 @@ section#logistika {
     margin-left: 28px;
   }
   .masteri img {
-    width: 600px;
-    height: 300px;
+    width: 650px;
+    height: 350px;
     display: grid;
-    transform: translate(-250px, -3px);
-    box-shadow: 1px 1px 15px;
+    transform: translate(-290px, -50px);
+    box-shadow: 1px 1px 22px;
     color: black;
   }
   .malumot {
     width: 1200px;
-    font-size: 35px;
+    font-size: 40px;
     line-height: 56px;
     text-align: inherit;
     margin-left: 5px;
@@ -856,16 +878,21 @@ section#logistika {
     margin-top: 30px;
   }
   .btn {
+    padding: 25px 45px;
     margin: 5px;
-    transform: translate(50px, 400px);
-    margin-bottom: 20px;
+    font-size: 40px;
+    transform: translate(15px, 400px);
+    margin-bottom: -10px;
+    background: darkkhaki;
+    color: black;
   }
   section#master h1 {
-    width: 500px;
+    width: 600px;
     text-align: center;
-    font-size: 80px;
-    transform: translate(440px, -220px);
+    font-size: 90px;
+    transform: translate(370px, -220px);
     margin-bottom: 100px;
+    color: rgb(20, 20, 145);
   }
   .xizmatlar {
     margin: 2rem 0;
@@ -878,25 +905,39 @@ section#logistika {
     transform: translate(1px, 320px);
   }
   .beton {
-    width: 800px;
-    height: 350px;
-    margin-left: 280px;
+    border: 5px solid darkkhaki;
+    width: 900px;
+    height: 450px;
+    margin-left: 200px;
+    box-shadow: 1px 1px 25px;
   }
   .xizmat-turi {
     width: 1000px;
-    line-height: 56px;
-    font-size: 45px;
-    margin-left: 250px;
+    line-height: 65px;
+    font-size: 65px;
+    margin-left: 205px;
     text-align: inherit;
+    margin-bottom: 15px;
+  }
+  .xizmat-turi i {
+    color: black;
+  }
+  .xizmat-haqida span {
+    color: black;
+    font-weight: bold;
   }
   .xizmat-haqida {
     width: 850px;
     text-align: center;
     margin-left: 215px;
-    font-size: 26px;
-    line-height: 36px;
+    font-size: 42px;
+    line-height: 56px;
     color: black;
     margin-bottom: 50px;
+  }
+  .xizmat-haqida i {
+    color: black;
+    font-size: 45px;
   }
   section#logistika {
     transform: translate(-100px, 100px);
@@ -907,29 +948,38 @@ section#logistika {
   .homiy {
     margin-left: 370px;
     width: 600px;
+    height: 300px;
+    border: 5px solid darkkhaki;
     margin-top: 50px;
+    box-shadow: 1px 1px 25px;
   }
   .homiylar {
     display: grid;
     margin-left: 50px;
   }
   .bnt {
-    border-radius: 55px;
-    padding: 10px 38px;
+    padding: 25px 45px;
+    margin-bottom: -10px;
+    font-size: 40px;
+    margin-left: 500px;
+    background: darkkhaki;
+    color: black;
   }
   section#garden {
     transform: translate(-300px, 100px);
   }
   .klent h5 {
     width: 1200px;
-    font-size: 80px;
+    font-size: 90px;
     margin-left: 50px;
+    font-weight: 600;
+    color: rgb(20, 20, 145);
   }
   .boglanish {
     align-items: center;
-    width: 800px;
+    width: 1000px;
     height: 360px;
-    margin-left: 580px;
+    margin-left: 460px;
     margin-bottom: 100px;
   }
   .boglanish h6 {
