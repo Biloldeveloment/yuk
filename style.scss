@@ -780,6 +780,10 @@ section#logistika {
     display: none;
   }
 
+  body {
+    background-color: darkkhaki;
+  }
+
   .nav i {
     display: block;
   }
@@ -828,11 +832,13 @@ section#logistika {
 
   .biz {
     text-align: center;
-    font-size: 60px;
+    font-size: 90px;
+    margin-bottom: 20px;
   }
 
   .haqimizda {
-    font-size: 22px;
+    color: black;
+    font-size: 35px;
     margin-left: 28px;
   }
 
@@ -847,7 +853,8 @@ section#logistika {
 
   .malumot {
     width: 1200px;
-    font-size: 25px;
+    font-size: 35px;
+    line-height: 56px;
     text-align: inherit;
     margin-left: 5px;
   }
