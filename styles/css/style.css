@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&family=Spectral:ital,wght@0,400;0,600;0,800;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&family=Spectral:ital,wght@0,400;0,600;0,800;1,800&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -7,7 +8,7 @@
 
 body {
   background-color: #f1f1f1;
-  font-family: "Spectral", serif;
+  font-family: "Cormorant Garamond";
 }
 
 .container {
@@ -77,9 +78,9 @@ header#header ul {
 }
 
 .text {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
-  color: blue;
+  color: black;
   line-height: 26px;
   text-align: center;
   transform: translate(-340px, 0px);
@@ -148,7 +149,7 @@ section#show {
 
 .biz {
   color: rgb(20, 20, 145);
-  font-weight: 900;
+  font-weight: 500;
   font-size: 46px;
   line-height: 56px;
 }
@@ -381,6 +382,7 @@ section#logistika {
 }
 
 .logosi {
+  width: 1200px;
   background-image: url(/images/footer\ foto.jpg);
   border-radius: 10px;
 }
@@ -402,6 +404,7 @@ section#logistika {
   width: 110px;
   text-align: center;
   color: #fff;
+  margin-left: -10px;
 }
 
 .tell {
@@ -414,6 +417,7 @@ section#logistika {
   width: 180px;
   text-align: center;
   color: #fff;
+  margin-left: -20px;
 }
 
 .boglanish {
