@@ -373,6 +373,11 @@ section#logistika {
   transform: translate();
 }
 
+.logosi {
+  background-image: url(/images/footer\ foto.jpg);
+  border-radius: 10px;
+}
+
 .boglanish span {
   margin: 26px;
   color: #fff;
@@ -475,6 +480,7 @@ section#logistika {
 .logosi p {
   font-weight: 400;
   font-size: 18px;
+  color: #fff;
   line-height: 32px;
   text-align: inherit;
   margin-bottom: 30px;
@@ -496,6 +502,7 @@ section#logistika {
 .people {
   width: 520px;
   padding: 10rem;
+  color: #fff;
   margin-left: -820px;
 }
 
@@ -564,6 +571,7 @@ section#logistika {
 
 .girls {
   padding: 10rem;
+  color: #fff;
   margin-left: -255px;
 }
 
@@ -639,7 +647,7 @@ section#logistika {
 }
 
 .tugadildi .girls a:hover {
-  color: #ffff;
+  color: black;
   padding-left: 10px;
 }
 
@@ -659,7 +667,7 @@ section#logistika {
 }
 
 .people p:hover {
-  color: #fff;
+  color: black;
   padding-left: 10px;
 }
 
@@ -667,7 +675,7 @@ section#logistika {
   display: flex;
   width: 1200px;
   height: 480px;
-  background: darkgray;
+
   border-radius: 10px;
   transform: translate(21px, 0px);
 }
