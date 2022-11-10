@@ -781,7 +781,7 @@ section#logistika {
   margin-bottom: 5px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 430px) {
   .nav a {
     display: none;
   }
