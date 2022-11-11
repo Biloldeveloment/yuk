@@ -925,7 +925,7 @@ section#logistika {
 
   .malumot {
     width: 1200px;
-    font-size: 50px;
+    font-size: 55px;
     line-height: 66px;
     text-align: center;
     margin-left: 80px;
@@ -994,10 +994,10 @@ section#logistika {
   }
 
   .xizmat-haqida {
-    width: 1230px;
+    width: 1260px;
     text-align: center;
     margin-left: 50px;
-    font-size: 50px;
+    font-size: 55px;
     line-height: 65px;
     color: black;
     margin-bottom: 50px;
@@ -1318,7 +1318,7 @@ section#logistika {
   header#header .sider .sidebar li {
     padding: 1rem;
     margin-top: 1rem;
-    font-size: 25px;
+    font-size: 30px;
     color: black;
     background-color: grey;
     border-radius: 20px;
@@ -1337,5 +1337,63 @@ section#logistika {
     color: white;
     display: inline-block;
     margin-top: 200px;
+  }
+
+  .work {
+    display: inline-block;
+    margin-left: 345px;
+  }
+
+  .work i {
+    font-size: 30px;
+    margin-left: -12px;
+  }
+
+  .working {
+    margin-bottom: 30px;
+    border: 5px solid rgba(244, 244, 251, 0.29);
+    font-size: 40px;
+    padding: 38px 45px;
+    border-radius: 50%;
+    text-align: center;
+    background: rgba(121, 118, 118, 0.68);
+    margin-left: 0;
+    margin-top: 22px;
+  }
+
+  .odnokilas {
+    margin-bottom: 30px;
+    border: 5px solid rgba(244, 244, 251, 0.29);
+    font-size: 40px;
+    padding: 38px 45px;
+    border-radius: 50%;
+    text-align: center;
+    background: rgba(121, 118, 118, 0.68);
+    margin-left: 0;
+    margin-top: 22px;
+  }
+
+  .boon {
+    margin-bottom: 30px;
+    border: 5px solid rgba(244, 244, 251, 0.29);
+    font-size: 40px;
+    padding: 38px 45px;
+    border-radius: 50%;
+    text-align: center;
+    background: rgba(121, 118, 118, 0.68);
+    margin-left: 0;
+    margin-top: 22px;
+  }
+
+  .boon i {
+    margin-left: -38px;
+  }
+
+  .work p {
+    width: 200px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: -20px;
+    text-align: inherit;
   }
 }
