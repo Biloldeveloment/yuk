@@ -784,7 +784,7 @@ section#logistika {
   }
 
   .container {
-    width: 500px;
+    width: -200px;
   }
 
   .servis i {
@@ -803,7 +803,7 @@ section#logistika {
   }
 
   .servis {
-    width: 1350px;
+    width: 1400px;
     position: fixed;
     z-index: 17;
     height: 100px;
@@ -811,7 +811,7 @@ section#logistika {
   }
 
   .servis i {
-    font-size: 55px;
+    font-size: 65px;
   }
 
   .nav i {
@@ -825,7 +825,7 @@ section#logistika {
   }
 
   .Inport {
-    width: 1350px;
+    width: 1400px;
     height: 600px;
     background-image: url(/images/foto1.jpg);
     background-position: center;
@@ -836,14 +836,15 @@ section#logistika {
 
   .portion h1 {
     text-align: center;
-    font-size: 78px;
-    line-height: 76px;
+    font-size: 85px;
+    line-height: 80px;
     font-weight: 600;
+    margin-left: 350px;
   }
 
   .portion p {
-    font-size: 45px;
-    line-height: 56px;
+    font-size: 55px;
+    line-height: 66px;
     font-weight: 600;
     color: black;
     width: 1200px;
@@ -852,37 +853,38 @@ section#logistika {
 
   .text {
     transform: translate(110px, -1px);
-    font-size: 45px;
+    font-size: 55px;
     font-weight: 600;
   }
 
   .biz {
     text-align: center;
-    font-size: 90px;
-    margin-bottom: 20px;
+    font-size: 100px;
+    margin-bottom: 30px;
   }
 
   .haqimizda {
     color: black;
-    font-size: 35px;
-    margin-left: 28px;
+    font-size: 45px;
+    margin-left: 35px;
   }
 
   .masteri img {
-    width: 650px;
+    display: none;
+    /* width: 650px;
     height: 350px;
     display: grid;
     transform: translate(-290px, -50px);
     box-shadow: 1px 1px 22px;
-    color: black;
+    color: black; */
   }
 
   .malumot {
     width: 1200px;
-    font-size: 40px;
-    line-height: 56px;
-    text-align: inherit;
-    margin-left: 5px;
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+    margin-left: 80px;
   }
 
   .malumot span {
@@ -894,19 +896,19 @@ section#logistika {
     padding: 25px 45px;
     margin: 5px;
     font-size: 40px;
-    transform: translate(15px, 400px);
     margin-bottom: -10px;
-    background: darkkhaki;
+    background: darkgrey;
     color: black;
+    margin-left: 100px;
   }
 
   section#master h1 {
     width: 600px;
     text-align: center;
-    font-size: 90px;
+    font-size: 100px;
     transform: translate(370px, -220px);
     margin-bottom: 100px;
-    color: rgb(20, 20, 145);
+    color: black;
   }
 
   .xizmatlar {
@@ -922,17 +924,17 @@ section#logistika {
   }
 
   .beton {
-    border: 5px solid darkkhaki;
-    width: 900px;
-    height: 450px;
-    margin-left: 200px;
-    box-shadow: 1px 1px 25px;
+    border: 5px solid grey;
+    width: 700px;
+    height: 480px;
+    margin-left: 310px;
+    box-shadow: 1px 1px 35px;
   }
 
   .xizmat-turi {
     width: 1000px;
     line-height: 65px;
-    font-size: 65px;
+    font-size: 68px;
     margin-left: 205px;
     text-align: inherit;
     margin-bottom: 15px;
@@ -951,14 +953,15 @@ section#logistika {
     width: 850px;
     text-align: center;
     margin-left: 215px;
-    font-size: 42px;
-    line-height: 56px;
+    font-size: 50px;
+    line-height: 65px;
     color: black;
     margin-bottom: 50px;
   }
 
   .xizmat-haqida i {
     color: black;
+    display: none;
     font-size: 45px;
   }
 
@@ -971,10 +974,10 @@ section#logistika {
   }
 
   .homiy {
-    margin-left: 370px;
-    width: 600px;
-    height: 300px;
-    border: 5px solid darkkhaki;
+    margin-left: 425px;
+    width: 500px;
+    height: 280px;
+    border: 5px solid grey;
     margin-top: 50px;
     box-shadow: 1px 1px 25px;
   }
@@ -988,8 +991,8 @@ section#logistika {
     padding: 25px 45px;
     margin-bottom: -10px;
     font-size: 40px;
-    margin-left: 500px;
-    background: darkkhaki;
+    margin-left: 520px;
+    background: darkgrey;
     color: black;
   }
 
@@ -999,32 +1002,37 @@ section#logistika {
 
   .klent h5 {
     width: 1200px;
-    font-size: 90px;
+    font-size: 100px;
     margin-left: 50px;
     font-weight: 600;
-    color: rgb(20, 20, 145);
+    color: black;
   }
 
   .boglanish {
+    background-image: url(/images/Contact-Us-Image.jpg);
     align-items: center;
-    width: 1000px;
-    height: 460px;
+    background-position: center;
+    background-size: cover;
+    width: 1200px;
+    height: 500px;
     margin-left: 460px;
     margin-bottom: 100px;
   }
 
   .boglanish h6 {
     text-align: center;
-    font-size: 75px;
+    font-size: 90px;
+    color: black;
     margin-bottom: 10px;
+    margin-left: -100px;
     font-weight: 500;
   }
 
   .karta .lakatsiya {
-    width: 950px;
-    transform: translate(500px, -50px);
-    height: 350px;
-    border-radius: 100px;
+    width: 1150px;
+    transform: translate(490px, -50px);
+    height: 450px;
+    border-radius: 20px;
   }
 
   .manzil {
@@ -1036,30 +1044,35 @@ section#logistika {
   }
 
   .tell {
-    transform: translate(255px, 0px);
+    transform: translate(280px, 0px);
   }
 
   .boglanish i {
-    font-size: 25px;
+    font-size: 35px;
+    color: black;
   }
 
   .manzil a p {
-    font-size: 30px;
-    width: 400px;
+    font-size: 40px;
+    color: black;
+    width: 600px;
   }
 
   .tarmoq p {
-    font-size: 30px;
-    margin-left: 5px;
+    font-size: 40px;
+    margin-left: 15px;
+    color: black;
   }
 
   .tell p {
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 15px;
-    width: 250px;
+    width: 300px;
+    color: black;
   }
 
   .boglanish span {
+    color: black;
     margin-left: 300px;
   }
 
@@ -1163,15 +1176,15 @@ section#logistika {
   }
 
   .telegram i {
-    transform: translate(-11px, 1px);
+    transform: translate(-15px, 1px);
   }
 
   .insta i {
-    transform: translate(-11px, 1px);
+    transform: translate(-15px, 1px);
   }
 
   .book i {
-    transform: translate(-31px, 1px);
+    transform: translate(-36px, 1px);
   }
 
   .girls {
@@ -1192,5 +1205,17 @@ section#logistika {
 
   .logosi {
     width: 1300px;
+  }
+
+  .telegram {
+    padding: 10px 25px;
+  }
+
+  .insta {
+    padding: 10px 25px;
+  }
+
+  .book {
+    padding: 10px 25px;
   }
 }
