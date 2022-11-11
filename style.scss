@@ -78,7 +78,7 @@ header#header ul {
   color: black;
   line-height: 26px;
   text-align: center;
-  transform: translate(-340px, -0px);
+  transform: translate(40px, -0px);
 }
 
 .master {
@@ -100,6 +100,7 @@ header#header ul {
 
 .servis img {
   width: 65px;
+  transform: translate(-810px, 0px);
 }
 
 .Inport {
@@ -774,6 +775,52 @@ section#logistika {
   display: none;
 }
 
+.work {
+  display: flex;
+  gap: 10px;
+  margin-left: 580px;
+  margin-top: 40px;
+}
+
+.work i {
+  display: flex;
+  gap: 10px;
+  font-size: 22px;
+  margin-left: -10px;
+}
+
+.working {
+  display: flex;
+  gap: 25px;
+  padding: 18px 27px;
+  border: 2px solid black;
+  width: 30px;
+  border-radius: 100px;
+}
+
+.odnokilas {
+  display: flex;
+  gap: 25px;
+  padding: 18px 27px;
+  border: 2px solid black;
+  width: 30px;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+.boon i {
+  margin-left: -35px;
+}
+
+.boon {
+  display: flex;
+  gap: 25px;
+  padding: 18px 27px;
+  border: 2px solid black;
+  width: 30px;
+  border-radius: 100px;
+}
+
 .footer {
   margin-bottom: 5px;
 }
@@ -804,10 +851,11 @@ section#logistika {
     z-index: 17;
     height: 100px;
     border-radius: 10px;
+    margin-left: -8px;
   }
 
   .servis i {
-    font-size: 65px;
+    font-size: 70px;
   }
 
   .nav i {
@@ -946,9 +994,9 @@ section#logistika {
   }
 
   .xizmat-haqida {
-    width: 1150px;
+    width: 1230px;
     text-align: center;
-    margin-left: 80px;
+    margin-left: 50px;
     font-size: 50px;
     line-height: 65px;
     color: black;
@@ -1009,8 +1057,8 @@ section#logistika {
     align-items: center;
     background-position: center;
     background-size: cover;
-    width: 1000px;
-    margin-left: 500px;
+    width: 980px;
+    margin-left: 450px;
     height: 500px;
     margin-bottom: 100px;
   }
@@ -1116,13 +1164,13 @@ section#logistika {
   }
 
   .transport {
-    margin-left: -700px;
-    margin-top: 405px;
+    margin-left: -450px;
+    margin-top: 665px;
   }
 
   .logosi h3 {
-    font-size: 30px;
-    margin-left: -850px;
+    font-size: 40px;
+    color: #f1f1f1;
   }
 
   .people h2 {
@@ -1130,8 +1178,8 @@ section#logistika {
   }
 
   .tugadildi img {
-    width: 140px;
-    margin-left: 1px;
+    width: 170px;
+    margin-left: 300px;
   }
 
   .rastameks {
@@ -1189,7 +1237,7 @@ section#logistika {
   }
 
   .girls {
-    margin-top: 80px;
+    margin-top: 300px;
   }
 
   .girls h2 {
@@ -1198,7 +1246,8 @@ section#logistika {
   }
 
   .people {
-    margin-top: 30px;
+    margin-top: 250px;
+    margin-left: -1100px;
   }
 
   .people h2 {
@@ -1208,6 +1257,13 @@ section#logistika {
 
   .logosi {
     width: 1300px;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .logosi p {
+    margin-left: 380px;
   }
 
   .telegram {
@@ -1243,5 +1299,43 @@ section#logistika {
   .logosi h2 {
     font-size: 45px;
     margin-left: 25px;
+    margin-top: -20px;
+  }
+
+  header#header .sider .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: rgba(130, 124, 124, 0.891);
+    box-shadow: 0 0 20px grey;
+    transform: translateX(-100%);
+    padding: 1rem;
+    z-index: 9999;
+    transition: transform 0.3s ease-in;
+  }
+  header#header .sider .sidebar li {
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 25px;
+    color: black;
+    background-color: grey;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+  }
+  header#header .sider .sidebar li:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    text-indent: 1rem;
+  }
+  header#header .sider input[type="checkbox"]:checked + .sidebar {
+    transform: translateX(0);
+  }
+
+  .tugadildi span {
+    margin: 130px;
+    color: white;
+    display: inline-block;
+    margin-top: 200px;
   }
 }
