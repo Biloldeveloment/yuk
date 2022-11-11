@@ -946,7 +946,7 @@ section#logistika {
   }
 
   .xizmat-haqida {
-    width: 850px;
+    width: 1000px;
     text-align: center;
     margin-left: 215px;
     font-size: 50px;
@@ -1115,11 +1115,12 @@ section#logistika {
   }
 
   .transport {
-    margin-left: -770px;
-    margin-top: 455px;
+    margin-left: -910px;
+    margin-top: 445px;
   }
 
   .logosi h3 {
+    font-size: 30px;
     margin-left: -850px;
   }
 
@@ -1163,7 +1164,7 @@ section#logistika {
   }
 
   .tugadildi p {
-    width: 300px;
+    font-size: 25px;
     text-align: inherit;
     margin-left: 15px;
     transform: translate(1px, -50px);
@@ -1191,6 +1192,7 @@ section#logistika {
   }
 
   .girls h2 {
+    font-size: 30px;
     transform: translate(12px, -60px);
   }
 
@@ -1199,6 +1201,7 @@ section#logistika {
   }
 
   .people h2 {
+    font-size: 30px;
     transform: translate(12px, -60px);
   }
 
@@ -1216,5 +1219,23 @@ section#logistika {
 
   .book {
     padding: 10px 25px;
+  }
+
+  .gruppa {
+    padding: 25px 25px;
+  }
+
+  .odno {
+    padding: 25px 25px;
+  }
+
+  .booking {
+    padding: 25px 25px;
+  }
+
+  .transport i {
+    font-size: 35px;
+    margin-left: -5px;
+    margin-top: -5px;
   }
 }
