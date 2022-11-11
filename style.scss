@@ -787,6 +787,7 @@ section#logistika {
     display: block;
   }
   body {
+    background-image: url(/images/responsive\ foto.jpg);
     background-color: darkkhaki;
   }
 
@@ -1004,33 +1005,35 @@ section#logistika {
   .boglanish {
     align-items: center;
     width: 1000px;
-    height: 360px;
+    height: 460px;
     margin-left: 460px;
     margin-bottom: 100px;
   }
 
   .boglanish h6 {
     text-align: center;
-    font-size: 55px;
+    font-size: 75px;
+    margin-bottom: 10px;
+    font-weight: 500;
   }
 
   .karta .lakatsiya {
-    width: 600px;
-    transform: translate(673px, -50px);
+    width: 950px;
+    transform: translate(500px, -50px);
     height: 350px;
-    border-radius: 50px;
+    border-radius: 100px;
   }
 
   .manzil {
-    transform: translate(220px, 0px);
+    transform: translate(280px, 0px);
   }
 
   .tarmoq {
-    transform: translate(220px, 0px);
+    transform: translate(280px, 0px);
   }
 
   .tell {
-    margin-left: 140px;
+    transform: translate(255px, 0px);
   }
 
   .boglanish i {
@@ -1038,27 +1041,27 @@ section#logistika {
   }
 
   .manzil a p {
-    font-size: 25px;
+    font-size: 30px;
     width: 400px;
   }
 
   .tarmoq p {
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 5px;
   }
 
   .tell p {
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 15px;
+    width: 250px;
   }
 
   .boglanish span {
-    margin-left: 220px;
+    margin-left: 300px;
   }
 
   .croy {
-    margin-left: 180px;
-    margin-top: -10px;
+    margin-left: 270px;
   }
 
   .lakatsiya {
@@ -1166,5 +1169,25 @@ section#logistika {
 
   .book i {
     transform: translate(-31px, 1px);
+  }
+
+  .girls {
+    margin-top: 80px;
+  }
+
+  .girls h2 {
+    transform: translate(12px, -60px);
+  }
+
+  .people {
+    margin-top: 30px;
+  }
+
+  .people h2 {
+    transform: translate(12px, -60px);
+  }
+
+  .logosi {
+    width: 1300px;
   }
 }
