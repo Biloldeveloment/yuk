@@ -934,11 +934,12 @@ section#logistika {
     color: black; */
   }
   .malumot {
-    width: 1250px;
+    width: 1330px;
     font-size: 50px;
     font-weight: 400;
     line-height: 65px;
     text-align: center;
+    margin-left: -50px;
   }
   .malumot span {
     display: none;
@@ -1162,8 +1163,9 @@ section#logistika {
     transform: translate(55px, -115px);
   }
   .bottom h1 {
-    font-size: 100px;
-    transform: translate(10px, 10px);
+    font-size: 80px;
+    font-weight: 400;
+    transform: translate(1px, 10px);
   }
   .bottom h2 {
     font-size: 35px;
@@ -1224,7 +1226,7 @@ section#logistika {
   .logosi {
     width: 1350px;
     box-shadow: 1px 1px 30px;
-    height: 800px;
+    height: 815px;
     background-image: url(/images/shutterstock_1011269995.jpg);
     background-size: cover;
     background-position: center;
@@ -1359,10 +1361,10 @@ section#logistika {
     font-weight: 800;
   }
   .himoyalangan {
-    width: 580px;
+    width: 800px;
     font-size: 30px;
     font-weight: 600;
-    margin-left: 120px;
+    margin-left: 35px;
     margin-top: -20px;
   }
   .body2 {
