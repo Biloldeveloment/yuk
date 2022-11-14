@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #006b3c;
+  background-color: whitesmoke;
   /* font-family: "Roboto Slab", serif; */
   /* font-family: "Cormorant Garamond"; */
 }
@@ -853,6 +853,13 @@ section#logistika {
 
   .sider {
     display: block;
+  }
+
+  section#master {
+    width: 1400px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/hamkor.jpg);
   }
 
   .nav i {
