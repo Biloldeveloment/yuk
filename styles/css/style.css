@@ -860,11 +860,10 @@ section#logistika {
   .sider {
     display: block;
   }
-  section#master {
-    width: 1400px;
+  body {
+    background-image: url(/images/hamkor.jpg);
     background-position: center;
     background-size: cover;
-    background-image: url(/images/hamkor.jpg);
   }
   .nav i {
     display: block;
