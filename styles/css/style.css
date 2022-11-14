@@ -12,8 +12,8 @@
 }
 
 body {
-  background-color: #f1f1f1;
-  font-family: "Roboto Slab", serif;
+  background-color: #96c8a2;
+  /* font-family: "Roboto Slab", serif; */
   /* font-family: "Cormorant Garamond"; */
 }
 
@@ -84,7 +84,7 @@ header#header ul {
 }
 
 .text {
-  font-weight: 600;
+  font-weight: 100;
   font-size: 16px;
   color: black;
   line-height: 26px;
@@ -106,12 +106,12 @@ header#header ul {
 }
 
 .servis ul:hover {
-  opacity: 0.7;
+  color: #a13a33;
 }
 
 .servis img {
   width: 65px;
-  transform: translate(-810px, 0px);
+  transform: translate(-760px, 0px);
 }
 
 .Inport {
@@ -125,14 +125,21 @@ header#header ul {
 }
 
 .portion h1 {
-  width: 400px;
-  font-weight: 900;
+  width: 900px;
+  font-weight: 400;
   font-size: 40px;
-  line-height: 36px;
+  line-height: 56px;
   color: black;
   text-align: center;
   padding: 8rem 0;
-  margin-left: 579px;
+  transform: translate(280px, -50px);
+}
+
+.kompaniyauz {
+  padding: 8px 16px;
+  border-radius: 50px;
+  background: #a13a33;
+  color: white;
 }
 
 section#show {
@@ -140,14 +147,14 @@ section#show {
 }
 
 .portion p {
-  width: 450px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 26px;
+  width: 650px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
   color: black;
   text-align: center;
   margin-left: 555px;
-  transform: translate(0px, -85px);
+  transform: translate(-150px, -85px);
 }
 
 .portion i {
@@ -860,6 +867,9 @@ section#logistika {
     font-size: 3.5rem;
     padding-bottom: 1.5rem;
   }
+  .kompaniyauz {
+    display: none;
+  }
   .servis {
     width: 1405px;
     position: fixed;
@@ -878,12 +888,13 @@ section#logistika {
   }
   .servis img {
     width: 150px;
-    transform: translate(120px, 1px);
+    transform: translate(90px, 1px);
   }
   .Inport {
     width: 1400px;
-    height: 620px;
-    background-image: url(/images/foto1.jpg);
+    height: 650px;
+    background-image: url(/images/how-to-become-an-accountant-2.jpg);
+    /* background-image: url(/images/foto1.jpg); */
     background-position: center;
     background-size: cover;
     box-shadow: 1px 1px 15px;
@@ -891,12 +902,13 @@ section#logistika {
     margin-top: 130px;
   }
   .portion h1 {
+    width: 1100px;
     text-align: center;
     font-size: 60px;
     line-height: 80px;
     font-weight: 500;
-    margin-left: 350px;
-    transform: translate(0px, -35px);
+    margin-left: 160px;
+    transform: translate(0px, -85px);
   }
   .portion p {
     font-size: 45px;
@@ -904,8 +916,8 @@ section#logistika {
     font-weight: 400;
     color: black;
     width: 1200px;
-    margin-top: -35px;
-    margin-left: 100px;
+    margin-top: -85px;
+    margin-left: 230px;
   }
   .text {
     transform: translate(110px, -1px);
@@ -947,14 +959,22 @@ section#logistika {
     margin-left: -70px;
   }
   .btn {
-    padding: 30px 50px;
+    padding: 45px 50px;
     margin: 5px;
-    font-size: 45px;
+    font-size: 50px;
     margin-bottom: 10px;
     background: darkgrey;
     color: black;
     margin-left: 100px;
     margin-top: 35px;
+  }
+  .btn i {
+    margin-left: 10px;
+    margin-top: -1px;
+  }
+  .biz-haqimizda .btn:hover {
+    color: steelblue;
+    opacity: 0.5;
   }
   section#master h1 {
     width: 1200px;
@@ -965,6 +985,7 @@ section#logistika {
     margin-bottom: 100px;
     color: rgb(17, 17, 17);
     margin-left: 120px;
+    margin-top: 100px;
   }
   .xizmatlar {
     margin: 2rem 0;
@@ -979,12 +1000,13 @@ section#logistika {
   .beton {
     border: 5px solid grey;
     width: 800px;
+    margin-top: -35px;
     height: 480px;
     margin-left: 310px;
     box-shadow: 1px 1px 35px;
   }
   .xizmat-turi {
-    line-height: 75px;
+    line-height: 80px;
     font-size: 60px;
     font-weight: 600;
     margin-left: 205px;
@@ -1044,6 +1066,7 @@ section#logistika {
   .klent h5 {
     width: 1200px;
     font-size: 100px;
+    margin-top: 120px;
     margin-left: 50px;
     font-weight: 500;
     color: black;
@@ -1369,5 +1392,8 @@ section#logistika {
   }
   .body2 {
     height: 320px;
+  }
+  .xizmatlar div:hover {
+    opacity: 0.7;
   }
 }/*# sourceMappingURL=style.css.map */
