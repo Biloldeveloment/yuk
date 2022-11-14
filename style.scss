@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&family=Spectral:ital,wght@0,400;0,600;0,800;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&family=Spectral:ital,wght@0,400;0,600;0,800;1,800&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,700&family=Quicksand:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&family=Spectral:ital,wght@0,400;0,600;0,800;1,800&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -13,7 +13,8 @@
 
 body {
   background-color: #f1f1f1;
-  font-family: "Cormorant Garamond";
+  font-family: "Roboto Slab", serif;
+  /* font-family: "Cormorant Garamond"; */
 }
 
 .container {
@@ -842,11 +843,7 @@ section#logistika {
   .servis i {
     display: block;
   }
-  @media only screen and (max-width: 400px) {
-    .container {
-      width: 1000px;
-    }
-  }
+
   .sider {
     display: block;
   }
@@ -884,7 +881,7 @@ section#logistika {
   }
 
   .Inport {
-    width: 1380px;
+    width: 1400px;
     height: 620px;
     background-image: url(/images/foto1.jpg);
     background-position: center;
@@ -896,17 +893,17 @@ section#logistika {
 
   .portion h1 {
     text-align: center;
-    font-size: 85px;
+    font-size: 60px;
     line-height: 80px;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 350px;
     transform: translate(0px, -35px);
   }
 
   .portion p {
-    font-size: 55px;
+    font-size: 45px;
     line-height: 66px;
-    font-weight: 600;
+    font-weight: 400;
     color: black;
     width: 1200px;
     margin-top: -35px;
@@ -915,22 +912,22 @@ section#logistika {
 
   .text {
     transform: translate(110px, -1px);
-    font-size: 70px;
-    font-weight: 600;
+    font-size: 60px;
+    font-weight: 100;
   }
 
   .biz {
     text-align: center;
-    font-size: 120px;
-    font-weight: 600;
+    font-size: 100px;
+    font-weight: 500;
     color: black;
+    margin-left: 80px;
     margin-bottom: 30px;
   }
 
   .haqimizda {
     color: black;
-    font-size: 45px;
-    margin-left: 35px;
+    font-size: 40px;
   }
 
   .masteri img {
@@ -945,10 +942,10 @@ section#logistika {
 
   .malumot {
     width: 1250px;
-    font-size: 60px;
-    line-height: 68px;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 65px;
     text-align: center;
-    margin-left: 40px;
   }
 
   .malumot span {
@@ -969,12 +966,14 @@ section#logistika {
   }
 
   section#master h1 {
-    width: 650px;
+    width: 1200px;
     text-align: center;
-    font-size: 120px;
-    transform: translate(370px, -220px);
+    font-weight: 600;
+    font-size: 100px;
+    /* transform: translate(370px, -220px); */
     margin-bottom: 100px;
-    color: black;
+    color: rgb(17, 17, 17);
+    margin-left: 120px;
   }
 
   .xizmatlar {
@@ -998,9 +997,9 @@ section#logistika {
   }
 
   .xizmat-turi {
-    width: 1000px;
-    line-height: 65px;
-    font-size: 68px;
+    line-height: 75px;
+    font-size: 60px;
+    font-weight: 600;
     margin-left: 205px;
     text-align: inherit;
     margin-bottom: 15px;
@@ -1019,8 +1018,9 @@ section#logistika {
     width: 1300px;
     text-align: center;
     margin-left: 20px;
-    font-size: 55px;
-    line-height: 65px;
+    font-size: 45px;
+    line-height: 68px;
+    font-weight: 400;
     color: black;
     margin-bottom: 50px;
   }
@@ -1067,9 +1067,9 @@ section#logistika {
 
   .klent h5 {
     width: 1200px;
-    font-size: 120px;
+    font-size: 100px;
     margin-left: 50px;
-    font-weight: 600;
+    font-weight: 500;
     color: black;
   }
 
@@ -1187,8 +1187,8 @@ section#logistika {
   } */
 
   .transport {
-    margin-left: -450px;
-    margin-top: 670px;
+    margin-left: -850px;
+    margin-top: 688px;
   }
 
   .logosi h3 {
@@ -1220,11 +1220,16 @@ section#logistika {
   .bottom h2 {
     font-size: 35px;
     color: black;
+    margin-bottom: 25px;
+    font-weight: 400;
     transform: translate(20px, 10px);
   }
 
   .bottom p {
     width: 900px;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
     text-align: center;
     margin-left: -20px;
   }
@@ -1238,6 +1243,7 @@ section#logistika {
   }
 
   .tugadildi p {
+    width: 550px;
     font-size: 25px;
     text-align: inherit;
     margin-left: 15px;
@@ -1262,7 +1268,7 @@ section#logistika {
   }
 
   .girls {
-    margin-top: 300px;
+    margin-top: 350px;
   }
 
   .girls h2 {
@@ -1271,7 +1277,7 @@ section#logistika {
   }
 
   .people {
-    margin-top: 250px;
+    margin-top: 300px;
     margin-left: -1100px;
   }
 
@@ -1290,9 +1296,11 @@ section#logistika {
   }
 
   .logosi p {
+    width: 750px;
     margin-left: 380px;
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
   }
 
   .telegram {
@@ -1333,7 +1341,8 @@ section#logistika {
     font-size: 45px;
     margin-left: 25px;
     color: white;
-    margin-top: -45px;
+    font-weight: 400;
+    margin-top: 45px;
   }
 
   header#header .sider .sidebar {
@@ -1367,7 +1376,6 @@ section#logistika {
   }
 
   .tugadildi span {
-    margin: 130px;
     color: white;
     display: inline-block;
     margin-top: 200px;

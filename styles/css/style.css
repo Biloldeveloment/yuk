@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&family=Spectral:ital,wght@0,400;0,600;0,800;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&family=Spectral:ital,wght@0,400;0,600;0,800;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,700&family=Quicksand:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&family=Spectral:ital,wght@0,400;0,600;0,800;1,800&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -12,7 +13,8 @@
 
 body {
   background-color: #f1f1f1;
-  font-family: "Cormorant Garamond";
+  font-family: "Roboto Slab", serif;
+  /* font-family: "Cormorant Garamond"; */
 }
 
 .container {
@@ -848,34 +850,16 @@ section#logistika {
   .servis i {
     display: block;
   }
-  /*.tugadildi {
-   width: 1200px;
-    margin-left: 25px;
-    height: 550px;
-  } */
-}
-@media only screen and (max-width: 430px) and (max-width: 400px) {
-  .container {
-    width: 1000px;
-  }
-}
-@media only screen and (max-width: 430px) {
   .sider {
     display: block;
   }
-}
-@media only screen and (max-width: 430px) {
   .nav i {
     display: block;
   }
-}
-@media only screen and (max-width: 430px) {
   .portion h1 p {
     font-size: 3.5rem;
     padding-bottom: 1.5rem;
   }
-}
-@media only screen and (max-width: 430px) {
   .servis {
     width: 1405px;
     position: fixed;
@@ -885,27 +869,19 @@ section#logistika {
     margin-left: -8px;
     box-shadow: 1px 1px 35px;
   }
-}
-@media only screen and (max-width: 430px) {
   .servis i {
     font-size: 85px;
   }
-}
-@media only screen and (max-width: 430px) {
   .nav i {
     transform: translate(100px, -2px);
     font-size: 45px;
   }
-}
-@media only screen and (max-width: 430px) {
   .servis img {
     width: 150px;
     transform: translate(120px, 1px);
   }
-}
-@media only screen and (max-width: 430px) {
   .Inport {
-    width: 1380px;
+    width: 1400px;
     height: 620px;
     background-image: url(/images/foto1.jpg);
     background-position: center;
@@ -914,52 +890,40 @@ section#logistika {
     margin-left: -5px;
     margin-top: 130px;
   }
-}
-@media only screen and (max-width: 430px) {
   .portion h1 {
     text-align: center;
-    font-size: 85px;
+    font-size: 60px;
     line-height: 80px;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 350px;
     transform: translate(0px, -35px);
   }
-}
-@media only screen and (max-width: 430px) {
   .portion p {
-    font-size: 55px;
+    font-size: 45px;
     line-height: 66px;
-    font-weight: 600;
+    font-weight: 400;
     color: black;
     width: 1200px;
     margin-top: -35px;
     margin-left: 100px;
   }
-}
-@media only screen and (max-width: 430px) {
   .text {
     transform: translate(110px, -1px);
-    font-size: 70px;
-    font-weight: 600;
+    font-size: 60px;
+    font-weight: 100;
   }
-}
-@media only screen and (max-width: 430px) {
   .biz {
     text-align: center;
-    font-size: 120px;
-    font-weight: 600;
+    font-size: 100px;
+    font-weight: 500;
     color: black;
+    margin-left: 80px;
     margin-bottom: 30px;
   }
-}
-@media only screen and (max-width: 430px) {
   .haqimizda {
     color: black;
-    font-size: 45px;
-    margin-left: 35px;
+    font-size: 40px;
   }
-}
-@media only screen and (max-width: 430px) {
   .masteri img {
     display: none;
     /* width: 650px;
@@ -969,24 +933,18 @@ section#logistika {
     box-shadow: 1px 1px 22px;
     color: black; */
   }
-}
-@media only screen and (max-width: 430px) {
   .malumot {
     width: 1250px;
-    font-size: 60px;
-    line-height: 68px;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 65px;
     text-align: center;
-    margin-left: 40px;
   }
-}
-@media only screen and (max-width: 430px) {
   .malumot span {
     display: none;
     margin-top: 30px;
     margin-left: -70px;
   }
-}
-@media only screen and (max-width: 430px) {
   .btn {
     padding: 30px 50px;
     margin: 5px;
@@ -997,18 +955,16 @@ section#logistika {
     margin-left: 100px;
     margin-top: 35px;
   }
-}
-@media only screen and (max-width: 430px) {
   section#master h1 {
-    width: 650px;
+    width: 1200px;
     text-align: center;
-    font-size: 120px;
-    transform: translate(370px, -220px);
+    font-weight: 600;
+    font-size: 100px;
+    /* transform: translate(370px, -220px); */
     margin-bottom: 100px;
-    color: black;
+    color: rgb(17, 17, 17);
+    margin-left: 120px;
   }
-}
-@media only screen and (max-width: 430px) {
   .xizmatlar {
     margin: 2rem 0;
     display: grid;
@@ -1016,13 +972,9 @@ section#logistika {
     gap: 4rem;
     margin-left: 20px;
   }
-}
-@media only screen and (max-width: 430px) {
   section#master {
     transform: translate(1px, 320px);
   }
-}
-@media only screen and (max-width: 430px) {
   .beton {
     border: 5px solid grey;
     width: 800px;
@@ -1030,57 +982,42 @@ section#logistika {
     margin-left: 310px;
     box-shadow: 1px 1px 35px;
   }
-}
-@media only screen and (max-width: 430px) {
   .xizmat-turi {
-    width: 1000px;
-    line-height: 65px;
-    font-size: 68px;
+    line-height: 75px;
+    font-size: 60px;
+    font-weight: 600;
     margin-left: 205px;
     text-align: inherit;
     margin-bottom: 15px;
   }
-}
-@media only screen and (max-width: 430px) {
   .xizmat-turi i {
     color: black;
   }
-}
-@media only screen and (max-width: 430px) {
   .xizmat-haqida span {
     color: black;
     font-weight: bold;
   }
-}
-@media only screen and (max-width: 430px) {
   .xizmat-haqida {
     width: 1300px;
     text-align: center;
     margin-left: 20px;
-    font-size: 55px;
-    line-height: 65px;
+    font-size: 45px;
+    line-height: 68px;
+    font-weight: 400;
     color: black;
     margin-bottom: 50px;
   }
-}
-@media only screen and (max-width: 430px) {
   .xizmat-haqida i {
     color: black;
     display: none;
     font-size: 45px;
   }
-}
-@media only screen and (max-width: 430px) {
   section#logistika {
     transform: translate(-100px, 100px);
   }
-}
-@media only screen and (max-width: 430px) {
   .klent {
     width: 100px;
   }
-}
-@media only screen and (max-width: 430px) {
   .homiy {
     width: 500px;
     height: 280px;
@@ -1088,14 +1025,10 @@ section#logistika {
     margin-top: 50px;
     box-shadow: 1px 1px 25px;
   }
-}
-@media only screen and (max-width: 430px) {
   .homiylar {
     display: flex;
     margin-left: -30px;
   }
-}
-@media only screen and (max-width: 430px) {
   .bnt {
     padding: 30px 50px;
     margin-bottom: -10px;
@@ -1104,22 +1037,16 @@ section#logistika {
     background: darkgrey;
     color: black;
   }
-}
-@media only screen and (max-width: 430px) {
   section#garden {
     transform: translate(-300px, 100px);
   }
-}
-@media only screen and (max-width: 430px) {
   .klent h5 {
     width: 1200px;
-    font-size: 120px;
+    font-size: 100px;
     margin-left: 50px;
-    font-weight: 600;
+    font-weight: 500;
     color: black;
   }
-}
-@media only screen and (max-width: 430px) {
   .boglanish {
     display: none;
     /* background-image: url(/images/Contact-Us-Image.jpg);
@@ -1131,8 +1058,6 @@ section#logistika {
     height: 500px;
     margin-bottom: 100px; */
   }
-}
-@media only screen and (max-width: 430px) {
   .boglanish h6 {
     text-align: center;
     font-size: 90px;
@@ -1141,8 +1066,6 @@ section#logistika {
     margin-left: -100px;
     font-weight: 500;
   }
-}
-@media only screen and (max-width: 430px) {
   .karta .lakatsiya {
     display: none;
     /* width: 1150px;
@@ -1150,68 +1073,46 @@ section#logistika {
     height: 450px;
     border-radius: 20px; */
   }
-}
-@media only screen and (max-width: 430px) {
   .manzil {
     transform: translate(280px, 0px);
   }
-}
-@media only screen and (max-width: 430px) {
   .tarmoq {
     transform: translate(280px, 0px);
   }
-}
-@media only screen and (max-width: 430px) {
   .tell {
     transform: translate(280px, 0px);
   }
-}
-@media only screen and (max-width: 430px) {
   .boglanish i {
     font-size: 35px;
     color: black;
   }
-}
-@media only screen and (max-width: 430px) {
   .manzil a p {
     font-size: 40px;
     color: black;
     width: 600px;
   }
-}
-@media only screen and (max-width: 430px) {
   .tarmoq p {
     font-size: 40px;
     margin-left: 15px;
     color: black;
   }
-}
-@media only screen and (max-width: 430px) {
   .tell p {
     font-size: 40px;
     margin-left: 15px;
     width: 300px;
     color: black;
   }
-}
-@media only screen and (max-width: 430px) {
   .boglanish span {
     color: black;
     margin-left: 300px;
   }
-}
-@media only screen and (max-width: 430px) {
   .croy {
     margin-left: 270px;
   }
-}
-@media only screen and (max-width: 430px) {
   .lakatsiya {
     width: 630px;
     height: 350px;
   }
-}
-@media only screen and (max-width: 430px) {
   .footer-col {
     margin: 2rem 0;
     display: grid;
@@ -1219,146 +1120,107 @@ section#logistika {
     gap: 2rem;
     transform: translate(-510px, -100px);
   }
-}
-@media only screen and (max-width: 430px) {
   .footer-col1 h2 {
     transform: translate(33px, -380px);
   }
-}
-@media only screen and (max-width: 430px) {
   .footer-col h1 {
     transform: translate(50px, -60px);
   }
-}
-@media only screen and (max-width: 430px) {
   .footer-col1 {
     transform: translate(-590px, 20px);
   }
-}
-@media only screen and (max-width: 430px) {
   .rial {
     transform: translate(10px, 175px);
   }
-}
-@media only screen and (max-width: 430px) {
   .qonun {
     transform: translate(0px, 180px);
   }
-}
-@media only screen and (max-width: 430px) {
+  /*.tugadildi {
+   width: 1200px;
+    margin-left: 25px;
+    height: 550px;
+  } */
   .transport {
-    margin-left: -450px;
-    margin-top: 670px;
+    margin-left: -850px;
+    margin-top: 688px;
   }
-}
-@media only screen and (max-width: 430px) {
   .logosi h3 {
     font-size: 40px;
     color: black;
     margin-top: -15px;
     margin-left: -120px;
   }
-}
-@media only screen and (max-width: 430px) {
   .people h2 {
     margin-top: 50px;
   }
-}
-@media only screen and (max-width: 430px) {
   .tugadildi img {
     width: 170px;
     margin-left: 300px;
   }
-}
-@media only screen and (max-width: 430px) {
   .rastameks {
     font-size: 22px;
     transform: translate(55px, -115px);
   }
-}
-@media only screen and (max-width: 430px) {
   .bottom h1 {
     font-size: 100px;
     transform: translate(10px, 10px);
   }
-}
-@media only screen and (max-width: 430px) {
   .bottom h2 {
     font-size: 35px;
     color: black;
+    margin-bottom: 25px;
+    font-weight: 400;
     transform: translate(20px, 10px);
   }
-}
-@media only screen and (max-width: 430px) {
   .bottom p {
     width: 900px;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
     text-align: center;
     margin-left: -20px;
   }
-}
-@media only screen and (max-width: 430px) {
   .bottom a {
     transform: translate(50px, 0px);
   }
-}
-@media only screen and (max-width: 430px) {
   footer {
     transform: translate(1px, 100px);
   }
-}
-@media only screen and (max-width: 430px) {
   .tugadildi p {
+    width: 550px;
     font-size: 25px;
     text-align: inherit;
     margin-left: 15px;
     transform: translate(1px, -50px);
   }
-}
-@media only screen and (max-width: 430px) {
   .menyula {
     margin-left: -45px;
     font-size: 12px;
   }
-}
-@media only screen and (max-width: 430px) {
   .telegram i {
     transform: translate(-15px, 1px);
   }
-}
-@media only screen and (max-width: 430px) {
   .insta i {
     transform: translate(-15px, 1px);
   }
-}
-@media only screen and (max-width: 430px) {
   .book i {
     transform: translate(-36px, 1px);
   }
-}
-@media only screen and (max-width: 430px) {
   .girls {
-    margin-top: 300px;
+    margin-top: 350px;
   }
-}
-@media only screen and (max-width: 430px) {
   .girls h2 {
     font-size: 30px;
     transform: translate(12px, -60px);
   }
-}
-@media only screen and (max-width: 430px) {
   .people {
-    margin-top: 250px;
+    margin-top: 300px;
     margin-left: -1100px;
   }
-}
-@media only screen and (max-width: 430px) {
   .people h2 {
     font-size: 30px;
     transform: translate(12px, -60px);
   }
-}
-@media only screen and (max-width: 430px) {
   .logosi {
     width: 1350px;
     box-shadow: 1px 1px 30px;
@@ -1367,64 +1229,47 @@ section#logistika {
     background-size: cover;
     background-position: center;
   }
-}
-@media only screen and (max-width: 430px) {
   .logosi p {
+    width: 750px;
     margin-left: 380px;
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
   }
-}
-@media only screen and (max-width: 430px) {
   .telegram {
     padding: 10px 25px;
   }
-}
-@media only screen and (max-width: 430px) {
   .insta {
     padding: 10px 25px;
   }
-}
-@media only screen and (max-width: 430px) {
   .book {
     padding: 10px 25px;
   }
-}
-@media only screen and (max-width: 430px) {
   .gruppa {
     padding: 25px 25px;
     border: 3px solid white;
   }
-}
-@media only screen and (max-width: 430px) {
   .odno {
     padding: 25px 25px;
     border: 3px solid white;
   }
-}
-@media only screen and (max-width: 430px) {
   .booking {
     padding: 25px 25px;
     border: 3px solid white;
   }
-}
-@media only screen and (max-width: 430px) {
   .transport i {
     font-size: 35px;
     margin-left: -5px;
     color: white;
     margin-top: -5px;
   }
-}
-@media only screen and (max-width: 430px) {
   .logosi h2 {
     font-size: 45px;
     margin-left: 25px;
     color: white;
-    margin-top: -45px;
+    font-weight: 400;
+    margin-top: 45px;
   }
-}
-@media only screen and (max-width: 430px) {
   header#header .sider .sidebar {
     position: fixed;
     top: 0;
@@ -1438,8 +1283,6 @@ section#logistika {
     z-index: 9999;
     transition: transform 0.3s ease-in;
   }
-}
-@media only screen and (max-width: 430px) {
   header#header .sider .sidebar li {
     padding: 1rem;
     margin-top: 1rem;
@@ -1449,38 +1292,25 @@ section#logistika {
     border-radius: 20px;
     transition: all 0.3s ease-in;
   }
-}
-@media only screen and (max-width: 430px) {
   header#header .sider .sidebar li:hover {
     background-color: rgba(0, 0, 0, 0.4);
     text-indent: 1rem;
   }
-}
-@media only screen and (max-width: 430px) {
   header#header .sider input[type=checkbox]:checked + .sidebar {
     transform: translateX(0);
   }
-}
-@media only screen and (max-width: 430px) {
   .tugadildi span {
-    margin: 130px;
     color: white;
     display: inline-block;
     margin-top: 200px;
   }
-}
-@media only screen and (max-width: 430px) {
   .work {
     margin-left: 245px;
   }
-}
-@media only screen and (max-width: 430px) {
   .work i {
     font-size: 35px;
     margin-left: -16px;
   }
-}
-@media only screen and (max-width: 430px) {
   .working {
     margin-bottom: 30px;
     border: 5px solid rgba(244, 244, 251, 0.29);
@@ -1492,8 +1322,6 @@ section#logistika {
     margin-left: 0;
     margin-top: 22px;
   }
-}
-@media only screen and (max-width: 430px) {
   .odnokilas {
     margin-bottom: 30px;
     border: 5px solid rgba(244, 244, 251, 0.29);
@@ -1505,8 +1333,6 @@ section#logistika {
     margin-left: 10;
     margin-top: 22px;
   }
-}
-@media only screen and (max-width: 430px) {
   .boon {
     margin-bottom: 30px;
     border: 5px solid rgba(244, 244, 251, 0.29);
@@ -1518,13 +1344,9 @@ section#logistika {
     margin-left: 0;
     margin-top: 22px;
   }
-}
-@media only screen and (max-width: 430px) {
   .boon i {
     margin-left: -41px;
   }
-}
-@media only screen and (max-width: 430px) {
   .work p {
     width: 200px;
     font-size: 25px;
@@ -1532,14 +1354,10 @@ section#logistika {
     margin-top: -20px;
     text-align: inherit;
   }
-}
-@media only screen and (max-width: 430px) {
   .active a {
     color: rgba(199, 20, 20, 0.916);
     font-weight: 800;
   }
-}
-@media only screen and (max-width: 430px) {
   .himoyalangan {
     width: 580px;
     font-size: 30px;
@@ -1547,8 +1365,6 @@ section#logistika {
     margin-left: 120px;
     margin-top: -20px;
   }
-}
-@media only screen and (max-width: 430px) {
   .body2 {
     height: 320px;
   }
