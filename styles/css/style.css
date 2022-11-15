@@ -353,7 +353,6 @@ section#logistika {
   border-radius: 35px;
   border: solid 2px cadetblue;
   box-shadow: 1px 1px 10px;
-  margin-left: 130px;
   height: 200px;
 }
 
@@ -862,9 +861,6 @@ section#logistika {
   .sider {
     display: block;
   }
-  .body {
-    background-color: #36454f;
-  }
   .nav i {
     display: block;
   }
@@ -1053,6 +1049,7 @@ section#logistika {
   .homiy {
     width: 330px;
     height: 260px;
+    margin-left: 130px;
     border: 5px solid grey;
     margin-top: 50px;
     box-shadow: 1px 1px 25px;
