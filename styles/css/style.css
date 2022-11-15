@@ -909,11 +909,11 @@ section#logistika {
     font-size: 45px;
   }
   .servis img {
-    max-width: 200px;
+    width: 200px;
     transform: translate(90px, 1px);
   }
   .Inport {
-    max-width: 1360px;
+    width: 1360px;
     height: 690px;
     background-image: url(/images/how-to-become-an-accountant-2.jpg);
     /* background-image: url(/images/foto1.jpg); */
@@ -924,7 +924,7 @@ section#logistika {
     margin-top: 160px;
   }
   .portion h1 {
-    max-width: 1100px;
+    width: 1100px;
     text-align: center;
     font-size: 60px;
     line-height: 80px;
@@ -938,7 +938,7 @@ section#logistika {
     line-height: 66px;
     font-weight: 400;
     color: black;
-    max-width: 1200px;
+    width: 1200px;
     margin-top: -85px;
     margin-left: 230px;
   }
@@ -969,7 +969,7 @@ section#logistika {
     color: black; */
   }
   .malumot {
-    max-width: 1330px;
+    width: 1330px;
     font-size: 50px;
     font-weight: 400;
     color: #242b33;
@@ -1000,7 +1000,7 @@ section#logistika {
     opacity: 0.5;
   }
   section#master h1 {
-    max-width: 1200px;
+    width: 1200px;
     text-align: center;
     font-weight: 600;
     font-size: 100px;
@@ -1022,7 +1022,7 @@ section#logistika {
   }
   .beton {
     border: 5px solid grey;
-    max-width: 800px;
+    width: 800px;
     margin-top: -35px;
     height: 480px;
     margin-left: 310px;
@@ -1045,7 +1045,7 @@ section#logistika {
     font-weight: bold;
   }
   .xizmat-haqida {
-    max-width: 1220px;
+    width: 1220px;
     text-align: center;
     margin-left: 20px;
     font-size: 45px;
@@ -1066,7 +1066,7 @@ section#logistika {
     width: 100px;
   }
   .homiy {
-    max-width: 330px;
+    width: 330px;
     height: 260px;
     margin-left: 145px;
     border: 5px solid grey;
@@ -1080,7 +1080,7 @@ section#logistika {
     grid-template-columns: repeat(3, 5fr);
   }
   .bnt {
-    max-width: 280px;
+    width: 280px;
     padding: 35px 50px;
     margin-bottom: 15px;
     font-size: 55px;
@@ -1096,7 +1096,7 @@ section#logistika {
     transform: translate(-300px, 100px);
   }
   .klent h5 {
-    max-width: 1200px;
+    width: 1200px;
     font-size: 100px;
     margin-top: 120px;
     margin-left: 50px;
@@ -1167,7 +1167,7 @@ section#logistika {
     margin-left: 270px;
   }
   .lakatsiya {
-    max-width: 630px;
+    width: 630px;
     height: 350px;
   }
   .footer-col {
@@ -1236,7 +1236,7 @@ section#logistika {
     transform: translate(20px, 10px);
   }
   .bottom p {
-    max-width: 900px;
+    width: 900px;
     font-size: 18px;
     line-height: 36px;
     color: black;
@@ -1253,7 +1253,7 @@ section#logistika {
     transform: translate(1px, 100px);
   }
   .tugadildi p {
-    max-width: 550px;
+    width: 550px;
     font-size: 25px;
     text-align: inherit;
     margin-left: 15px;
@@ -1290,7 +1290,7 @@ section#logistika {
     transform: translate(12px, -60px);
   }
   .logosi {
-    max-width: 1350px;
+    width: 1350px;
     box-shadow: 1px 1px 30px;
     height: 815px;
     background-image: url(/images/shutterstock_1011269995.jpg);
@@ -1299,7 +1299,7 @@ section#logistika {
   }
   .logosi p {
     display: none;
-    max-width: 750px;
+    width: 750px;
     margin-left: 380px;
     font-size: 30px;
     line-height: 45px;
@@ -1467,7 +1467,7 @@ section#logistika {
     font-weight: 800;
   }
   .himoyalangan {
-    max-width: 800px;
+    width: 800px;
     font-size: 30px;
     font-weight: 600;
     margin-left: 105px;
@@ -1485,12 +1485,12 @@ section#logistika {
     margin-top: 280px;
   }
   .dollr-kurs {
-    max-width: 690px;
+    width: 690px;
     margin-top: -30px;
     margin-left: -250px;
   }
   .dollr-kurs img {
-    max-width: 45px;
+    width: 45px;
     height: 35px;
   }
   .tugadildi {
