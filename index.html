@@ -20,7 +20,7 @@
   <body>
     <header id="header">
       <nav class="servis container flex align-center justify-between">
-        <div class="sider">
+        <div class="sider data-aos= fade-up">
           <label for="aside"> <i class="fas fa-bars"></i></label>
           <input type="checkbox" id="aside" hidden />
           <aside class="sidebar">
@@ -115,6 +115,7 @@
             src="images/tovar narxi.jpg"
             style="border-radius: 10px; padding: 0px"
             alt=""
+            data-aos=""
           />
           <h2 class="xizmat-turi">
             Независимая ценовая экспертиза контрактов
@@ -141,6 +142,7 @@
             src="images/marketing.jpg"
             style="border-radius: 10px; padding: 0px"
             alt=""
+            data-aos=""
           />
           <h3 class="xizmat-turi">
             Проведение маркетинговых исследований
@@ -193,12 +195,39 @@
       <div class="klent container">
         <h5>Наш клиентов</h5>
         <div class="homiylar">
-          <img class="homiy" src="images/gaz.jpg" alt="" data-aos="flip-up" />
-          <img class="homiy" src="/images/gas.jpg" alt="" />
-          <img class="homiy" src="/images/angren.png" alt="" />
-          <img class="homiy" src="/images/SJ.png" alt="" style="width: 300px" />
-          <img class="homiy" src="images/skoda.jpg" alt="" />
-          <img class="homiy" src="images/woojin.jpg" alt="" />
+          <img class="homiy" src="images/gaz.jpg" alt="" data-aos="flip-left" />
+          <img
+            class="homiy"
+            src="/images/gas.jpg"
+            alt=""
+            data-aos="flip-left"
+            data-aos-duration="7s"
+          />
+          <img
+            class="homiy"
+            src="/images/angren.png"
+            alt=""
+            data-aos="flip-left"
+          />
+          <img
+            class="homiy"
+            src="/images/SJ.png"
+            alt=""
+            data-aos="flip-left"
+            style="width: 300px"
+          />
+          <img
+            class="homiy"
+            src="images/skoda.jpg"
+            data-aos="flip-left"
+            alt=""
+          />
+          <img
+            class="homiy"
+            src="images/woojin.jpg"
+            data-aos="flip-left"
+            alt=""
+          />
         </div>
         <a class="bnt" href="/about.html">Болше</a>
       </div>
@@ -353,5 +382,8 @@
       </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

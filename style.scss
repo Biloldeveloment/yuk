@@ -887,7 +887,7 @@ section#logistika {
   }
 
   .servis {
-    width: 1405px;
+    width: 1360px;
     position: fixed;
     z-index: 17;
     height: 150px;
@@ -911,14 +911,14 @@ section#logistika {
   }
 
   .Inport {
-    width: 1400px;
+    width: 1360px;
     height: 690px;
     background-image: url(/images/how-to-become-an-accountant-2.jpg);
     /* background-image: url(/images/foto1.jpg); */
     background-position: center;
     background-size: cover;
     box-shadow: 1px 1px 15px;
-    margin-left: -5px;
+    margin-left: -10px;
     margin-top: 160px;
   }
 
@@ -1242,8 +1242,8 @@ section#logistika {
 
   .transport {
     display: grid;
-    margin-left: -730px;
-    margin-top: 120px;
+    margin-left: -750px;
+    margin-top: 50px;
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -1381,7 +1381,7 @@ section#logistika {
   .gruppa {
     border: 5px solid rgba(244, 244, 251, 0.29);
     font-size: 0px;
-    padding: 55px 55px;
+    padding: 70px 70px;
     border-radius: 50%;
     text-align: center;
     background: rgba(121, 118, 118, 0.68);
@@ -1399,7 +1399,7 @@ section#logistika {
   .odno {
     border: 5px solid rgba(244, 244, 251, 0.29);
     font-size: 0px;
-    padding: 55px 55px;
+    padding: 70px 70px;
     border-radius: 50%;
     text-align: center;
     background: rgba(121, 118, 118, 0.68);
@@ -1417,7 +1417,7 @@ section#logistika {
   .booking {
     border: 5px solid rgba(244, 244, 251, 0.29);
     font-size: 50px;
-    padding: 55px 55px;
+    padding: 70px 70px;
     border-radius: 50%;
     text-align: center;
     background: rgba(121, 118, 118, 0.68);
@@ -1454,21 +1454,21 @@ section#logistika {
     width: 250px;
     /* height: 100%; */
     border-radius: 20px;
-    background-color: aliceblue;
+    background-color: darkgray;
     box-shadow: 0 0 20px grey;
-    transform: translateX(-500px);
-    padding: 1rem;
+    transform: translateX(-520px);
+    padding: 2rem;
     z-index: 9999;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.5s ease-in;
   }
   header#header .sider .sidebar li {
-    padding: 4rem;
-    margin-top: 1rem;
-    font-size: 80px;
+    padding: 3rem;
+    margin-top: 2rem;
+    font-size: 70px;
     color: black;
     background-color: grey;
     border-radius: 20px;
-    transition: all 0.3s ease-in;
+    transition: all 0.4s ease-in;
   }
   header#header .sider .sidebar li:hover {
     background-color: rgba(0, 0, 0, 0.4);
@@ -1572,6 +1572,7 @@ section#logistika {
 
   .dollr-kurs {
     width: 690px;
+    margin-top: -30px;
     margin-left: -250px;
   }
 
