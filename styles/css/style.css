@@ -27,6 +27,11 @@ ul {
   list-style: none;
 }
 
+.xizmatlar i {
+  font-size: 120px;
+  transform: translate(130px, -230px);
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -221,6 +226,7 @@ section#show {
 
 .xizmatlar {
   display: flex;
+  gap: 50px;
   transform: translate(-15px, 10px);
 }
 
@@ -1026,6 +1032,11 @@ section#logistika {
     margin-left: 310px;
     box-shadow: 1px 1px 35px;
   }
+  .xizmatlar i {
+    font-size: 255px;
+    transform: translate(580px, -300px);
+    color: black;
+  }
   .xizmat-turi {
     line-height: 80px;
     font-size: 60px;
@@ -1388,7 +1399,7 @@ section#logistika {
   }
   header#header .sider .sidebar li {
     padding: 4rem 4rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
     font-size: 65px;
     margin-left: -5px;
     color: black;
