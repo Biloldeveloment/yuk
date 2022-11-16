@@ -912,7 +912,8 @@ section#logistika {
   .Inport {
     width: 1360px;
     height: 690px;
-    background-image: url(/images/how-to-become-an-accountant-2.jpg);
+    background-image: url(/images/vergi-kacakciligi-1280x720.webp);
+    /* background-image: url(/images/how-to-become-an-accountant-2.jpg); */
     /* background-image: url(/images/foto1.jpg); */
     background-position: center;
     background-size: cover;
@@ -937,7 +938,7 @@ section#logistika {
     color: black;
     width: 1200px;
     margin-top: -85px;
-    margin-left: 230px;
+    margin-left: 80px;
   }
   .text {
     transform: translate(80px, -1px);
@@ -1044,7 +1045,7 @@ section#logistika {
   .xizmat-haqida {
     width: 1220px;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 1px;
     font-size: 45px;
     line-height: 68px;
     font-weight: 400;
@@ -1065,7 +1066,7 @@ section#logistika {
   .homiy {
     width: 330px;
     height: 260px;
-    margin-left: 145px;
+    margin-left: 140px;
     border: 5px solid grey;
     margin-top: 50px;
     box-shadow: 1px 1px 25px;
@@ -1402,6 +1403,7 @@ section#logistika {
   header#header .sider input[type=checkbox]:checked + .sidebar {
     transform: translateX(0);
     width: 90%;
+    height: 2590px;
   }
   .tugadildi span {
     display: none;
