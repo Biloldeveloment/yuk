@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rastameks Servis</title>
+    <meta property="og:url" content="http://www.Rasmateksservis" />
+    <meta property="og:type" content="website" />
+
     <link rel="stylesheet" href="styles/css/style.css" />
     <link
       rel="stylesheet"
@@ -16,6 +19,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <header id="header">
@@ -29,7 +36,6 @@
               <li class="active"><a href="/index.html">Главная</a></li>
               <li><a href="/about.html">О компании</a></li>
               <li><a href="tel:+998951465111">Контакты</a></li>
-              <li><i class="fa-solid fa-timer"></i>9.00 - 18.00</li>
             </ul>
           </aside>
         </div>
@@ -53,7 +59,7 @@
     <section id="show">
       <div class="Inport container">
         <div class="portion">
-          <h1>
+          <h1 class="animate.fadeInUp">
             Наша компания в целом оказывает следующие высокопрофессиональные
             услуги
           </h1>
@@ -110,6 +116,7 @@
       <h1>Наши Услуги</h1>
       <div class="xizmatlar container">
         <div>
+          <i class="fa-thin fa-money-check-dollar-pen"></i>
           <img
             class="beton"
             src="images/tovar narxi.jpg"
@@ -142,8 +149,9 @@
             src="images/marketing.jpg"
             style="border-radius: 10px; padding: 0px"
             alt=""
-            data-aos=""
           />
+
+          <i class="fa-duotone fa-badge-dollar"></i>
           <h3 class="xizmat-turi">
             Проведение маркетинговых исследований
             <i class="fa-sharp fa-solid fa-arrow-trend-up"></i>
@@ -201,7 +209,9 @@
             src="/images/gas.jpg"
             alt=""
             data-aos="flip-left"
-            data-aos-duration="7s"
+            data-aos-duration="7000"
+            transition-duration="7s"
+            data-aos-duration="7000"
           />
           <img
             class="homiy"

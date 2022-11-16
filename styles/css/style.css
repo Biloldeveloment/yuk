@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&family=Spectral:ital,wght@0,400;0,600;0,800;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&family=Spectral:ital,wght@0,400;0,600;0,800;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,700&family=Quicksand:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&family=Spectral:ital,wght@0,400;0,600;0,800;1,800&display=swap");
+@import "animate.css";
 * {
   padding: 0;
   margin: 0;
@@ -1388,7 +1389,7 @@ section#logistika {
     padding: 4rem 4rem;
     margin-top: 2rem;
     font-size: 65px;
-    margin-left: -25px;
+    margin-left: -5px;
     color: black;
     background-color: grey;
     border-radius: 20px;
@@ -1400,7 +1401,7 @@ section#logistika {
   }
   header#header .sider input[type=checkbox]:checked + .sidebar {
     transform: translateX(0);
-    width: 100%;
+    width: 90%;
   }
   .tugadildi span {
     display: none;
