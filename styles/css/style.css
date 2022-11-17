@@ -998,7 +998,7 @@ section#logistika {
     font-size: 120px;
     font-weight: 500;
     color: #002a48;
-    margin-left: 80px;
+    margin-left: 30px;
     margin-bottom: 45px;
   }
   .haqimizda {
@@ -1015,13 +1015,12 @@ section#logistika {
     color: black; */
   }
   .malumot {
-    width: 1300px;
+    width: 1240px;
     font-size: 60px;
     font-weight: 500;
     color: #242b33;
     line-height: 85px;
     text-align: inherit;
-    margin-left: -75px;
   }
   .malumot span {
     display: none;
@@ -1122,7 +1121,7 @@ section#logistika {
   .homiy {
     width: 350px;
     height: 300px;
-    margin-left: 115px;
+    margin-left: 110px;
     border: 5px solid grey;
     margin-top: 50px;
     box-shadow: 1px 1px 25px;
