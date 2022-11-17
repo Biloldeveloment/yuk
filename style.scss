@@ -1066,6 +1066,8 @@ section#logistika {
     font-size: 60px;
     font-weight: 500;
     margin-left: -20px;
+    background-color: silver;
+    margin-bottom: 80px;
     color: #242b33;
     line-height: 85px;
     text-align: inherit;
@@ -1706,5 +1708,10 @@ section#logistika {
 
   .tugadildi {
     transform: translate(8px, 0px);
+  }
+
+  .biz-haqimizda {
+    background-image: url(/images/Good-idea-market-analysis-for-business-plan.jpg);
+    background-repeat: no-repeat;
   }
 }
