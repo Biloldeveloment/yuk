@@ -921,7 +921,7 @@ section#logistika {
     position: fixed;
     transform: translate(-28px, -100px);
     z-index: 17;
-    height: 110px;
+    height: 150px;
     border-radius: 10px;
     margin-left: -38px;
     background-color: darkgrey;
@@ -954,7 +954,7 @@ section#logistika {
     display: none;
   }
   .servis {
-    width: 1285px;
+    width: 1255px;
     position: fixed;
     z-index: 17;
     height: 150px;
@@ -974,9 +974,10 @@ section#logistika {
     transform: translate(90px, 1px);
   }
   .Inport {
-    width: 1285px;
+    width: 1255px;
     height: 780px;
-    background-image: url(/images/vergi-kacakciligi-1280x720.webp);
+    background-image: url(/images/dogovor.jpg);
+    /* background-image: url(/images/vergi-kacakciligi-1280x720.webp); */
     /* background-image: url(/images/how-to-become-an-accountant-2.jpg); */
     /* background-image: url(/images/foto1.jpg); */
     background-position: center;
@@ -987,11 +988,11 @@ section#logistika {
   }
   .xizmatlar div {
     height: 1480px;
-    width: 1280px;
+    width: 1220px;
     background-color: #b2beb5;
     /* left: 130px; */
     /* top: 150px; */
-    transform: translate(5px, -200px);
+    transform: translate(20px, -200px);
     /* border-radius: 12px; */
     padding: 8px;
     box-shadow: 0px 4px 28px -12px;
@@ -1026,11 +1027,11 @@ section#logistika {
   }
   .biz {
     text-align: center;
-    font-size: 120px;
+    font-size: 150px;
     font-weight: 500;
     color: #002a48;
     margin-left: 30px;
-    margin-bottom: 45px;
+    margin-bottom: 55px;
   }
   .haqimizda {
     color: #002a48;
@@ -1050,7 +1051,7 @@ section#logistika {
     font-size: 60px;
     font-weight: 500;
     margin-left: -20px;
-    background-color: silver;
+    background-color: #b2beb5;
     margin-bottom: 80px;
     border-radius: 20px;
     color: #242b33;
@@ -1083,11 +1084,11 @@ section#logistika {
     width: 1200px;
     text-align: center;
     font-weight: 600;
-    font-size: 120px;
+    font-size: 150px;
     /* transform: translate(370px, -220px); */
     margin-bottom: 10px;
     color: #002a48;
-    margin-left: 80px;
+    margin-left: 50px;
     margin-top: 100px;
   }
   .xizmatlar {
@@ -1122,7 +1123,7 @@ section#logistika {
     /* margin-left: 205px; */
     text-align: center;
     margin-bottom: 15px;
-    transform: translate(50px, 90px);
+    transform: translate(10px, 90px);
   }
   .xizmat-turi i {
     color: #002a48;
@@ -1132,7 +1133,7 @@ section#logistika {
     font-weight: bold;
   }
   .xizmat-haqida {
-    width: 1220px;
+    width: 1170px;
     text-align: center;
     margin-left: -30px;
     font-size: 45px;
@@ -1154,8 +1155,8 @@ section#logistika {
     width: 100px;
   }
   .homiy {
-    width: 350px;
-    height: 300px;
+    width: 650px;
+    height: 450px;
     margin-left: 100px;
     border: 5px solid grey;
     margin-top: 50px;
@@ -1163,16 +1164,16 @@ section#logistika {
   }
   .homiylar {
     display: grid;
-    margin-left: -130px;
+    margin-left: 250px;
     margin-bottom: 30px;
-    grid-template-columns: repeat(3, 5fr);
+    grid-template-columns: repeat(1, 5fr);
   }
   .bnt {
     width: 280px;
-    padding: 35px 50px;
+    padding: 35px 150px;
     margin-bottom: 15px;
-    font-size: 55px;
-    margin-left: 420px;
+    font-size: 65px;
+    margin-left: 388px;
     background: darkgrey;
     color: #002a48;
     text-align: center;
@@ -1185,7 +1186,7 @@ section#logistika {
   }
   .klent h5 {
     width: 1200px;
-    font-size: 120px;
+    font-size: 150px;
     margin-top: 120px;
     margin-left: 55px;
     font-weight: 500;
@@ -1583,6 +1584,7 @@ section#logistika {
   .bottom {
     width: 1110px;
     margin-left: -40px;
+    margin-top: 80px;
     padding: 8px 16px;
     background-color: rgba(172, 57, 57, 0.894);
     border: 5px solid black;
