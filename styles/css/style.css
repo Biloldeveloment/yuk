@@ -1016,7 +1016,7 @@ section#logistika {
   }
   .xizmatlar div {
     height: 85%;
-    width: 30%;
+    width: 108%;
     background-color: #b2beb5;
     /* left: 130px; */
     /* top: 150px; */
@@ -1077,7 +1077,7 @@ section#logistika {
     color: black; */
   }
   .malumot {
-    width: 100%;
+    width: 108%;
     font-size: 20px;
     font-weight: 500;
     margin-left: -20px;
@@ -1104,7 +1104,7 @@ section#logistika {
     color: #002a48;
     /* margin-top: 35px; */
     border: solid 5px black;
-    margin-left: 25px;
+    margin-left: 65px;
   }
   .btn i {
     margin-left: 10px;
@@ -1115,14 +1115,14 @@ section#logistika {
     opacity: 0.5;
   }
   section#master h1 {
-    width: 100%;
+    width: 108%;
     text-align: center;
     font-weight: 600;
     font-size: 50px;
     /* transform: translate(370px, -220px); */
     margin-bottom: 10px;
     color: #002a48;
-    margin-left: 25px;
+    margin-left: 55px;
     /* margin-top: 100px; */
   }
   .xizmatlar {
@@ -1145,7 +1145,7 @@ section#logistika {
   }
   .xizmatlar i {
     font-size: 105px;
-    transform: translate(110px, 35px);
+    transform: translate(150px, 30px);
     color: black;
   }
   .xizmat-turi {
@@ -1187,11 +1187,11 @@ section#logistika {
     transform: translate(-100px, 100px);
   }
   .homiy {
-    width: 35%;
-    height: 80%;
+    width: 155%;
+    height: 90%;
     border: solid 5px black;
-    margin-left: -128px;
-    border: 5px solid black;
+    margin-left: -50px;
+    border: 3px solid black;
     /* margin-top: 50px; */
     box-shadow: 1px 1px 25px;
   }
@@ -1202,11 +1202,12 @@ section#logistika {
     grid-template-columns: repeat(1, 5fr);
   }
   .bnt {
-    padding: 8px 35px;
+    padding: 15px 25px;
     margin-bottom: 15px;
     font-size: 35px;
+    width: 200px;
     border: solid 5px black;
-    margin-left: 180px;
+    margin-left: 200px;
     background: whitesmoke;
     color: #002a48;
     text-align: center;
@@ -1221,7 +1222,7 @@ section#logistika {
     width: 100%;
     font-size: 55px;
     margin-top: 10px;
-    margin-left: -315px;
+    margin-left: 125px;
     font-weight: 500;
     color: #002a48;
     margin-bottom: 60px;
