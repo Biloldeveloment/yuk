@@ -1122,7 +1122,7 @@ section#logistika {
     /* transform: translate(370px, -220px); */
     margin-bottom: 10px;
     color: #002a48;
-    margin-left: 55px;
+    margin-left: -55px;
     /* margin-top: 100px; */
   }
   .xizmatlar {
@@ -1322,7 +1322,7 @@ section#logistika {
   } */
   .transport {
     display: grid;
-    transform: translate(-245px, -40px);
+    transform: translate(-285px, -40px);
     margin-left: 0px;
     margin-top: 50px;
     grid-template-columns: repeat(0, 3fr);
@@ -1430,7 +1430,7 @@ section#logistika {
     transform: translate(12px, -60px);
   }
   .logosi {
-    width: 30%;
+    width: 300%;
     box-shadow: 1px 1px 30px;
     height: 815px;
     margin-left: -4px;
@@ -1637,9 +1637,11 @@ section#logistika {
     margin-top: 280px;
   }
   .dollr-kurs {
-    width: 690px;
-    margin-top: -30px;
-    margin-left: -250px;
+    padding: 10px 0;
+    text-align: center;
+    /* width: 690px; */
+    /* margin-top: -30px; */
+    margin-left: -405px;
   }
   .dollr-kurs img {
     width: 45px;
