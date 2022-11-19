@@ -950,7 +950,7 @@ section#logistika {
     transform: translate(70px, 0px);
   }
   .serviece {
-    width: 30%;
+    width: 88%;
     position: fixed;
     transform: translate(-28px, -100px);
     z-index: 17;
@@ -1372,7 +1372,7 @@ section#logistika {
     transform: translate(10px, -28px);
   }
   .bottom p {
-    width: 480px;
+    width: 690px;
     font-size: 20px;
     line-height: 35px;
     color: black;
@@ -1383,7 +1383,8 @@ section#logistika {
   .aboutcom {
     margin-left: -10px;
     background-image: url(/images/shutterstock_1011269995.jpg);
-    height: 370px;
+    height: 590px;
+    width: 300%;
     border-radius: 10px;
     background-size: cover;
     background-position: top;
@@ -1392,10 +1393,10 @@ section#logistika {
     box-shadow: 1px 1px 20px;
   }
   .bottom a {
-    padding: 22px 20px;
+    padding: 20px 12px;
     font-size: 30px;
     border: solid 5px black;
-    transform: translate(-250px, 0px);
+    transform: translate(-140px, 0px);
     margin-bottom: 20px;
     background-color: white;
     width: 230px;
@@ -1570,17 +1571,17 @@ section#logistika {
     display: flow-root;
     margin-left: 345px;
     margin-bottom: 20px;
-    transform: translate(-195px, -100px);
+    transform: translate(-125px, -10px);
   }
   .work i {
-    font-size: 38px;
+    font-size: 35px;
     margin-left: -16px;
   }
   .working {
     margin-bottom: 30px;
     border: 5px solid rgba(244, 244, 251, 0.29);
     font-size: 40px;
-    padding: 48px 58px;
+    padding: 20px 45px;
     border-radius: 50%;
     text-align: center;
     background: rgba(121, 118, 118, 0.68);
@@ -1591,18 +1592,19 @@ section#logistika {
     margin-bottom: 30px;
     border: 5px solid rgba(244, 244, 251, 0.29);
     font-size: 40px;
-    padding: 48px 58px;
+    padding: 20px 45px;
     border-radius: 50%;
     text-align: center;
     background: rgba(121, 118, 118, 0.68);
-    margin-left: 10;
+    /* margin-left: 10px; */
+    transform: translate(-8px, 1px);
     margin-top: 22px;
   }
   .boon {
     margin-bottom: 30px;
     border: 5px solid rgba(244, 244, 251, 0.29);
     font-size: 40px;
-    padding: 48px 58px;
+    padding: 20px 45px;
     border-radius: 50%;
     text-align: center;
     background: rgba(121, 118, 118, 0.68);
@@ -1624,20 +1626,18 @@ section#logistika {
     font-weight: 800;
   }
   .himoyalangan {
-    width: 700px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
-    /* margin-left: 105px; */
-    margin-top: 50px;
+    margin-left: 85px;
+    margin-top: 70px;
     color: black;
-    display: none;
   }
   .body2 {
     padding: 5rem 5rem;
     height: 320px;
   }
   .bottom {
-    width: 183%;
+    width: 298%;
     margin-left: -68px;
     /* margin-top: 80px; */
     padding: 8px 16px;
@@ -1671,7 +1671,7 @@ section#logistika {
   .col-md {
     padding: 10px 0;
     text-align: center;
-    transform: translate(10px, 50px);
+    transform: translate(-10px, 50px);
   }
   .kurs {
     background-size: 22px;
