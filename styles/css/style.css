@@ -980,11 +980,11 @@ section#logistika {
   .servis {
     position: fixed;
     z-index: 17;
-    width: 390px;
-    height: 100px;
+    width: 445px;
+    height: 90px;
     border: solid 5px black;
     border-radius: 10px;
-    margin-left: -13px;
+    margin-left: -15px;
     box-shadow: 1px 1px 35px;
   }
   .servis i {
@@ -996,11 +996,11 @@ section#logistika {
   }
   .servis img {
     width: 100px;
-    transform: translate(45px, 1px);
+    transform: translate(55px, 1px);
   }
   .Inport {
-    width: 114%;
-    height: 780px;
+    width: 145%;
+    height: 600px;
     background-image: url(/images/dogovor.jpg);
     /* background-image: url(/images/vergi-kacakciligi-1280x720.webp); */
     /* background-image: url(/images/how-to-become-an-accountant-2.jpg); */
@@ -1011,7 +1011,7 @@ section#logistika {
     box-shadow: 1px 1px 15px;
     border: solid 5px black;
     margin-left: -10px;
-    margin-top: 160px;
+    margin-top: 100px;
   }
   .xizmatlar div {
     height: 85%;
@@ -1032,7 +1032,9 @@ section#logistika {
     font-size: 20px;
     color: black;
     font-weight: 600;
+    transform: translate(100px, 10000px);
     margin-left: 0px;
+    margin-top: -70px;
   }
   .portion p {
     font-size: 20px;
@@ -1046,6 +1048,7 @@ section#logistika {
   .text {
     font-size: 20px;
     font-weight: 400;
+    margin-left: 100px;
     text-align: center;
   }
   .biz {
