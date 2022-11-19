@@ -24,6 +24,11 @@ body {
   margin: 0 auto;
 }
 
+.containerin {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 ul {
   list-style: none;
 }
@@ -928,6 +933,11 @@ section#logistika {
     margin: 0 auto;
   }
 
+  .containerin {
+    width: 410px;
+    margin: 0 auto;
+  }
+
   .nav a {
     display: none;
   }
@@ -1438,7 +1448,6 @@ section#logistika {
   }
 
   .aboutcom {
-    width: 1100px;
     margin-left: -10px;
     background-image: url(/images/shutterstock_1011269995.jpg);
     height: 370px;
@@ -1451,12 +1460,13 @@ section#logistika {
   }
 
   .bottom a {
-    padding: 25px 30px;
-    font-size: 40px;
+    padding: 22px 20px;
+    font-size: 30px;
     border: solid 5px black;
-    transform: translate(90px, 0px);
+    transform: translate(-250px, 0px);
     margin-bottom: 20px;
     background-color: white;
+    width: 230px;
   }
 
   footer {
@@ -1653,9 +1663,10 @@ section#logistika {
   }
 
   .work {
+    display: flow-root;
     margin-left: 345px;
     margin-bottom: 20px;
-    transform: translate(0px, 10px);
+    transform: translate(-195px, -100px);
   }
 
   .work i {
@@ -1723,6 +1734,7 @@ section#logistika {
     /* margin-left: 105px; */
     margin-top: 50px;
     color: black;
+    display: none;
   }
 
   .body2 {
