@@ -999,7 +999,7 @@ section#logistika {
     transform: translate(55px, 1px);
   }
   .Inport {
-    width: 112%;
+    width: 100%;
     height: 600px;
     background-image: url(/images/dogovor.jpg);
     /* background-image: url(/images/vergi-kacakciligi-1280x720.webp); */
