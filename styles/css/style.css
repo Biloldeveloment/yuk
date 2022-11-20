@@ -950,7 +950,7 @@ section#logistika {
     transform: translate(70px, 0px);
   }
   .serviece {
-    width: 98%;
+    width: 89%;
     position: fixed;
     transform: translate(-28px, -100px);
     z-index: 17;
@@ -1372,7 +1372,7 @@ section#logistika {
     transform: translate(10px, -28px);
   }
   .bottom p {
-    width: 160%;
+    width: 135%;
     font-size: 15px;
     line-height: 35px;
     color: currentcolor;
@@ -1638,7 +1638,7 @@ section#logistika {
     height: 320px;
   }
   .bottom {
-    width: 170%;
+    width: 253%;
     margin-left: -68px;
     /* margin-top: 80px; */
     padding: 8px 16px;
