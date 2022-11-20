@@ -1385,7 +1385,7 @@ section#logistika {
     margin-left: -10px;
     background-image: url(/images/shutterstock_1011269995.jpg);
     height: 590px;
-    width: 300%;
+    width: 170%;
     border-radius: 10px;
     background-size: cover;
     background-position: top;
@@ -1395,12 +1395,12 @@ section#logistika {
   }
   .bottom a {
     padding: 20px 12px;
-    font-size: 30px;
+    font-size: 22px;
     border: solid 5px black;
-    transform: translate(-140px, 0px);
+    transform: translate(-225px, 0px);
     margin-bottom: 20px;
     background-color: white;
-    width: 230px;
+    width: 170px;
   }
   footer {
     transform: translate(1px, 100px);
@@ -1572,7 +1572,7 @@ section#logistika {
     display: flow-root;
     margin-left: 345px;
     margin-bottom: 20px;
-    transform: translate(-125px, -10px);
+    transform: translate(-235px, -10px);
   }
   .work i {
     font-size: 35px;
@@ -1627,10 +1627,10 @@ section#logistika {
     font-weight: 800;
   }
   .himoyalangan {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    margin-left: 85px;
-    margin-top: 70px;
+    margin-left: 15px;
+    margin-top: 20px;
     color: black;
   }
   .body2 {
@@ -1672,7 +1672,7 @@ section#logistika {
   .col-md {
     padding: 10px 0;
     text-align: center;
-    transform: translate(-10px, 50px);
+    transform: translate(-1px, -10px);
   }
   .kurs {
     background-size: 22px;
