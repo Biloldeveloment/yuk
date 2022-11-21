@@ -82,6 +82,11 @@ a {
   justify-content: space-evenly;
 }
 
+.portion {
+  background: rgba(255, 255, 255, 0.48);
+  height: 550px;
+}
+
 header#header {
   padding: 2rem 0;
 }
