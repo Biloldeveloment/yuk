@@ -1028,6 +1028,9 @@ section#logistika {
     margin-left: -15px;
     margin-top: 55px;
   }
+  .portion {
+    background: rgba(255, 255, 255, 0.48);
+  }
   .xizmatlar div {
     height: 75%;
     width: 108%;
