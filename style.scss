@@ -1468,7 +1468,7 @@ section#logistika {
 
   .transport {
     display: grid;
-    transform: translate(-285px, -40px);
+    transform: translate(-295px, -40px);
     margin-left: 0px;
     margin-top: 50px;
     grid-template-columns: repeat(0, 3fr);
@@ -1706,9 +1706,9 @@ section#logistika {
     top: 0;
     left: 0;
     width: 100%;
-
+    background: rgba(200, 200, 200, 0.8);
     border-radius: 20px;
-    background-color: darkslategray;
+    /* background-color: darkslategray; */
     box-shadow: 0 0 20px grey;
     transform: translateX(-1920px);
     padding: 2rem;
@@ -1720,8 +1720,9 @@ section#logistika {
     margin-top: 2rem;
     font-size: 25px;
     margin-left: -5px;
+    background: rgba(100, 100, 100, 0.9);
     color: black;
-    background-color: grey;
+    /* background-color: grey; */
     border-radius: 20px;
     transition: all 0.4s ease-in;
   }
