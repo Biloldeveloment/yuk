@@ -1041,7 +1041,7 @@ section#logistika {
     transform: translate(0px, 70px);
   }
   .xizmatlar div {
-    height: 730px;
+    height: 80%;
     width: 108%;
     background-color: #b2beb5;
     /* left: 130px; */
@@ -1157,10 +1157,7 @@ section#logistika {
     /* margin-top: 100px; */
   }
   .xizmatlar {
-    margin: 2rem 0;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 4rem;
+    display: block;
     margin-left: 20px;
   }
   section#master {
