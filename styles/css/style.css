@@ -1663,7 +1663,7 @@ section#logistika {
     display: flow-root;
     margin-left: 345px;
     margin-bottom: 20px;
-    transform: translate(-235px, -10px);
+    transform: translate(-205px, -10px);
   }
   .work i {
     font-size: 35px;
@@ -1722,7 +1722,7 @@ section#logistika {
     font-weight: 600;
     margin-left: 15px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
     color: black;
   }
   .body2 {
