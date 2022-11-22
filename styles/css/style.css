@@ -1054,6 +1054,20 @@ section#logistika {
     border-radius: 12px;
     margin-bottom: 155px;
   }
+  .engkatta {
+    height: 870px;
+    width: 108%;
+    background-color: #b2beb5;
+    /* left: 130px; */
+    /* top: 150px; */
+    border: solid 2px black;
+    transform: translate(-2px, -200px);
+    /* border-radius: 12px; */
+    padding: 8px;
+    box-shadow: 0px 4px 28px -8px;
+    border-radius: 12px;
+    margin-bottom: 155px;
+  }
   .portion h1 {
     width: 100%;
     text-align: center;
