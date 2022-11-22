@@ -970,11 +970,11 @@ section#logistika {
     transform: translate(70px, 0px);
   }
   .serviece {
-    width: 80%;
+    width: 85%;
     position: fixed;
     transform: translate(-28px, -100px);
     z-index: 17;
-    border: solid 2px blue;
+    border: solid 2px black;
     height: 100px;
     border-radius: 10px;
     margin-left: -49px;
