@@ -957,16 +957,16 @@ section#logistika {
   }
 
   .serviece {
-    width: 89%;
+    width: 62%;
     position: fixed;
     transform: translate(-28px, -100px);
     z-index: 17;
-    border: solid 5px blue;
+    border: solid 2px blue;
     height: 100px;
     border-radius: 10px;
-    margin-left: -45px;
+    margin-left: -48px;
     background-color: darkgrey;
-    box-shadow: 1px 1px 35px;
+    box-shadow: 1px 1px 10px;
   }
 
   .serviece i {
@@ -1526,15 +1526,15 @@ section#logistika {
   }
 
   .aboutcom {
-    margin-left: -10px;
+    margin-left: -14px;
     background-image: url(/images/shutterstock_1011269995.jpg);
     height: 590px;
-    width: 170%;
+    width: 175%;
     border-radius: 10px;
     background-size: cover;
     background-position: top;
     transform: translate(-59px, 10px);
-    border: solid 5px black;
+    border: solid 3px black;
     box-shadow: 1px 1px 20px;
   }
 
@@ -1813,6 +1813,7 @@ section#logistika {
     font-size: 18px;
     font-weight: 600;
     margin-left: 15px;
+    text-align: center;
     margin-top: 20px;
     color: black;
   }
