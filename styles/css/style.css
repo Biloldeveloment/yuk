@@ -1062,6 +1062,14 @@ section#logistika {
     margin-left: -6px;
     margin-top: -6px;
   }
+  .soyani {
+    background: rgba(255, 255, 255, 0.48);
+    height: 732px;
+    width: 103%;
+    border-radius: 11px;
+    margin-left: -6px;
+    margin-top: -6px;
+  }
   .soyaning {
     background: rgba(255, 255, 255, 0.48);
     height: 872px;
@@ -1071,7 +1079,7 @@ section#logistika {
     margin-top: -6px;
   }
   .engkichik {
-    height: 750px;
+    height: 740px;
     width: 108%;
     background-color: #b2beb5;
     /* left: 130px; */
