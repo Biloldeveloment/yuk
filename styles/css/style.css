@@ -1466,9 +1466,9 @@ section#logistika {
     box-shadow: 1px 1px 20px;
   }
   .bottom a {
-    padding: 20px 12px;
+    padding: 10px 10px;
     font-size: 22px;
-    border: solid 5px black;
+    border: solid 2px black;
     transform: translate(-225px, 0px);
     margin-bottom: 20px;
     background-color: white;
