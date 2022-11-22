@@ -1640,6 +1640,7 @@ section#logistika {
     background: rgba(100, 100, 100, 0.9);
     color: black;
     /* background-color: grey; */
+    border: solid 2px black;
     border-radius: 20px;
     transition: all 0.4s ease-in;
   }
@@ -1651,6 +1652,7 @@ section#logistika {
     transform: translateX(0);
     width: 90%;
     height: 2590px;
+    border: solid 3px black;
   }
   .tugadildi span {
     display: none;
