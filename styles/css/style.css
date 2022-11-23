@@ -1175,9 +1175,9 @@ section#logistika {
     width: 108%;
     font-size: 20px;
     font-weight: 500;
-    margin-left: -21px;
+    margin-left: -22px;
     background-color: ghostwhite;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     box-shadow: 1px 1px 10px;
     border: solid 2px black;
     border-radius: 20px;
@@ -1196,13 +1196,13 @@ section#logistika {
     font-size: 25px;
     margin-bottom: 10px;
     background: whitesmoke;
-    color: #002a48;
+    color: black;
     /* margin-top: 35px; */
     border: solid 2px black;
     margin-left: 65px;
   }
   .btn i {
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: -1px;
   }
   .biz-haqimizda .btn:hover {
@@ -1279,11 +1279,11 @@ section#logistika {
     transform: translate(-100px, 100px);
   }
   .homiy {
-    width: 195%;
+    width: 250%;
     height: 90%;
     height: 200px;
     border: solid 5px black;
-    margin-left: -75px;
+    margin-left: -120px;
     border: 3px solid black;
     /* margin-top: 50px; */
     box-shadow: 1px 1px 10px;
