@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+.xizmatlar .lord-icon {
+  transform: translate(100px, 100px);
+}
+
 .sider {
   display: none;
 }
@@ -947,6 +951,27 @@ section#logistika {
     width: 410px;
     margin: 0 auto;
   }
+  .clip {
+    width: 180px;
+    -webkit-animation: aylanish 5s ease-in infinite;
+            animation: aylanish 5s ease-in infinite;
+  }
+  @-webkit-keyframes aylanish {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes aylanish {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
   .aboutcompani {
     display: block;
   }
@@ -1026,10 +1051,11 @@ section#logistika {
     font-size: 45px;
   }
   .servis img {
-    width: 100px;
+    width: 70px;
     /* background: rgba(255, 255, 255, 0.48); */
-    border-radius: 10px;
-    transform: translate(68px, 3px);
+    border-radius: 20px;
+    border: solid 2px black;
+    transform: translate(78px, 2px);
     /* border: solid 2px black; */
   }
   .Inport {
@@ -1089,6 +1115,7 @@ section#logistika {
     background: rgba(255, 255, 255, 0.48);
     height: 932px;
     width: 103%;
+    background-image: url(/images/3d.jpg);
     border-radius: 11px;
     border: solid 2px black;
     margin-left: -6px;
