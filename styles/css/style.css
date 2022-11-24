@@ -1053,7 +1053,7 @@ section#logistika {
     transform: translate(0px, 70px);
   }
   .engkatta {
-    height: 930px;
+    height: 940px;
     width: 108%;
     background-color: #b2beb5;
     /* left: 130px; */
@@ -1068,7 +1068,7 @@ section#logistika {
   }
   .soya {
     background: rgba(255, 255, 255, 0.48);
-    height: 822px;
+    height: 837px;
     width: 103%;
     border-radius: 11px;
     margin-left: -6px;
@@ -1077,7 +1077,7 @@ section#logistika {
   }
   .soyani {
     background: rgba(255, 255, 255, 0.48);
-    height: 772px;
+    height: 787px;
     width: 103%;
     border-radius: 11px;
     margin-left: -6px;
@@ -1086,7 +1086,7 @@ section#logistika {
   }
   .soyaning {
     background: rgba(255, 255, 255, 0.48);
-    height: 922px;
+    height: 932px;
     width: 103%;
     border-radius: 11px;
     border: solid 2px black;
@@ -1094,7 +1094,7 @@ section#logistika {
     margin-top: -6px;
   }
   .engkichik {
-    height: 780px;
+    height: 795px;
     width: 108%;
     background-color: #b2beb5;
     /* left: 130px; */
@@ -1108,7 +1108,7 @@ section#logistika {
     margin-bottom: 55px;
   }
   .orta {
-    height: 830px;
+    height: 845px;
     width: 108%;
     background-color: #b2beb5;
     /* left: 130px; */
