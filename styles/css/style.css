@@ -1029,7 +1029,7 @@ section#logistika {
     width: 100px;
     /* background: rgba(255, 255, 255, 0.48); */
     border-radius: 10px;
-    transform: translate(70px, 3px);
+    transform: translate(68px, 3px);
     /* border: solid 2px black; */
   }
   .Inport {
@@ -1536,8 +1536,7 @@ section#logistika {
     height: 815px;
     margin-left: -5px;
     border: solid 2px black;
-    background-size: cover;
-    background-position: center;
+    background-image: url(/images/photo_2022-11-24_15-47-54.jpg);
   }
   .logosi p {
     display: none;
