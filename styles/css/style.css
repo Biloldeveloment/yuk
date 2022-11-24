@@ -1011,14 +1011,15 @@ section#logistika {
     z-index: 17;
     width: 445px;
     height: 80px;
-    border: solid 2px black;
+    border: solid 3px black;
     border-radius: 10px;
     margin-left: -15px;
     box-shadow: 1px 1px 9px;
     margin-top: -20px;
   }
   .servis i {
-    font-size: 55px;
+    font-size: 60px;
+    margin-left: -15px;
   }
   .nav i {
     transform: translate(100px, -2px);
@@ -1028,7 +1029,7 @@ section#logistika {
     width: 100px;
     /* background: rgba(255, 255, 255, 0.48); */
     border-radius: 10px;
-    transform: translate(58px, 0px);
+    transform: translate(72px, 3px);
     /* border: solid 2px black; */
   }
   .Inport {
