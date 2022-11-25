@@ -1037,9 +1037,10 @@ section#logistika {
     width: 445px;
     height: 80px;
     border: solid 3px black;
+    background: gainsboro;
     border-radius: 10px;
     margin-left: -15px;
-    box-shadow: 1px 1px 9px;
+    box-shadow: 1px 1px 15px;
     margin-top: -20px;
   }
   .servis i {
