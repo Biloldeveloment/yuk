@@ -1092,6 +1092,7 @@ section#logistika {
     box-shadow: 0px 4px 28px -8px;
     border-radius: 12px;
     margin-bottom: 155px;
+    background-image: url(/images/foto1.jpg);
   }
   .soya {
     background: rgba(255, 255, 255, 0.48);
@@ -1101,9 +1102,6 @@ section#logistika {
     margin-left: -6px;
     margin-top: -6px;
     border: solid 2px black;
-    background-image: url(/images/pul.jpg);
-    background-position: center;
-    background-size: cover;
   }
   .soyani {
     background: rgba(255, 255, 255, 0.48);
@@ -1137,6 +1135,9 @@ section#logistika {
     box-shadow: 0px 4px 28px -8px;
     border-radius: 12px;
     margin-bottom: 55px;
+    background-image: url(/images/What-are-the-principles-of-marketing.jpg);
+    background-position: center;
+    background-size: cover;
   }
   .orta {
     height: 845px;
@@ -1151,6 +1152,9 @@ section#logistika {
     box-shadow: 0px 4px 28px -8px;
     border-radius: 12px;
     margin-bottom: 55px;
+    background-image: url(/images/pul.jpg);
+    background-position: center;
+    background-size: cover;
   }
   .portion h1 {
     width: 100%;
