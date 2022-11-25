@@ -947,8 +947,8 @@ section#logistika {
   }
 
   .clip {
-    width: 180px;
-    animation: aylanish 5s ease-in infinite;
+    width: 230px;
+    animation: aylanish 7s ease-in infinite;
   }
 
   @keyframes aylanish {
@@ -1111,6 +1111,9 @@ section#logistika {
     margin-left: -6px;
     margin-top: -6px;
     border: solid 2px black;
+    background-image: url(/images/pul.jpg);
+    background-position: center;
+    background-size: cover;
   }
 
   .soyani {
@@ -1119,6 +1122,7 @@ section#logistika {
     width: 103%;
     border-radius: 11px;
     margin-left: -6px;
+
     border: solid 2px black;
     margin-top: -6px;
   }

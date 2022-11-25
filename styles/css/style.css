@@ -952,9 +952,9 @@ section#logistika {
     margin: 0 auto;
   }
   .clip {
-    width: 180px;
-    -webkit-animation: aylanish 5s ease-in infinite;
-            animation: aylanish 5s ease-in infinite;
+    width: 230px;
+    -webkit-animation: aylanish 7s ease-in infinite;
+            animation: aylanish 7s ease-in infinite;
   }
   @-webkit-keyframes aylanish {
     from {
@@ -1101,6 +1101,9 @@ section#logistika {
     margin-left: -6px;
     margin-top: -6px;
     border: solid 2px black;
+    background-image: url(/images/pul.jpg);
+    background-position: center;
+    background-size: cover;
   }
   .soyani {
     background: rgba(255, 255, 255, 0.48);
