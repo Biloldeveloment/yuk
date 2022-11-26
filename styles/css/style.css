@@ -1192,13 +1192,9 @@ section#logistika {
   .malumot {
     width: 108%;
     font-size: 20px;
-    /* background-image: url(/images/profile1.jpg); */
-    background-image: url(/images/7.jpg);
     font-weight: 500;
-    background-position: center;
-    background-size: cover;
     margin-left: -22px;
-    background-color: ghostwhite;
+    background: rgba(255, 255, 255, 0.48);
     margin-bottom: 60px;
     box-shadow: 1px 1px 10px;
     border: solid 2px black;
@@ -1207,8 +1203,11 @@ section#logistika {
     line-height: 30px;
     text-align: center;
   }
-  .masteri {
-    background-image: url(/images/company-profile.htm);
+  .orqafon {
+    background-image: url(/images/ofislar.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
   }
   .malumot span {
     display: none;
