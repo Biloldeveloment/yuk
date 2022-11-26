@@ -956,29 +956,13 @@ section#logistika {
     -webkit-animation: aylanish 7s ease-in infinite;
             animation: aylanish 7s ease-in infinite;
   }
-  @-webkit-keyframes aylanish {
-    from {
-      transform: rotate(0);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  @keyframes aylanish {
-    from {
-      transform: rotate(0);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
   .aboutcompani {
     display: block;
   }
   .col-midin {
     padding: 10px 0;
     text-align: center;
-    transform: translate(15px, 280px);
+    transform: translate(15px, 270px);
   }
   .containerin {
     width: 400px;
@@ -1052,12 +1036,10 @@ section#logistika {
     font-size: 45px;
   }
   .servis img {
-    width: 70px;
-    /* background: rgba(255, 255, 255, 0.48); */
-    border-radius: 20px;
+    width: 71px;
+    border-radius: 10px;
     border: solid 2px black;
-    transform: translate(78px, 2px);
-    /* border: solid 2px black; */
+    transform: translate(88px, 2px);
   }
   .Inport {
     width: 108%;
@@ -1072,7 +1054,7 @@ section#logistika {
     box-shadow: 1px 1px 10px;
     border: solid 3px black;
     margin-left: -15px;
-    margin-top: 55px;
+    margin-top: 45px;
   }
   .portion {
     height: 495px;
@@ -1210,7 +1192,11 @@ section#logistika {
   .malumot {
     width: 108%;
     font-size: 20px;
+    /* background-image: url(/images/profile1.jpg); */
+    background-image: url(/images/7.jpg);
     font-weight: 500;
+    background-position: center;
+    background-size: cover;
     margin-left: -22px;
     background-color: ghostwhite;
     margin-bottom: 60px;
@@ -1220,6 +1206,9 @@ section#logistika {
     color: black;
     line-height: 30px;
     text-align: center;
+  }
+  .masteri {
+    background-image: url(/images/company-profile.htm);
   }
   .malumot span {
     display: none;
@@ -1568,7 +1557,7 @@ section#logistika {
   .logosi {
     width: 108%;
     box-shadow: 1px 1px 10px;
-    height: 815px;
+    height: 820px;
     margin-left: -5px;
     border: solid 2px black;
     background-size: cover;
@@ -1812,5 +1801,38 @@ section#logistika {
     padding-right: 15px;
     display: inline-block;
     font-size: 0.9em;
+  }
+  .menuBar {
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.4s ease-in-out;
+  }
+  .menuBar > span {
+    width: 28px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #ff9100;
+    display: block;
+    transition: all 0.4s ease-in-out;
+  }
+  .menuBar > span:not(:last-child) {
+    margin-bottom: 7px;
+  }
+  .menuBar.active {
+    transition-delay: 0.8s;
+    transform: rotate(45deg);
+  }
+  .menuBar.active > span:nth-child(2) {
+    width: 0;
+  }
+  .menuBar.active > span:nth-child(1),
+.menuBar.active > span:nth-child(3) {
+    transition-delay: 0.4s;
+  }
+  .menuBar.active > span:nth-child(1) {
+    transform: translateY(9px);
+  }
+  .menuBar.active > span:nth-child(3) {
+    transform: translateY(-9px) rotate(90deg);
   }
 }/*# sourceMappingURL=style.css.map */
