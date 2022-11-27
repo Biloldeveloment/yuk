@@ -991,7 +991,7 @@ section#logistika {
     box-shadow: 1px 1px 10px;
   }
   .serviecec {
-    width: 84%;
+    width: 100%;
     position: fixed;
     /* transform: translate(-28px, -100px); */
     z-index: 17;
