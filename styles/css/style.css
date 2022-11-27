@@ -987,8 +987,79 @@ section#logistika {
     height: 80px;
     border-radius: 10px;
     margin-left: -49px;
-    background-color: darkgrey;
+    background: gainsboro;
     box-shadow: 1px 1px 10px;
+  }
+  .serviecec {
+    width: 84%;
+    position: fixed;
+    /* transform: translate(-28px, -100px); */
+    z-index: 17;
+    border: solid 2px black;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: -30px;
+    background: gainsboro;
+    box-shadow: 1px 1px 10px;
+  }
+  .serviecec img {
+    width: 85px;
+    transform: translate(70px, 0px);
+  }
+  .serviecec i {
+    font-size: 50px;
+    margin-left: 15px;
+  }
+  .bottomuz {
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 8px 16px;
+    background: rgba(205, 205, 205, 0.48);
+    border: 3px solid black;
+    background-position: center;
+  }
+  .kelt {
+    background-image: url(/images/biznes-klent.jpg);
+    background-position: center;
+    background-size: inherit;
+    width: 398px;
+    border-radius: 10px;
+  }
+  .bottomuz h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    /* transform: translate(1px, 0px); */
+    margin-bottom: 30px;
+    color: black;
+  }
+  .bottomuz h2 {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 400;
+    transform: translate(0px, -28px);
+  }
+  .bottomuz p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 25px;
+    color: currentcolor;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+  }
+  .bottomuz a {
+    all: unset;
+    background: darkgrey;
+    color: black;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 6px;
+    margin-left: 90px;
   }
   .serviece i {
     font-size: 50px;
@@ -1752,7 +1823,7 @@ section#logistika {
     height: 320px;
   }
   .bottom {
-    width: 160%;
+    /* width: 160%; */
     margin-left: -77px;
     border-radius: 10px;
     margin-top: -30px;
