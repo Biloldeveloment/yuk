@@ -948,7 +948,7 @@ section#logistika {
 
 @media only screen and (max-width: 430px) {
   .container {
-    width: 400px;
+    width: 410px;
     margin: 0 auto;
   }
   .clip {
@@ -1089,8 +1089,7 @@ section#logistika {
   .servis {
     position: fixed;
     z-index: 17;
-    width: 100%;
-    /* width: 449px; */
+    width: 449px;
     height: 80px;
     /* border: solid 3px black; */
     background: gainsboro;
@@ -1111,7 +1110,7 @@ section#logistika {
     width: 71px;
     border-radius: 10px;
     border: solid 2px black;
-    transform: translate(48px, 2px);
+    transform: translate(88px, 2px);
   }
   .Inport {
     width: 108%;
@@ -1566,7 +1565,6 @@ section#logistika {
     margin-left: -18px;
     background-image: url(/images/footer\ foto.jpg);
     height: 590px;
-    width: 160%;
     border-radius: 10px;
     background-size: cover;
     background-position: top;
@@ -1575,13 +1573,12 @@ section#logistika {
     box-shadow: 1px 1px 10px;
   }
   .bottom a {
-    padding: 10px 10px;
-    font-size: 22px;
-    border: solid 2px black;
-    /* transform: translate(-225px, 0px); */
-    margin-bottom: 20px;
-    background-color: #bfbdbd;
-    width: 170px;
+    all: unset;
+    background: darkgrey;
+    color: black;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 6px;
     margin-left: 100px;
   }
   footer {
