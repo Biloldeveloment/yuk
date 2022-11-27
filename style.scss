@@ -997,12 +997,10 @@ section#logistika {
     position: fixed;
     /* transform: translate(-28px, -100px); */
     z-index: 17;
-
     height: 80px;
-
-    margin-top: -30px;
+    margin-top: -27px;
     background: gainsboro;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 1px 1px 5px;
   }
 
   .serviecec img {
@@ -1034,9 +1032,9 @@ section#logistika {
   }
 
   .bottomuz h1 {
-    font-size: 40px;
+    font-size: 38px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 100;
     /* transform: translate(1px, 0px); */
     margin-bottom: 30px;
     color: black;
@@ -1053,7 +1051,7 @@ section#logistika {
 
   .bottomuz p {
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 25px;
     color: currentcolor;
     font-weight: 400;
@@ -1068,9 +1066,10 @@ section#logistika {
     background: darkgrey;
     color: black;
     display: inline-block;
-    padding: 8px 28px;
+    padding: 10px 25px;
     border-radius: 6px;
     margin-left: 90px;
+    border: solid 2px black;
   }
 
   .serviece i {
