@@ -2008,4 +2008,10 @@ section#logistika {
   .menuBar.active > span:nth-child(3) {
     transform: translateY(-9px) rotate(90deg);
   }
+  .fonchroy {
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 10px;
+    height: 585px;
+    transform: translate(0px, -10px);
+  }
 }/*# sourceMappingURL=style.css.map */
