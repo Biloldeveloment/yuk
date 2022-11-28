@@ -1244,7 +1244,6 @@ section#logistika {
   }
 
   .Inport {
-    width: 107%;
     height: 500px;
     background-image: url(/images/dogovor.jpg);
     /* background-image: url(/images/vergi-kacakciligi-1280x720.webp); */
@@ -1960,7 +1959,7 @@ section#logistika {
     color: black;
     /* background-color: grey; */
     border: solid 2px black;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: all 0.4s ease-in;
   }
   header#header .sider .sidebar li:hover {
@@ -1969,10 +1968,10 @@ section#logistika {
   }
   header#header .sider input[type="checkbox"]:checked + .sidebar {
     transform: translateX(0);
-    width: 90%;
+    width: 70%;
     background: gainsboro;
     height: 850px;
-    margin-top: 80px;
+    margin-top: 1px;
     /* border: solid 3px black;*/
   }
 
