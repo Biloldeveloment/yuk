@@ -8,8 +8,22 @@
   box-sizing: border-box;
 }
 
-.xizmatlar .lord-icon {
-  transform: translate(100px, 100px);
+.orta lord-icon {
+  width: 240px;
+  height: 240px;
+  transform: translate(40px, -40px);
+}
+
+.engkichik lord-icon {
+  width: 240px;
+  height: 240px;
+  transform: translate(-30px, -40px);
+}
+
+.engkatta lord-icon {
+  width: 240px;
+  height: 240px;
+  transform: translate(-30px, -40px);
 }
 
 .sider {
@@ -23,6 +37,11 @@ body {
 }
 
 .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.containerin {
   width: 1200px;
   margin: 0 auto;
 }
@@ -97,10 +116,11 @@ header#header {
 
 header#header ul {
   color: black;
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 400;
   gap: 2rem;
   transition: opacity 0.5s ease;
+  transform: translate(-10px, 0px);
 }
 
 .text {
@@ -136,7 +156,7 @@ header#header ul {
 
 .serviece img {
   width: 80px;
-  transform: translate(-770px, 0px);
+  transform: translate(-800px, 0px);
 }
 
 header#headerin ul {
@@ -150,7 +170,7 @@ header#headerin ul {
 
 .servis img {
   width: 75px;
-  transform: translate(-795px, 0px);
+  transform: translate(-735px, 5px);
 }
 
 .Inport {
@@ -202,19 +222,18 @@ section#show {
 }
 
 .biz {
-  color: rgb(20, 20, 145);
+  color: #002a48;
   font-weight: 500;
   font-size: 46px;
   line-height: 56px;
 }
 
 .haqimizda {
-  color: rgba(199, 199, 40, 0.795);
+  color: #002a48;
   font-weight: 800;
   font-size: 18px;
   line-height: 26px;
   margin-bottom: 20px;
-  transform: translate(16px, 0px);
 }
 
 .malumot {
@@ -255,7 +274,9 @@ section#show {
 
 .masteri img {
   width: 600px;
+  box-shadow: 1px 1px 10px;
   height: 350px;
+  color: black;
   border-radius: 20px;
   margin-left: 585px;
   transform: translate(16px, -455px);
@@ -268,14 +289,15 @@ section#show {
 
 .btn {
   all: unset;
-  background: cadetblue;
+  /* background: white; */
   color: black;
   display: inline-block;
   padding: 18px 38px;
   border-radius: 16px;
   margin-left: 22px;
   font-weight: 600;
-  box-shadow: 1px 0px 15px;
+  box-shadow: 1px 0px 5px;
+  border: solid 2px black;
 }
 
 .xizmatlar {
@@ -286,16 +308,16 @@ section#show {
 
 section#master h1 {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 46px;
   line-height: 56px;
   text-align: center;
-  color: cadetblue;
-  transform: translate(10px, -280px);
+  color: #002a48;
+  transform: translate(0px, -280px);
 }
 
 .bottom h1 {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 75px;
   line-height: 56px;
   text-align: center;
   color: rgba(0, 0, 0, 0.73);
@@ -304,19 +326,19 @@ section#master h1 {
 
 .bottom h2 {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 16px;
-  color: rgb(38, 72, 72);
+  color: blue;
   text-align: center;
 }
 
 .bottom p {
   width: 850px;
   text-align: center;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 26px;
-  padding: 1rem 5rem;
+  /* font-weight: 600; */
+  font-size: 17px;
+  line-height: 32px;
+  padding: 1rem 3rem;
   transform: translate(-48px, 10px);
 }
 
@@ -349,6 +371,7 @@ section#master h1 {
   width: 800px;
   padding: 8px 16px;
   border: 5px solid darkgrey;
+  border-radius: 20px;
 }
 
 .bottom a {
@@ -356,13 +379,16 @@ section#master h1 {
   background: darkgrey;
   color: black;
   display: inline-block;
-  padding: 8px 28px;
+  padding: 12px 25px;
+  border: solid 2px black;
   border-radius: 6px;
-  margin-left: 265px;
+  margin-left: 289px;
 }
 
-.body2 {
-  padding: 5rem 3rem;
+.fonchroy {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+  height: 300px;
 }
 
 .text2 span {
@@ -386,8 +412,8 @@ section#master h1 {
   font-size: 20px;
   line-height: 26px;
   color: black;
-  text-align: inherit;
-  transform: translate(48px, -220px);
+  text-align: center;
+  transform: translate(0px, -88px);
 }
 
 .chiziq {
@@ -400,9 +426,9 @@ section#master h1 {
   font-weight: 400;
   font-size: 13px;
   line-height: 18px;
-  text-align: inherit;
+  text-align: center;
   color: grey;
-  transform: translate(50px, -210px);
+  transform: translate(0px, -70px);
 }
 
 section#logistika {
@@ -926,30 +952,109 @@ section#logistika {
 }
 
 .himoyalangan {
-  margin-left: 220px;
-  margin-top: 200px;
-  color: ghostwhite;
+  margin-top: 140px;
+  color: black;
+  font-weight: 400;
+  text-align: center;
 }
 
 .aboutcom {
   width: 820px;
-  margin-left: -10px;
   background-image: url(/images/shutterstock_1011269995.jpg);
   height: 300px;
   border-radius: 10px;
   background-size: cover;
   background-position: top;
-  transform: translate(310px, 10px);
 }
 
 .aboutcompani {
   display: none;
 }
 
+.col-md {
+  padding: 10px 0;
+  text-align: center;
+  transform: translate(15px, 110px);
+}
+
+.kurs {
+  background-size: 22px;
+  background-position: left;
+  background-repeat: no-repeat;
+  line-height: 32px;
+  padding-left: 28px;
+  padding-right: 15px;
+  display: inline-block;
+  font-size: 0.9em;
+}
+
+.orta {
+  height: 440px;
+  width: 108%;
+  /* background-color: #b2beb5; */
+  /* left: 130px; */
+  /* top: 150px; */
+  border: solid 2px black;
+  transform: translate(-2px, -200px);
+  /* border-radius: 12px; */
+  padding: 8px;
+  box-shadow: 0px 4px 28px -8px;
+  border-radius: 12px;
+  margin-bottom: 155px;
+  /* background-image: url(/images/foto1.jpg); */
+}
+
+.engkichik {
+  height: 440px;
+  width: 108%;
+  /* background-color: #b2beb5; */
+  /* left: 130px; */
+  /* top: 150px; */
+  border: solid 2px black;
+  transform: translate(-2px, -200px);
+  /* border-radius: 12px; */
+  padding: 8px;
+  box-shadow: 0px 4px 28px -8px;
+  border-radius: 12px;
+  margin-bottom: 155px;
+  /* background-image: url(/images/foto1.jpg); */
+}
+
+.engkatta {
+  height: 440px;
+  width: 108%;
+  /* background-color: #b2beb5; */
+  /* left: 130px; */
+  /* top: 150px; */
+  border: solid 2px black;
+  transform: translate(-2px, -200px);
+  /* border-radius: 12px; */
+  padding: 8px;
+  box-shadow: 0px 4px 28px -8px;
+  border-radius: 12px;
+  margin-bottom: 155px;
+  /* background-image: url(/images/foto1.jpg); */
+}
+
 @media only screen and (max-width: 430px) {
   .container {
     width: 410px;
     margin: 0 auto;
+  }
+  .orta lord-icon {
+    width: 240px;
+    height: 240px;
+    transform: translate(70px, 0px);
+  }
+  .engkichik lord-icon {
+    width: 240px;
+    height: 240px;
+    transform: translate(0px, -30px);
+  }
+  .engkatta lord-icon {
+    width: 240px;
+    height: 240px;
+    transform: translate(0px, 0px);
   }
   .clip {
     width: 230px;
@@ -965,7 +1070,7 @@ section#logistika {
     transform: translate(15px, 250px);
   }
   .containerin {
-    width: 400px;
+    width: 300px;
     margin: 0 auto;
   }
   .engkichik {
@@ -1355,11 +1460,11 @@ section#logistika {
   .xizmat-haqida {
     width: 99%;
     text-align: center;
-    margin-left: -50px;
+    /* margin-left: -50px; */
     font-size: 20px;
     line-height: 38px;
     font-weight: 400;
-    margin-top: 200px;
+    margin-top: 50px;
     color: black;
     margin-bottom: 50px;
   }
