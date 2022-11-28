@@ -1661,12 +1661,14 @@ section#logistika {
     font-weight: 400;
     text-align: center;
     margin-top: -50px;
+    margin-left: -10px;
     margin-bottom: 30px;
   }
   .text2 {
     font-size: 12px;
   }
   .aboutcom {
+    width: 160%;
     margin-left: -18px;
     background-image: url(/images/footer\ foto.jpg);
     height: 590px;
@@ -1927,7 +1929,6 @@ section#logistika {
     height: 320px;
   }
   .bottom {
-    width: 160%;
     margin-left: -77px;
     border-radius: 10px;
     margin-top: -30px;
