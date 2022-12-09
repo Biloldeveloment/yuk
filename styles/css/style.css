@@ -1712,7 +1712,8 @@ section#logistika {
     text-align: center;
     font-size: 70px;
     font-weight: 500;
-    color: #002a48;
+    margin-left: -35px;
+    color: navy;
     margin-bottom: 25px;
   }
   .haqimizda {
@@ -1731,14 +1732,14 @@ section#logistika {
     color: black; */
   }
   .malumot {
-    width: 110%;
+    width: 100%;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 1px;
-    background: rgba(0, 0, 0, 0.58);
+    margin-left: -15px;
+    /* background: rgba(0, 0, 0, 0.58); */
     margin-bottom: 60px;
     /* border-radius: 20px; */
-    color: white;
+    color: navy;
     line-height: 30px;
     text-align: center;
   }
@@ -1756,12 +1757,12 @@ section#logistika {
   .btn {
     margin: 5px;
     font-size: 22px;
-    margin-left: 110px;
+    margin-left: 75px;
     margin-bottom: 10px;
-    background: whitesmoke;
-    color: black;
+    /* background: whitesmoke; */
+    color: navy;
     /* margin-top: 35px; */
-    border: solid 3px black;
+    border: solid 3px navy;
   }
   .btn i {
     margin-left: 5px;
