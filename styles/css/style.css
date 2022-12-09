@@ -202,20 +202,20 @@ section#master {
 }
 
 .glavniy {
-  background: #0f7bc6;
   border-radius: 50px;
+  border: solid 2px;
   padding: 8px 16px;
 }
 
 .kontakt {
-  background: #0f7bc6;
   border-radius: 50px;
+  border: solid 2px;
   padding: 8px 16px;
 }
 
 .hamkor {
-  background: #0f7bc6;
   border-radius: 50px;
+  border: solid 2px;
   padding: 8px 16px;
 }
 
@@ -289,7 +289,7 @@ a {
 }
 
 .portion {
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   height: 750px;
 }
 
@@ -365,13 +365,19 @@ header#headerin ul {
 
 .Inport {
   /* background-image: url(/images/vergi-kacakciligi-1280x720.webp); */
-  background-image: url(/images/6.jpg);
+  /* background-image: url(/images/6.jpg); */
   width: 1527px;
   height: 750px;
   border-radius: 5px;
   background-position: center;
   background-size: cover;
   transform: translate(-8px, 0px);
+}
+
+section#show {
+  background-image: url(/images/6.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .portion h1 {
@@ -387,8 +393,8 @@ header#headerin ul {
 }
 
 .kompaniyauz {
-  background: #0f7bc6;
   border-radius: 50px;
+  border: solid 2px;
   padding: 8px 16px;
 }
 
@@ -503,14 +509,13 @@ section#ofisimiz {
 .btn {
   all: unset;
   /* background: white; */
-  color: #eee;
+  color: navy;
   display: inline-block;
   padding: 18px 45px;
-  background: #0f7bc6;
   border-radius: 50px;
   margin-left: 22px;
   font-weight: 600;
-  border: solid 2px black;
+  border: solid 2px navy;
   margin-top: 15px;
 }
 
@@ -696,14 +701,13 @@ section#logistika {
 
 .bnt {
   all: unset;
-  background: #0f7bc6;
-  color: #eee;
+  color: navy;
   font-weight: 700;
   display: inline-block;
   padding: 18px 48px;
   border-radius: 50px;
   font-weight: 600;
-  border: solid 2px black;
+  border: solid 2px navy;
   font-size: 20px;
   margin-left: 480px;
   margin-top: 25px;
@@ -1049,12 +1053,18 @@ section#logistika {
 .tugadildi {
   width: 1517px;
   /* background-image: url(/images/companiyacom.jpg); */
-  background-image: url(/images/engkatta.jpg);
+  /* background-image: url(/images/engkatta.jpg); */
   /* border-radius: 10px; */
   /* background-position: center; */
   background-size: cover;
   display: flex;
   height: 520px;
+}
+
+.footer {
+  background-image: url(/images/engkatta.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .footer-col1 h2 {
@@ -1289,7 +1299,7 @@ section#logistika {
   color: #fff;
   margin-top: 60px;
   display: flex;
-  margin-left: 30px;
+  margin-left: -50px;
 }
 
 .item .contact {
@@ -1591,18 +1601,11 @@ section#logistika {
     transform: translate(88px, 2px);
   }
   .Inport {
-    width: 107%;
+    width: 119%;
     height: 500px;
     background-image: url(/images/6.jpg);
-    /* background-image: url(/images/vergi-kacakciligi-1280x720.webp); */
-    /* background-image: url(/images/how-to-become-an-accountant-2.jpg); */
-    /* background-image: url(/images/foto1.jpg); */
     background-position: center;
     background-size: cover;
-    /* border-radius: 10px; */
-    /* box-shadow: 1px 1px 10px; */
-    /* border: solid 3px black; */
-    margin-left: -15px;
     margin-top: 80px;
   }
   .portion {
