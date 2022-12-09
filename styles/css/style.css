@@ -1575,7 +1575,7 @@ section#logistika {
   }
   .servis {
     position: fixed;
-    width: 28.2%;
+    width: 28.3%;
     height: 80px;
     background: rgb(66, 66, 63);
     margin-top: -80px;
@@ -1596,7 +1596,7 @@ section#logistika {
     transform: translate(88px, 2px);
   }
   .Inport {
-    width: 119%;
+    width: 113%;
     height: 500px;
     background-image: url(/images/6.jpg);
     background-position: center;
