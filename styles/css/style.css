@@ -1605,7 +1605,7 @@ section#logistika {
   .clip img {
     width: 100px;
     height: 100px;
-    transform: translate(-85px, -89px);
+    transform: translate(-75px, -89px);
   }
   .portion {
     height: 499px;
@@ -1697,7 +1697,7 @@ section#logistika {
     line-height: 40px;
     font-weight: 400;
     color: white;
-    width: 93%;
+    width: 91%;
     margin-top: 85px;
     margin-left: 30px;
   }
