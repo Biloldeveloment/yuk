@@ -121,16 +121,16 @@ body {
 }
 
 section#master {
-  background-image: url(/images/pexels-fauxels-3183197.jpg);
+  /* background-image: url(/images/pexels-fauxels-3183197.jpg); */
+  background-image: url(/images/index-16.jpg);
   background-position: center;
   background-size: cover;
   margin-bottom: 100px;
 }
 
-.hqts {
+/* .hqts {
   background: rgba(0, 0, 0, 0.78);
-}
-
+} */
 .serviecec {
   background: darkgray;
   height: 59px;
@@ -364,7 +364,8 @@ header#headerin ul {
 }
 
 .Inport {
-  background-image: url(/images/vergi-kacakciligi-1280x720.webp);
+  /* background-image: url(/images/vergi-kacakciligi-1280x720.webp); */
+  background-image: url(/images/6.jpg);
   width: 1527px;
   height: 750px;
   border-radius: 5px;
@@ -510,6 +511,7 @@ section#ofisimiz {
   margin-left: 22px;
   font-weight: 600;
   border: solid 2px black;
+  margin-top: 15px;
 }
 
 .coluz h5 {
@@ -1349,6 +1351,63 @@ section#logistika {
   margin-top: -80px;
 }
 
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.contact-info .item_ {
+  margin: 30px 0px;
+}
+
+.contact-info .item_ i {
+  color: #565a5b;
+}
+
+.contact-info .item_ i {
+  display: inline-block;
+  font-size: 62px;
+  line-height: 1;
+  /* color: #565a5b; */
+}
+
+.contact-info .item_ .name {
+  width: 200px;
+  margin-top: 30px;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 20px;
+  color: #303334;
+  margin-bottom: 3px;
+}
+
+.contact-info .item_ {
+  margin: 30px 0px;
+}
+
+.body4 {
+  background-color: #eee;
+}
+
+.mapuz {
+  width: 1520px;
+}
+
+.title_ {
+  color: #303334;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0px;
+  padding-bottom: 25px;
+  padding-top: 30px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.aloqa {
+  display: flex;
+}
+
 @media only screen and (max-width: 430px) {
   .container {
     width: 410px;
@@ -1530,7 +1589,7 @@ section#logistika {
   .Inport {
     width: 107%;
     height: 500px;
-    background-image: url(/images/dogovor.jpg);
+    background-image: url(/images/6.jpg);
     /* background-image: url(/images/vergi-kacakciligi-1280x720.webp); */
     /* background-image: url(/images/how-to-become-an-accountant-2.jpg); */
     /* background-image: url(/images/foto1.jpg); */
