@@ -1609,8 +1609,9 @@ section#logistika {
   }
 
   .servis i {
-    font-size: 60px;
+    font-size: 50px;
     margin-left: 13px;
+    color: #fff;
   }
 
   .nav i {
@@ -2312,9 +2313,7 @@ section#logistika {
     left: 0;
     width: 100%;
     background: rgba(200, 200, 200, 0.8);
-
     /* background-color: darkslategray; */
-    box-shadow: 0 0 20px grey;
     transform: translateX(-1920px);
     padding: 2rem;
     z-index: 9999;
@@ -2338,11 +2337,11 @@ section#logistika {
   }
   header#header .sider input[type="checkbox"]:checked + .sidebar {
     transform: translateX(0);
-    width: 70%;
+    width: 20%;
     background: gainsboro;
     height: 850px;
-    margin-top: 1px;
-    /* border: solid 3px black;*/
+    margin-top: 80px;
+    /* border: solid 3px black; */
   }
 
   .tugadildi span {
