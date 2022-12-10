@@ -1818,7 +1818,8 @@ section#logistika {
     transform: translate(-100px, 100px);
   }
   .homiy {
-    width: 100px;
+    width: 120px;
+    margin-left: 30px;
     /*  width: 250%;
     height: 90%;
     height: 200px;
@@ -1830,7 +1831,7 @@ section#logistika {
   }
   .inspektor {
     display: grid;
-    margin-left: -140px;
+    margin-left: -150px;
     grid-template-columns: repeat(2, 2fr);
   }
   .homiylar {
@@ -1847,6 +1848,7 @@ section#logistika {
     margin-left: 170px;
     text-align: center;
     border: solid 3px navy;
+    margin-bottom: 80px;
   }
   .icon-block {
     display: block;
