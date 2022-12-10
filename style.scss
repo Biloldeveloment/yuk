@@ -1425,19 +1425,19 @@ section#logistika {
   .orta lord-icon {
     width: 240px;
     height: 240px;
-    transform: translate(70px, -0px);
+    transform: translate(45px, 0px);
   }
 
   .engkichik lord-icon {
     width: 240px;
     height: 240px;
-    transform: translate(-0px, -30px);
+    transform: translate(-35px, -30px);
   }
 
   .engkatta lord-icon {
     width: 240px;
     height: 240px;
-    transform: translate(-0px, -0px);
+    transform: translate(-35px, 0px);
   }
 
   .clip {
@@ -1646,16 +1646,10 @@ section#logistika {
 
   .engkatta {
     height: 940px;
-    width: 108%;
+    width: 88%;
     background-color: rgb(19, 75, 151);
-    /* left: 130px; */
-    /* top: 150px; */
     border: solid 2px black;
-    /* transform: translate(-2px, -200px); */
-    /* border-radius: 12px; */
-    padding: 8px;
-    margin-left: 20px;
-    border-radius: 12px;
+    margin-left: 4px;
     margin-bottom: 155px;
   }
 
@@ -1690,37 +1684,19 @@ section#logistika {
 
   .engkichik {
     height: 795px;
-    width: 108%;
+    width: 88%;
     background-color: rgb(19, 75, 151);
-    /* left: 130px; */
-    /* top: 150px; */
-    margin-left: 20px;
+    margin-left: 4px;
     border: solid 2px black;
-    /* transform: translate(-2px, -200px); */
-    /* border-radius: 12px; */
-    padding: 8px;
-    /* box-shadow: 0px 4px 28px -8px; */
-    /* border-radius: 12px; */
     margin-bottom: 55px;
-    background-position: center;
-    background-size: cover;
   }
 
   .orta {
     height: 845px;
-    width: 108%;
-    /* margin-top: -50px; */
+    width: 88%;
     background-color: rgb(19, 75, 151);
-    margin-left: 21px;
-    /* top: 150px; */
-    /* border: solid 2px black; */
-    /* transform: translate(-2px, -200px); */
-    /* border-radius: 12px; */
-    /* padding: 8px; */
-    /* border-radius: 12px; */
+    margin-left: 4px;
     margin-bottom: 55px;
-    background-position: center;
-    background-size: cover;
   }
 
   .portion h1 {
@@ -1826,8 +1802,8 @@ section#logistika {
     width: 380px;
     font-weight: 600;
     font-size: 45px;
-    transform: translate(0px, -260px);
-    margin-bottom: 10px;
+    /* transform: translate(0px, -260px); */
+    /* margin-bottom: 10px; */
     color: white;
   }
 
@@ -1839,6 +1815,7 @@ section#logistika {
   section#master {
     margin-top: 200px;
     width: 100%;
+    height: 2900px;
     background-position: center;
     /* margin-left: 10px; */
     /* transform: translate(1px, 320px); */
@@ -1863,7 +1840,8 @@ section#logistika {
   .xizmat-turi {
     width: 100%;
     line-height: 38px;
-    font-size: 30px;
+    font-size: 23px;
+    padding: 10px 10px;
     color: white;
     font-weight: 600;
     margin-left: -45px;
@@ -1886,7 +1864,7 @@ section#logistika {
     width: 99%;
     text-align: center;
     /* margin-left: -50px; */
-    font-size: 20px;
+    font-size: 18px;
     line-height: 38px;
     font-weight: 400;
     padding: 10px 10px;
