@@ -1852,7 +1852,7 @@ section#logistika {
     display: block;
   }
   .start {
-    width: 160px;
+    width: 180px;
   }
   .bnt i {
     margin-top: 1px;
@@ -1864,7 +1864,7 @@ section#logistika {
     width: 100%;
     font-size: 45px;
     margin-top: 10px;
-    margin-left: 85px;
+    margin-left: 90px;
     font-weight: 500;
     color: navy;
     margin-bottom: 60px;
