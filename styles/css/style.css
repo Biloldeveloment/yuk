@@ -1609,7 +1609,7 @@ section#logistika {
     height: 499px;
   }
   .engkatta {
-    height: 940px;
+    height: 910px;
     width: 95%;
     background-color: rgb(19, 75, 151);
     border: solid 2px black;
@@ -1643,7 +1643,7 @@ section#logistika {
     margin-top: -6px;
   }
   .engkichik {
-    height: 795px;
+    height: 745px;
     transform: translate(0px, -30px);
     width: 95%;
     background-color: rgb(19, 75, 151);
@@ -1652,7 +1652,7 @@ section#logistika {
     margin-bottom: 55px;
   }
   .orta {
-    height: 862px;
+    height: 822px;
     transform: translate(0px, -30px);
     width: 95%;
     background-color: rgb(19, 75, 151);
