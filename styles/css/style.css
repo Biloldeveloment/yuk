@@ -1818,14 +1818,19 @@ section#logistika {
     transform: translate(-100px, 100px);
   }
   .homiy {
-    width: 250%;
+    /*  width: 250%;
     height: 90%;
     height: 200px;
     border: solid 5px black;
     margin-left: -127px;
     border: 3px solid black;
-    /* margin-top: 50px; */
-    box-shadow: 1px 1px 10px;
+     margin-top: 50px;
+    box-shadow: 1px 1px 10px; */
+  }
+  .inspektor {
+    display: grid;
+    margin-left: -120px;
+    grid-template-columns: repeat(2, 2fr);
   }
   .homiylar {
     display: grid;
@@ -1834,15 +1839,15 @@ section#logistika {
     grid-template-columns: repeat(1, 5fr);
   }
   .bnt {
-    padding: 15px 25px;
+    padding: 25px 25px;
     margin-bottom: 15px;
     font-size: 35px;
-    width: 200px;
+    width: 60%;
     margin-left: 210px;
-    box-shadow: 1px 1px 10px;
-    background: whitesmoke;
+    /* box-shadow: 1px 1px 10px; */
+    /* background: whitesmoke; */
     text-align: center;
-    border: solid 3px black;
+    border: solid 3px navy;
   }
   .bnt i {
     margin-top: 1px;
