@@ -1618,7 +1618,7 @@ section#logistika {
     transform: translate(0px, -30px);
   }
   .soya {
-    height: 847px;
+    height: 853px;
     width: 103%;
     border-radius: 11px;
     margin-left: -6px;
@@ -1652,7 +1652,7 @@ section#logistika {
     margin-bottom: 55px;
   }
   .orta {
-    height: 855px;
+    height: 862px;
     transform: translate(0px, -30px);
     width: 95%;
     background-color: rgb(19, 75, 151);
@@ -1749,7 +1749,7 @@ section#logistika {
     text-align: center;
     width: 380px;
     font-weight: 600;
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 45px;
     color: white;
   }
