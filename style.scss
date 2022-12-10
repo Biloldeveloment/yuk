@@ -1884,6 +1884,7 @@ section#logistika {
   }
 
   .homiy {
+    width: 100px;
     /*  width: 250%;
     height: 90%;
     height: 200px;
@@ -1896,7 +1897,7 @@ section#logistika {
 
   .inspektor {
     display: grid;
-    margin-left: -120px;
+    margin-left: -140px;
     grid-template-columns: repeat(2, 2fr);
   }
 
@@ -1908,16 +1909,23 @@ section#logistika {
   }
 
   .bnt {
-    padding: 25px 25px;
+    padding: 15px 5px;
     margin-bottom: 15px;
-    font-size: 35px;
-    width: 60%;
-    margin-left: 210px;
-    /* box-shadow: 1px 1px 10px; */
-    /* background: whitesmoke; */
+    font-size: 25px;
+    width: 50%;
+    margin-left: 170px;
     text-align: center;
     border: solid 3px navy;
   }
+
+  .icon-block {
+    display: block;
+  }
+
+  .start {
+    width: 160px;
+  }
+
   .bnt i {
     margin-top: 1px;
   }
@@ -2137,7 +2145,10 @@ section#logistika {
   }
 
   footer {
-    transform: translate(1px, 100px);
+    width: 112%;
+    height: 1480px;
+    background-position: center;
+    background-size: inherit;
   }
 
   .tugadildi p {
@@ -2187,23 +2198,19 @@ section#logistika {
   }
 
   .logosi {
-    width: 108%;
-    box-shadow: 1px 1px 10px;
-    height: 820px;
+    width: 105%;
+    /* box-shadow: 1px 1px 10px; */
+    height: 1420px;
     margin-left: -7px;
-    border: solid 2px black;
-
+    /* border: solid 2px black; */
     background-size: cover;
     background-position: center;
   }
 
   .logosi p {
-    display: none;
-    width: 750px;
-    margin-left: 380px;
-    font-size: 30px;
-    line-height: 45px;
-    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 80px;
+    transform: translate(-65px, 0px);
   }
 
   .telegram {
