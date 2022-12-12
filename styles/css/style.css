@@ -1871,6 +1871,16 @@ section#logistika {
   }
   .icon-block {
     display: block;
+    margin-left: -75px;
+  }
+  .col-md-4 {
+    margin-left: -30px;
+    transform: translate(0px, 120px);
+  }
+  .col-md-8 {
+    padding: 10px 0;
+    text-align: center;
+    margin-left: -55px;
   }
   .start {
     width: 180px;
@@ -2001,11 +2011,11 @@ section#logistika {
     display: none;
     margin-top: 50px;
   }
-  .tugadildi .logosi img {
+  /* .tugadildi .logosi img {
     display: none;
     width: 170px;
     margin-left: 300px;
-  }
+  } */
   .rastameks {
     font-size: 22px;
     transform: translate(55px, -115px);
@@ -2060,7 +2070,7 @@ section#logistika {
     margin-left: 100px;
   }
   footer {
-    width: 112%;
+    width: 107%;
     height: 1480px;
     background-position: center;
     background-size: inherit;
