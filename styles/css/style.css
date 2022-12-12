@@ -1424,9 +1424,9 @@ section#logistika {
   display: flex;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 430px) {
   .container {
-    width: 410px;
+    width: 350px;
     margin: 0 auto;
   }
   .orta lord-icon {
@@ -1457,10 +1457,10 @@ section#logistika {
     text-align: center;
     transform: translate(15px, 250px);
   }
-  .containerin {
+  /* .containerin {
     width: 300px;
     margin: 0 auto;
-  }
+  } */
   .engkichik {
     height: 630px;
   }
