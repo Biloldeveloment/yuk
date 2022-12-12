@@ -1863,7 +1863,7 @@ section#logistika {
     grid-template-columns: repeat(1, 5fr);
   }
   .bnt {
-    padding: 10px 5px;
+    width: 100px;
     font-size: 15px;
     padding: 12px 54px;
     margin-left: 195px;
@@ -1886,7 +1886,7 @@ section#logistika {
     width: 100%;
     font-size: 45px;
     margin-top: 10px;
-    margin-left: 96px;
+    margin-left: 98px;
     font-weight: 500;
     color: navy;
     margin-bottom: 60px;
