@@ -1756,11 +1756,11 @@ section#logistika {
   }
 
   .malumot {
-    width: 95%;
+    width: 100%;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 60px;
     color: navy;
+    transform: translate(0px, 80px);
     line-height: 30px;
     text-align: center;
   }
@@ -1783,8 +1783,8 @@ section#logistika {
     font-size: 15px;
     padding: 12px 54px;
     margin-left: 75px;
-    margin-bottom: 10px;
-    /* background: whitesmoke; */
+    transform: translate(0px, 100px);
+
     color: navy;
     /* margin-top: 35px; */
     border: solid 3px navy;
