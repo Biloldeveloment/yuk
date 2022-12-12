@@ -1687,7 +1687,7 @@ section#logistika {
   .biz {
     text-align: center;
     font-size: 60px;
-    transform: translate(10px, 60px);
+    transform: translate(10px, 0px);
     font-weight: 500;
     margin-left: -35px;
     color: navy;
@@ -1713,7 +1713,7 @@ section#logistika {
     font-size: 17px;
     font-weight: 500;
     color: navy;
-    transform: translate(-3px, 80px);
+    transform: translate(-3px, 0px);
     line-height: 30px;
     text-align: center;
   }
@@ -1733,7 +1733,7 @@ section#logistika {
     font-size: 15px;
     padding: 12px 54px;
     margin-left: 90px;
-    transform: translate(0px, 100px);
+    transform: translate(0px, 0px);
     color: navy;
     /* margin-top: 35px; */
     border: solid 3px navy;
@@ -1759,11 +1759,11 @@ section#logistika {
     margin-left: 20px;
   }
   section#master {
-    margin-top: 200px;
+    /* margin-top: 200px; */
     width: 100%;
     background-position: center;
     /* margin-left: 10px; */
-    /* transform: translate(1px, 320px); */
+    /* transform: translate(0px, 100px); */
     background-size: cover;
   }
   .beton {
