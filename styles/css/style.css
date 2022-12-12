@@ -1864,13 +1864,11 @@ section#logistika {
   }
   .bnt {
     padding: 10px 5px;
-    margin-bottom: 15px;
     font-size: 15px;
     padding: 12px 54px;
-    margin-left: 190px;
+    margin-left: 195px;
     text-align: center;
     border: solid 3px navy;
-    margin-bottom: 80px;
   }
   .icon-block {
     display: block;
@@ -1888,7 +1886,7 @@ section#logistika {
     width: 100%;
     font-size: 45px;
     margin-top: 10px;
-    margin-left: 90px;
+    margin-left: 96px;
     font-weight: 500;
     color: navy;
     margin-bottom: 60px;
