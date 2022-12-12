@@ -1424,7 +1424,7 @@ section#logistika {
   display: flex;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .container {
     width: 410px;
     margin: 0 auto;
