@@ -1708,10 +1708,9 @@ section#logistika {
     color: black; */
   }
   .malumot {
-    width: 100%;
+    width: 97%;
     font-size: 18px;
     font-weight: 500;
-    padding: 0 28px;
     color: navy;
     transform: translate(0px, 80px);
     line-height: 30px;
