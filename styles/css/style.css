@@ -1582,7 +1582,8 @@ section#logistika {
   }
   .servis {
     position: fixed;
-    width: 77%;
+    width: 88%;
+    z-index: 999;
     height: 80px;
     background: rgb(66, 66, 63);
     margin-top: -80px;
@@ -2129,7 +2130,7 @@ section#logistika {
     padding: 10px 80px;
     transform: translate(-65px, 0px); */
     font-size: 20px;
-    padding: 10px 50px;
+    /* padding: 10px 50px; */
     transform: translate(0px, 0px);
   }
   .telegram {
