@@ -484,6 +484,17 @@ section#ofisimiz {
   transform: translate(180px, 10px);
 }
 
+.full-about {
+  display: flex;
+}
+
+.guvoh img {
+  width: 300px;
+  padding: 1rem 1rem;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
 #min-header ul {
   margin-right: 300px;
   gap: 3rem;
@@ -2353,16 +2364,17 @@ section#logistika {
     transition: transform 0.5s ease-in;
   }
   header#header .sider .sidebar li {
-    padding: 1rem 1rem;
-    margin-top: 2rem;
-    font-size: 25px;
+    padding: 15px 0px;
+    /* margin-top: 2rem; */
+    /* line-height: 26px; */
+    font-size: 16px;
     margin-left: -5px;
-    background: rgba(100, 100, 100, 0.9);
-    color: black;
+    /* background: rgba(100, 100, 100, 0.9); */
+    color: white;
     /* background-color: grey; */
-    border: solid 2px black;
+    /* border: solid 2px black; */
     border-radius: 10px;
-    transition: all 0.4s ease-in;
+    transition: all 0.5s ease-in;
   }
   header#header .sider .sidebar li:hover {
     background-color: rgba(0, 0, 0, 0.4);
@@ -2370,11 +2382,10 @@ section#logistika {
   }
   header#header .sider input[type="checkbox"]:checked + .sidebar {
     transform: translateX(0);
-    width: 20%;
-    background: gainsboro;
+    width: 270px;
+    background: rgb(45, 44, 40);
     height: 850px;
     margin-top: 80px;
-    /* border: solid 3px black; */
   }
 
   .tugadildi span {
@@ -2446,8 +2457,13 @@ section#logistika {
   }
 
   .active a {
-    color: rgba(199, 20, 20, 0.916);
+    color: white;
+    /* background: rgba(199, 20, 20, 0.916); */
     font-weight: 800;
+    border: solid 2px;
+    padding: 15px 95px;
+    margin-left: -10px;
+    border-radius: 10px;
   }
 
   .himoyalangan {
@@ -2570,5 +2586,32 @@ section#logistika {
 
   .kontakt {
     display: none;
+  }
+
+  .full-about h1 {
+    margin-left: 10px;
+  }
+
+  .full-about p {
+    margin-left: 10px;
+    width: 80%;
+  }
+
+  .full-about ul {
+    margin-left: 10px;
+    width: 90%;
+  }
+
+  .full-about {
+    display: block;
+  }
+
+  .full-aboutuz h1 {
+    margin-left: 10px;
+  }
+
+  .full-aboutuz p {
+    margin-left: 10px;
+    width: 90%;
   }
 }
