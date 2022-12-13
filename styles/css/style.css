@@ -1582,7 +1582,7 @@ section#logistika {
   }
   .servis {
     position: fixed;
-    width: 88%;
+    width: 91%;
     z-index: 999;
     height: 80px;
     background: rgb(66, 66, 63);
@@ -1878,7 +1878,7 @@ section#logistika {
     margin-left: -80px;
   }
   .col-md-4 {
-    margin-left: -45px;
+    margin-left: -55px;
     transform: translate(0px, 150px);
   }
   .col-md-8 {
