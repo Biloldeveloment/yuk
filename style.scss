@@ -1623,6 +1623,7 @@ section#logistika {
     font-size: 50px;
     margin-left: 13px;
     color: #fff;
+    transform: translate(0px, 50px);
   }
 
   .nav i {
@@ -1630,12 +1631,12 @@ section#logistika {
     font-size: 45px;
   }
 
-  /*  .servis img {
-    width: 71px;
-    border-radius: 10px;
-    border: solid 2px black;
-    transform: translate(88px, 2px);
-  } */
+  .servis img {
+    width: 100px;
+    height: 100px;
+    margin-left: 350px;
+    transform: translate(-40px, -22px);
+  }
 
   .Inport {
     width: 100%;
