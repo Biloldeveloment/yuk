@@ -1451,10 +1451,11 @@ section#logistika {
     transform: translate(-35px, 0px);
   }
 
-  .clip {
+  /* .clip {
+    display: none;
     width: 230px;
     animation: aylanish 7s ease-in infinite;
-  }
+  } */
 
   .aboutcompani {
     display: block;
@@ -1628,13 +1629,12 @@ section#logistika {
     font-size: 45px;
   }
 
-  .servis img {
+  /*  .servis img {
     width: 71px;
-
     border-radius: 10px;
     border: solid 2px black;
     transform: translate(88px, 2px);
-  }
+  } */
 
   .Inport {
     width: 100%;
@@ -1648,6 +1648,10 @@ section#logistika {
   .clip img {
     width: 100px;
     height: 100px;
+    transform: translate(-125px, -89px);
+  }
+
+  .clip {
     transform: translate(-125px, -89px);
   }
 
@@ -2187,7 +2191,7 @@ section#logistika {
   }
 
   .tugadildi p {
-    width: 550px;
+    /* width: 550px; */
     font-size: 25px;
     text-align: inherit;
     margin-left: 15px;
@@ -2448,11 +2452,6 @@ section#logistika {
     text-align: center;
     margin-top: -0px;
     color: black;
-  }
-
-  .body2 {
-    padding: 5rem 5rem;
-    height: 320px;
   }
 
   .bottom {
