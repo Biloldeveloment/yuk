@@ -2458,11 +2458,21 @@ section#logistika {
 
   .active a {
     color: white;
-    /* background: rgba(199, 20, 20, 0.916); */
+    margin-left: 10px;
+    /*  background: rgba(199, 20, 20, 0.916);
     font-weight: 800;
     border: solid 2px;
     padding: 15px 95px;
     margin-left: -10px;
+    border-radius: 10px; */
+  }
+
+  .active {
+    color: white;
+    /* background: rgba(199, 20, 20, 0.916); */
+    font-weight: 800;
+    border: solid 2px;
+    padding: 15px 15px;
     border-radius: 10px;
   }
 
