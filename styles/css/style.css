@@ -1616,7 +1616,7 @@ section#logistika {
     transform: translate(-40px, -22px);
   }
   .Inport {
-    width: 130%;
+    width: 100%;
     height: 500px;
     background-image: url(/images/6.jpg);
     background-position: center;
