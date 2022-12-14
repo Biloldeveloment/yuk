@@ -1597,7 +1597,7 @@ section#logistika {
     z-index: 999;
     height: 80px;
     background: rgb(66, 66, 63);
-    margin-top: -80px;
+    margin-top: -70px;
   }
   .servis i {
     font-size: 50px;
@@ -1621,7 +1621,7 @@ section#logistika {
     background-image: url(/images/6.jpg);
     background-position: center;
     background-size: cover;
-    margin-top: 80px;
+    margin-top: 70px;
   }
   .clip img {
     width: 100px;
