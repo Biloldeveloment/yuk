@@ -1599,7 +1599,7 @@ section#logistika {
   }
   .servis {
     position: fixed;
-    width: 100%;
+    width: 93%;
     z-index: 999;
     height: 65px;
     background: rgb(66, 66, 63);
@@ -1806,7 +1806,7 @@ section#logistika {
   }
   section#master {
     /* margin-top: 200px; */
-    width: 100%;
+    width: 132%;
     background-position: center;
     /* margin-left: 10px; */
     /* transform: translate(0px, 100px); */
