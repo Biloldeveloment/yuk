@@ -355,6 +355,12 @@ header#headerin ul {
   transform: translate(-735px, 5px);
 }
 
+.kursi img {
+  width: 25px;
+  border: solid 1px black;
+  transform: translate(-2px, 2px);
+}
+
 .start {
   width: 220px;
   height: 200px;
@@ -1625,17 +1631,17 @@ section#logistika {
     position: fixed;
     width: 93%;
     z-index: 999;
-    height: 80px;
+    height: 65px;
     background: rgb(66, 66, 63);
-    background-image: url(/images/bg4.png);
-    margin-top: -70px;
+    /* background-image: url(/images/bg4.png); */
+    /* margin-top: -70px; */
     background-size: cover;
   }
 
   .servis i {
     font-size: 50px;
     margin-left: 13px;
-    color: #fff;
+    color: #bfbbbb;
     transform: translate(0px, 50px);
   }
 
@@ -1645,9 +1651,9 @@ section#logistika {
   }
 
   .servis img {
-    width: 100px;
-    height: 100px;
-    margin-left: 350px;
+    width: 80px;
+    height: 80px;
+    margin-left: 370px;
     transform: translate(-40px, -22px);
   }
 
@@ -1657,7 +1663,7 @@ section#logistika {
     background-image: url(/images/6.jpg);
     background-position: center;
     background-size: cover;
-    margin-top: 70px;
+    /* margin-top: 70px; */
   }
 
   .clip img {
