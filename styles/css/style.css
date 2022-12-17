@@ -2431,12 +2431,13 @@ section#logistika {
     display: none;
   }
   .full-about h1 {
-    margin-left: 10px;
+    margin-left: 120px;
   }
   .full-about p {
     width: 94%;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     line-height: 25px;
+    text-align: center;
   }
   #main-menu .collapse {
     display: none;
@@ -2444,6 +2445,7 @@ section#logistika {
   .full-about ul {
     margin-left: 10px;
     width: 90%;
+    text-align: center;
   }
   .full-about {
     display: block;
