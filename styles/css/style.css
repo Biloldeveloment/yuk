@@ -2037,11 +2037,6 @@ section#logistika {
     display: none;
     margin-top: 50px;
   }
-  /* .tugadildi .logosi img {
-    display: none;
-    width: 170px;
-    margin-left: 300px;
-  } */
   .rastameks {
     font-size: 22px;
     transform: translate(55px, -115px);
@@ -2097,7 +2092,7 @@ section#logistika {
   }
   footer {
     width: 107%;
-    height: 1480px;
+    height: 1420px;
     background-position: center;
     background-size: inherit;
   }
