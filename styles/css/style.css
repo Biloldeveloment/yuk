@@ -2146,9 +2146,12 @@ section#logistika {
     background-position: center;
   }
   .logosi p {
-    font-size: 18px;
+    font-size: 16px;
     padding: 0px 20px;
     transform: translate(10px, 0px);
+  }
+  body {
+    background-color: #eee;
   }
   .telegram {
     padding: 10px 25px;
