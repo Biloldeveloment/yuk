@@ -13,7 +13,6 @@ header.type_inner {
   background-position: 0px 0px;
   background-repeat: no-repeat;
   background-size: cover;
-  /* padding-bottom: 30px; */
 }
 
 #main-menu {
@@ -51,6 +50,11 @@ header.type_inner {
   margin-bottom: 20px;
   margin-top: 50px;
   color: navy;
+}
+
+#main-menu.mobile {
+  display: none;
+  padding: 0;
 }
 
 .full-about p {
@@ -116,21 +120,15 @@ header.type_inner {
 
 body {
   background-color: #95c5e9;
-  /* font-family: "Roboto Slab", serif; */
-  /* font-family: "Cormorant Garamond"; */
 }
 
 section#master {
-  /* background-image: url(/images/pexels-fauxels-3183197.jpg); */
   background-image: url(/images/index-16.jpg);
   background-position: center;
   background-size: cover;
   margin-bottom: 100px;
 }
 
-/* .hqts {
-  background: rgba(0, 0, 0, 0.78);
-} */
 .serviecec {
   background: darkgray;
   height: 59px;
@@ -157,7 +155,6 @@ section#master {
 .text2 {
   width: 950px;
   text-align: center;
-  /* font-weight: 600; */
   font-size: 17px;
   line-height: 32px;
   padding: 1rem 1rem;
@@ -289,13 +286,9 @@ a {
 }
 
 .portion {
-  /* background: rgba(0, 0, 0, 0.5); */
   height: 750px;
 }
 
-/* header#header {
-  padding: 2rem 0;
-} */
 header#header ul {
   color: black;
   font-size: 19px;
@@ -320,13 +313,6 @@ header#header ul {
   color: #fff;
 }
 
-/* .servis {
-  background: darkgray;
-  height: 59px;
-  padding: 20px;
-  border-radius: 5px;
-  transform: translate(18px, 0px);
-} */
 .serviece {
   width: 1200px;
   height: 65px;
@@ -370,8 +356,6 @@ header#headerin ul {
 }
 
 .Inport {
-  /* background-image: url(/images/vergi-kacakciligi-1280x720.webp); */
-  /* background-image: url(/images/6.jpg); */
   width: 1527px;
   height: 750px;
   background-position: center;
@@ -394,7 +378,6 @@ section#show {
   text-align: center;
   margin-left: 320px;
   margin-top: 60px;
-  /* transform: translate(280px, -50px);*/
 }
 
 .kompaniyauz {
@@ -416,7 +399,6 @@ section#show {
   text-align: center;
   margin-left: 435px;
   margin-top: 160px;
-  /* transform: translate(-150px, -85px); */
 }
 
 .clip img {
@@ -523,7 +505,6 @@ section#ofisimiz {
   border-radius: 20px;
   margin-left: 585px;
   margin-top: -350px;
-  /* transform: translate(16px, -455px); */
   border: 5px solid cadetblue;
   margin-bottom: 100px;
 }
@@ -534,7 +515,6 @@ section#ofisimiz {
 
 .btn {
   all: unset;
-  /* background: white; */
   color: navy;
   display: inline-block;
   padding: 18px 45px;
@@ -592,7 +572,6 @@ section#master h1 {
 .bottom p {
   width: 850px;
   text-align: center;
-  /* font-weight: 600; */
   font-size: 17px;
   line-height: 32px;
   padding: 1rem 3rem;
@@ -616,13 +595,6 @@ section#master h1 {
   color: white;
 }
 
-/* .text2 {
-  width: 740px;
-  font-size: 12px;
-  text-align: justify;
-  transform: translate(-48px, 10px);
-  margin-bottom: 20px;
-} */
 .bottom {
   width: 800px;
   background: rgba(255, 255, 255, 0.35);
@@ -711,10 +683,6 @@ section#logistika {
   margin-left: 35px;
   margin-top: 20px;
   margin-bottom: 35px;
-  /* border-radius: 35px; */
-  /* border: solid 2px black; */
-  /* background-color: #fff; */
-  /* box-shadow: 1px 1px 5px; */
   height: 150px;
 }
 
@@ -737,7 +705,6 @@ section#logistika {
   font-size: 20px;
   margin-left: 480px;
   margin-top: 25px;
-  /* box-shadow: 1px 0px 8px; */
 }
 
 .btn i {
@@ -1077,17 +1044,12 @@ section#logistika {
 
 .tugadildi {
   width: 1517px;
-  /* background-image: url(/images/companiyacom.jpg); */
-  /* background-image: url(/images/engkatta.jpg); */
-  /* border-radius: 10px; */
-  /* background-position: center; */
   background-size: cover;
   display: flex;
   height: 520px;
 }
 
 .footer {
-  /* background-image: url(/images/engkatta.jpg); */
   background-image: url(/images/index-17.jpg);
   background-size: cover;
   background-position: center;
@@ -1270,47 +1232,32 @@ section#logistika {
   width: 108%;
   background-color: rgb(19, 75, 151);
   border: solid 2px black;
-  /* transform: translate(-2px, -200px); */
-  /* border-radius: 12px; */
   padding: 8px;
   box-shadow: 0px 4px 28px -8px;
   border-radius: 12px;
   margin-bottom: 155px;
-  /* background-image: url(/images/foto1.jpg); */
 }
 
 .engkichik {
   height: 460px;
   width: 108%;
   background-color: rgb(19, 75, 151);
-  /* background-color: #b2beb5; */
-  /* left: 130px; */
-  /* top: 150px; */
   border: solid 2px black;
-  /* transform: translate(-2px, -200px); */
-  /* border-radius: 12px; */
   padding: 8px;
   box-shadow: 0px 4px 28px -8px;
   border-radius: 12px;
   margin-bottom: 155px;
-  /* background-image: url(/images/foto1.jpg); */
 }
 
 .engkatta {
   height: 460px;
   width: 108%;
   background-color: rgb(19, 75, 151);
-  /* background-color: #b2beb5; */
-  /* left: 130px; */
-  /* top: 150px; */
   border: solid 2px black;
-  /* transform: translate(-2px, -200px) ;*/
-  /* border-radius: 12px; */
   padding: 8px;
   box-shadow: 0px 4px 28px -8px;
   border-radius: 12px;
   margin-bottom: 155px;
-  /* background-image: url(/images/foto1.jpg); */
 }
 
 .icon-block {
@@ -2434,7 +2381,9 @@ section#logistika {
     margin-left: 10px;
   }
   .full-about p {
-    width: 94%;
+    width: 100%;
+    font-size: 14px;
+    margin: 0 0 20px;
     padding: 10px 10px;
     line-height: 25px;
   }
@@ -2443,7 +2392,8 @@ section#logistika {
   }
   .full-about ul {
     margin-left: 10px;
-    width: 90%;
+    width: 100%;
+    font-size: 14px;
   }
   .full-about {
     display: block;
