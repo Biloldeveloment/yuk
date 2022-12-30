@@ -2178,8 +2178,10 @@ section#logistika {
   }
 
   body {
+    background-position: center;
     background-color: #ebebeb;
     background-image: url(/images/snow-flakes-2023.png);
+    background-size: contain;
   }
 
   .telegram {

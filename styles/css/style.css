@@ -2058,8 +2058,10 @@ section#logistika {
     transform: translate(10px, 0px);
   }
   body {
+    background-position: center;
     background-color: #ebebeb;
     background-image: url(/images/snow-flakes-2023.png);
+    background-size: contain;
   }
   .telegram {
     padding: 10px 25px;
