@@ -122,7 +122,8 @@ header.type_inner {
 }
 
 body {
-  background-color: #95c5e9;
+  /* background-color: #95c5e9; */
+  background: #e0e0e0;
 }
 
 section#master {
@@ -1581,10 +1582,9 @@ section#logistika {
     z-index: 999;
     height: 65px;
     background: rgb(66, 66, 63);
-    /* background-image: url(/images/bg4.png); */
-    /* margin-top: -70px; */
     background-size: cover;
-    background-image: url(/images/bg3.png);
+    /* background-image: url(/images/bg3.png); */
+    background-image: url(/images/snow-flakes-2023.png);
   }
 
   .servis i {
@@ -1734,12 +1734,6 @@ section#logistika {
 
   .masteri img {
     display: none;
-    /* width: 650px;
-    height: 350px;
-    display: grid;
-    transform: translate(-290px, -50px);
-    box-shadow: 1px 1px 22px;
-    color: black; */
   }
 
   .malumot {
@@ -1750,7 +1744,6 @@ section#logistika {
     transform: translate(-3px, 0px);
     line-height: 30px;
     text-align: center;
-    letter-spacing: 1px;
   }
 
   .malumoti {
@@ -1763,13 +1756,6 @@ section#logistika {
     line-height: 30px;
     text-align: center;
   }
-
-  /* .orqafon {
-    background-image: url(/images/ofislar.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 5px;
-  } */
 
   .coluz {
     display: none;
@@ -1784,9 +1770,7 @@ section#logistika {
     margin-left: 90px;
     transform: translate(0px, 0px);
     margin-bottom: 50px;
-
     color: navy;
-    /* margin-top: 35px; */
     border: solid 3px navy;
   }
 
@@ -1815,11 +1799,8 @@ section#logistika {
   }
 
   section#master {
-    /* margin-top: 200px; */
     width: 100%;
     background-position: center;
-    /* margin-left: 10px; */
-    /* transform: translate(0px, 100px); */
     background-size: cover;
   }
 
@@ -1864,7 +1845,6 @@ section#logistika {
   .xizmat-haqida {
     width: 99%;
     text-align: center;
-    /* margin-left: -50px; */
     font-size: 14px;
     line-height: 35px;
     font-weight: 400;
@@ -1886,14 +1866,6 @@ section#logistika {
   .homiy {
     width: 120px;
     margin-left: 30px;
-    /*  width: 250%;
-    height: 90%;
-    height: 200px;
-    border: solid 5px black;
-    margin-left: -127px;
-    border: 3px solid black;
-     margin-top: 50px;
-    box-shadow: 1px 1px 10px; */
   }
 
   .inspektor {
@@ -1978,10 +1950,6 @@ section#logistika {
 
   .karta .lakatsiya {
     display: none;
-    /* width: 1150px;
-    transform: translate(415px, -50px);
-    height: 450px;
-    border-radius: 20px; */
   }
 
   .manzil {
@@ -2061,12 +2029,6 @@ section#logistika {
   .qonun {
     transform: translate(0px, 180px);
   }
-
-  /*.tugadildi {
-   width: 1200px;
-    margin-left: 25px;
-    height: 550px;
-  } */
 
   .transport {
     display: grid;
@@ -2157,7 +2119,6 @@ section#logistika {
   }
 
   .tugadildi p {
-    /* width: 550px; */
     font-size: 25px;
     text-align: inherit;
     margin-left: 15px;
@@ -2217,7 +2178,8 @@ section#logistika {
   }
 
   body {
-    background-color: #eee;
+    background-color: #ebebeb;
+    background-image: url(/images/snow-flakes-2023.png);
   }
 
   .telegram {
