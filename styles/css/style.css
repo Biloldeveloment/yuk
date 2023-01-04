@@ -1545,7 +1545,7 @@ section#logistika {
   }
   .servis {
     position: fixed;
-    width: 93%;
+    width: 100%;
     z-index: 999;
     height: 65px;
     background: rgb(66, 66, 63);
