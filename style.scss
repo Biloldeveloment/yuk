@@ -100,21 +100,23 @@ header.type_inner {
 }
 
 .orta lord-icon {
-  width: 240px;
-  height: 240px;
-  transform: translate(40px, -40px);
+  width: 220px;
+  height: 220px;
+  transform: translate(45px, -30px);
 }
 
 .engkichik lord-icon {
-  width: 240px;
-  height: 240px;
-  transform: translate(-30px, -40px);
+  width: 220px;
+  margin-bottom: 20px;
+  height: 220px;
+  transform: translate(-30px, -30px);
 }
 
 .engkatta lord-icon {
-  width: 240px;
-  height: 240px;
-  transform: translate(-30px, -40px);
+  width: 220px;
+  margin-bottom: 20px;
+  height: 220px;
+  transform: translate(-30px, -30px);
 }
 
 .sider {
@@ -501,15 +503,12 @@ section#ofisimiz {
 
 .masteri img {
   width: 600px;
-  box-shadow: 1px 1px 10px;
   height: 350px;
-  color: black;
   border-radius: 20px;
   margin-left: 585px;
   margin-top: -350px;
-
-  border: 5px solid cadetblue;
   margin-bottom: 100px;
+  box-shadow: 1px 1px 5px;
 }
 .bojhona {
   display: flex;
@@ -517,12 +516,11 @@ section#ofisimiz {
 
 .btn {
   all: unset;
-
   color: navy;
   display: inline-block;
   padding: 18px 45px;
   border-radius: 50px;
-  margin-left: 22px;
+  margin-left: 10px;
   font-weight: 600;
   border: solid 2px navy;
   margin-top: 15px;
@@ -657,11 +655,12 @@ section#master h1 {
 .xizmat-haqida {
   width: 350px;
   font-weight: 400;
+  padding: 1rem 1rem;
   font-size: 13px;
   line-height: 18px;
   text-align: center;
   color: whitesmoke;
-  transform: translate(0px, -50px);
+  transform: translate(0px, -70px);
 }
 
 section#logistika {
@@ -1236,7 +1235,7 @@ section#logistika {
   height: 460px;
   width: 108%;
   background-color: rgb(19, 75, 151);
-  border: solid 2px black;
+
   padding: 8px;
   box-shadow: 0px 4px 28px -8px;
   border-radius: 12px;
@@ -1247,7 +1246,7 @@ section#logistika {
   height: 460px;
   width: 108%;
   background-color: rgb(19, 75, 151);
-  border: solid 2px black;
+
   padding: 8px;
   box-shadow: 0px 4px 28px -8px;
   border-radius: 12px;
@@ -1258,7 +1257,7 @@ section#logistika {
   height: 460px;
   width: 108%;
   background-color: rgb(19, 75, 151);
-  border: solid 2px black;
+
   padding: 8px;
   box-shadow: 0px 4px 28px -8px;
   border-radius: 12px;
@@ -1607,12 +1606,10 @@ section#logistika {
   }
 
   .Inport {
-    /* width: 100%; */
     height: 500px;
     background-image: url(/images/6.jpg);
     background-position: center;
     background-size: cover;
-    /* margin-top: 70px; */
   }
 
   .clip img {
@@ -1695,7 +1692,6 @@ section#logistika {
     margin-left: 30px;
     line-height: 35px;
     margin-top: 20px;
-    /* margin-top: -40px; */
   }
 
   .portion p {
@@ -1722,7 +1718,6 @@ section#logistika {
     font-weight: 500;
     margin-left: -35px;
     color: navy;
-    /* margin-bottom: 25px; */
   }
 
   .haqimizda {
@@ -2179,9 +2174,9 @@ section#logistika {
 
   body {
     background-position: center;
-    background-color: #ebebeb;
     background-image: url(/images/snow-flakes-2023.png);
     background-size: contain;
+    background-color: #d3f2fa;
   }
 
   .telegram {
@@ -2251,13 +2246,6 @@ section#logistika {
     transform: translate(-10px, -30px);
   }
 
-  /* .transport i {
-    font-size: 50px;
-     margin-left: -8px;
-    color: white;
-     margin-top: -15px; 
-  } */
-
   .logosi h2 {
     font-size: 25px;
     margin-left: 25px;
@@ -2278,14 +2266,12 @@ section#logistika {
   }
   header#header .sider .sidebar li {
     padding: 15px 0px;
-    /* margin-top: 2rem; */
-    /* line-height: 26px; */
+
     font-size: 16px;
     margin-left: -5px;
-    /* background: rgba(100, 100, 100, 0.9); */
+
     color: white;
-    /* background-color: grey; */
-    /* border: solid 2px black; */
+
     border-radius: 10px;
     transition: all 0.5s ease-in;
   }
@@ -2411,8 +2397,7 @@ section#logistika {
   .dollr-kurs {
     padding: 10px 0;
     text-align: center;
-    /* width: 690px; */
-    /* margin-top: -30px; */
+
     margin-left: -405px;
   }
 
