@@ -1586,13 +1586,13 @@ section#logistika {
     height: 499px;
   }
   .engkatta {
-    height: 720px;
+    height: 780px;
     width: 95%;
     background-color: rgb(19, 75, 151);
     margin-left: 6px;
     margin-bottom: 155px;
     transform: translate(0px, -30px);
-    border: solid 2px white;
+    border: solid 1px white;
   }
   .soya {
     height: 775px;
@@ -1623,7 +1623,7 @@ section#logistika {
     background-color: rgb(19, 75, 151);
     margin-left: 6px;
     margin-bottom: 55px;
-    border: solid 2px white;
+    border: solid 1px white;
   }
   .orta {
     height: 670px;
@@ -1632,7 +1632,7 @@ section#logistika {
     background-color: rgb(19, 75, 151);
     margin-left: 6px;
     margin-bottom: 55px;
-    border: solid 2px white;
+    border: solid 1px white;
   }
   .portion h1 {
     width: 89%;
