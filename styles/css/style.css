@@ -1586,10 +1586,9 @@ section#logistika {
     height: 499px;
   }
   .engkatta {
-    height: 860px;
+    height: 680px;
     width: 95%;
     background-color: rgb(19, 75, 151);
-    border: solid 2px black;
     margin-left: 6px;
     margin-bottom: 155px;
     transform: translate(0px, -30px);
@@ -1600,14 +1599,13 @@ section#logistika {
     border-radius: 11px;
     margin-left: -6px;
     margin-top: -6px;
-    border: solid 2px black;
+    /* border: solid 2px black; */
   }
   .soyani {
     height: 706px;
     width: 103%;
     border-radius: 11px;
     margin-left: -6px;
-    border: solid 2px black;
     margin-top: -6px;
   }
   .soyaning {
@@ -1620,16 +1618,15 @@ section#logistika {
     margin-top: -6px;
   }
   .engkichik {
-    height: 715px;
+    height: 580px;
     transform: translate(0px, -30px);
     width: 95%;
     background-color: rgb(19, 75, 151);
     margin-left: 6px;
-    border: solid 2px black;
     margin-bottom: 55px;
   }
   .orta {
-    height: 785px;
+    height: 650px;
     transform: translate(0px, -30px);
     width: 95%;
     background-color: rgb(19, 75, 151);
