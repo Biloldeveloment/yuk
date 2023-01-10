@@ -1556,7 +1556,7 @@ section#logistika {
     font-size: 35px;
     margin-left: 13px;
     color: rgb(202, 194, 187);
-    transform: translate(0px, 35 px);
+    transform: translate(0px, 35px);
   }
   .nav i {
     transform: translate(100px, -2px);
@@ -1725,6 +1725,7 @@ section#logistika {
     font-weight: 600;
     margin-left: 15px;
     font-size: 40px;
+    letter-spacing: 4px;
     color: white;
   }
   .xizmatlar {
