@@ -518,12 +518,12 @@ section#ofisimiz {
   all: unset;
   color: navy;
   display: inline-block;
-  padding: 18px 45px;
+  padding: 15px 45px;
   border-radius: 50px;
   margin-left: 10px;
   font-weight: 600;
   border: solid 2px navy;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .coluz h5 {
@@ -644,6 +644,7 @@ section#master h1 {
   color: whitesmoke;
   text-align: center;
   transform: translate(0px, -75px);
+  margin-bottom: 10px;
 }
 
 .chiziq {
