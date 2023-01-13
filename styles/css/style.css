@@ -8,6 +8,14 @@
   box-sizing: border-box;
 }
 
+body[data-aos-duration="400"] [data-aos] {
+  transition-duration: 0.9s;
+}
+
+:root {
+  --animate-duration: 2s;
+}
+
 header.type_inner {
   background-image: url(/images/header-01.jpg);
   background-position: 0px 0px;
@@ -50,6 +58,7 @@ header.type_inner {
   margin-bottom: 20px;
   margin-top: 50px;
   color: navy;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 
 #main-menu.mobile {
@@ -59,7 +68,7 @@ header.type_inner {
 
 .full-about p {
   text-align: left;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   width: 750px;
   color: navy;
 }
@@ -73,7 +82,7 @@ header.type_inner {
 }
 
 .full-about ul {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: navy;
 }
 
@@ -82,6 +91,7 @@ header.type_inner {
   margin-bottom: 20px;
   margin-top: 50px;
   color: navy;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 
 .full-aboutuz p {
@@ -1233,7 +1243,7 @@ section#logistika {
 .orta {
   height: 460px;
   width: 108%;
-  background-color: rgb(19, 75, 151);
+  background: rgb(0, 75, 169);
   padding: 8px;
   box-shadow: 0px 4px 28px -8px;
   border-radius: 12px;
@@ -1243,7 +1253,7 @@ section#logistika {
 .engkichik {
   height: 460px;
   width: 108%;
-  background-color: rgb(19, 75, 151);
+  background: rgb(0, 75, 169);
   padding: 8px;
   box-shadow: 0px 4px 28px -8px;
   border-radius: 12px;
@@ -1253,7 +1263,7 @@ section#logistika {
 .engkatta {
   height: 460px;
   width: 108%;
-  background-color: rgb(19, 75, 151);
+  background: rgb(0, 75, 169);
   padding: 8px;
   box-shadow: 0px 4px 28px -8px;
   border-radius: 12px;
@@ -1316,7 +1326,7 @@ section#logistika {
 }
 
 .col-md-8 {
-  margin-top: 100px;
+  margin-top: 165px;
   margin-left: 100px;
 }
 
@@ -1589,7 +1599,7 @@ section#logistika {
   .engkatta {
     height: 780px;
     width: 95%;
-    background-color: rgb(19, 75, 151);
+    background: rgb(0, 75, 169);
     margin-left: 6px;
     margin-bottom: 155px;
     transform: translate(0px, -30px);
@@ -1621,7 +1631,7 @@ section#logistika {
     height: 600px;
     transform: translate(0px, -30px);
     width: 95%;
-    background-color: rgb(19, 75, 151);
+    background: rgb(0, 75, 169);
     margin-left: 6px;
     margin-bottom: 55px;
     border: solid 1px white;
@@ -1630,7 +1640,7 @@ section#logistika {
     height: 670px;
     transform: translate(0px, -30px);
     width: 95%;
-    background-color: rgb(19, 75, 151);
+    background: rgb(0, 75, 169);
     margin-left: 6px;
     margin-bottom: 55px;
     border: solid 1px white;
