@@ -1639,17 +1639,17 @@ section#logistika {
     font-size: 18px;
     color: white;
     font-weight: 600;
-    margin-left: 61px;
+    margin-left: 64px;
     line-height: 25px;
     margin-top: 20px;
   }
   .portion p {
     font-size: 14px;
-    line-height: 25px;
+    line-height: 26px;
     font-weight: 400;
     color: white;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 58px;
     margin-left: 1px;
   }
   .text {
@@ -1677,7 +1677,7 @@ section#logistika {
   }
   .malumot {
     width: 97%;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
     color: navy;
     transform: translate(-3px, 0px);
@@ -1708,7 +1708,7 @@ section#logistika {
     transform: translate(0px, 0px);
     margin-bottom: 50px;
     color: navy;
-    border: solid 3px navy;
+    border: solid 2px navy;
   }
   .btn i {
     margin-left: 5px;
@@ -2045,7 +2045,7 @@ section#logistika {
     background-position: center;
   }
   .logosi p {
-    font-size: 16px;
+    font-size: 14px;
     padding: 0px 20px;
     transform: translate(10px, 0px);
   }
