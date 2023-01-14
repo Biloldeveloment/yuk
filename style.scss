@@ -11,12 +11,8 @@ $kok: #0f7bc6;
   box-sizing: border-box;
 }
 
-body[data-aos-duration="400"] [data-aos] {
-  transition-duration: 0.9s;
-}
-
-:root {
-  --animate-duration: 2s;
+.colmd1 {
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 80%);
 }
 
 header.type_inner {
@@ -666,8 +662,9 @@ section#master h1 {
 .xizmat-haqida {
   width: 350px;
   font-weight: 400;
-  padding: 1rem 1rem;
+  padding: 8px;
   font-size: 13px;
+  transition: all 0.8s ease;
   line-height: 18px;
   text-align: center;
   color: whitesmoke;
@@ -1328,7 +1325,7 @@ section#logistika {
 }
 
 .col-md-8 {
-  margin-top: 165px;
+  margin-top: 100px;
   margin-left: 100px;
 }
 
@@ -1424,12 +1421,6 @@ section#logistika {
     transform: translate(-10px, 0px);
   }
 
-  /* .clip {
-    display: none;
-    width: 230px;
-    animation: aylanish 7s ease-in infinite;
-  } */
-
   .aboutcompani {
     display: block;
   }
@@ -1439,11 +1430,6 @@ section#logistika {
     text-align: center;
     transform: translate(15px, 250px);
   }
-
-  /* .containerin {
-    width: 300px;
-    margin: 0 auto;
-  } */
 
   .engkichik {
     height: 630px;
@@ -1634,7 +1620,7 @@ section#logistika {
   }
 
   .engkatta {
-    height: 780px;
+    height: 750px;
     width: 95%;
     background: rgba(0, 75, 169, 1);
     margin-left: 6px;
