@@ -1697,7 +1697,7 @@ section#logistika {
     display: none;
   }
   .malumot {
-    width: 97%;
+    width: 90%;
     font-size: 14px;
     font-weight: 400;
     color: navy;
@@ -1794,8 +1794,8 @@ section#logistika {
     font-weight: bold;
   }
   .xizmat-haqida {
-    width: 99%;
-    text-align: center;
+    width: 100%;
+    text-align: inherit;
     font-size: 14px;
     line-height: 29px;
     font-weight: 400;
