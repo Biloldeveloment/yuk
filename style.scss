@@ -70,6 +70,7 @@ header.type_inner {
   margin-bottom: 30px;
   width: 750px;
   color: navy;
+  letter-spacing: 0.02em;
 }
 
 .serviecec {
@@ -83,6 +84,7 @@ header.type_inner {
 .full-about ul {
   margin-bottom: 30px;
   color: navy;
+  letter-spacing: 0.02em;
 }
 
 .full-aboutuz h1 {
@@ -99,6 +101,7 @@ header.type_inner {
   line-height: 30px;
   margin-bottom: 50px;
   color: navy;
+  letter-spacing: 0.02em;
 }
 
 .body3 {
@@ -106,9 +109,11 @@ header.type_inner {
 }
 
 .orta lord-icon {
-  width: 220px;
-  height: 220px;
-  transform: translate(45px, -30px);
+  width: 200px;
+  height: 200px;
+  transform: translate(47px, -25px);
+
+  margin-top: 25px;
 }
 
 .engkichik lord-icon {
@@ -351,7 +356,7 @@ header#headerin ul {
 .kursi img {
   width: 25px;
   border: solid 1px black;
-  transform: translate(-2px, 2px);
+  transform: translate(-5px, 3px);
 }
 
 .start {
@@ -380,7 +385,7 @@ section#show {
 .portion h1 {
   width: 900px;
   font-weight: 400;
-  font-size: 45px;
+  font-size: 35px;
   line-height: 56px;
   color: white;
   text-align: center;
@@ -401,8 +406,10 @@ section#show {
 .portion p {
   width: 650px;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 38px;
+  letter-spacing: 0.02em;
+  padding: 0px 0px 30px 0px;
   color: white;
   text-align: center;
   margin-left: 435px;
@@ -416,10 +423,11 @@ section#show {
 }
 
 .nav {
+  letter-spacing: 1px;
   gap: 80px;
   margin-left: 450px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .portion i {
@@ -429,7 +437,7 @@ section#show {
 .biz {
   color: navy;
   font-weight: 500;
-  font-size: 55px;
+  font-size: 50px;
   line-height: 56px;
   margin-bottom: 10px;
 }
@@ -452,23 +460,24 @@ section#ofisimiz {
 .malumot {
   width: 540px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
+  letter-spacing: 0.02em;
   line-height: 26px;
   color: navy;
   padding: 20px 0;
-  margin-left: 10px;
+  margin-left: 5px;
   text-align: inherit;
 }
 
 .malumoti {
   width: 540px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 26px;
   color: navy;
-
-  margin-left: 10px;
+  margin-left: 5px;
   text-align: inherit;
+  letter-spacing: 0.02em;
 }
 
 #min-header {
@@ -507,12 +516,16 @@ section#ofisimiz {
   height: 250px;
 }
 
+.masteri {
+  display: flex;
+}
+
 .masteri img {
   width: 600px;
   height: 350px;
   border-radius: 20px;
-  margin-left: 585px;
-  margin-top: -350px;
+  margin-left: 85px;
+  margin-top: -35px;
   margin-bottom: 100px;
   box-shadow: 1px 1px 5px;
 }
@@ -524,12 +537,14 @@ section#ofisimiz {
   all: unset;
   color: navy;
   display: inline-block;
-  padding: 15px 45px;
+  font-size: 14px;
+  padding: 12px 40px;
   border-radius: 50px;
   margin-left: 10px;
   font-weight: 600;
   border: solid 2px navy;
   margin-top: 25px;
+  letter-spacing: 0.02em;
 }
 
 .coluz h5 {
@@ -550,13 +565,14 @@ section#ofisimiz {
 }
 
 section#master h1 {
-  font-weight: 900;
-  font-size: 46px;
+  font-weight: 500;
+  font-size: 48px;
   line-height: 56px;
   text-align: center;
   color: white;
-  transform: translate(0px, 40px);
+  transform: translate(-15px, 40px);
   margin-bottom: 100px;
+  letter-spacing: 0.02em;
 }
 
 .bottom h1 {
@@ -646,8 +662,8 @@ section#master h1 {
 
 .xizmat-turi {
   font-weight: 600;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 19px;
+
   color: whitesmoke;
   text-align: center;
   transform: translate(0px, -75px);
@@ -663,12 +679,13 @@ section#master h1 {
   width: 350px;
   font-weight: 400;
   padding: 8px;
-  font-size: 13px;
+  font-size: 12px;
   transition: all 0.8s ease;
   line-height: 18px;
   text-align: center;
   color: whitesmoke;
   transform: translate(0px, -70px);
+  letter-spacing: 0.02em;
 }
 
 section#logistika {
@@ -676,12 +693,12 @@ section#logistika {
 }
 
 .klent h5 {
-  font-weight: 900;
-  font-size: 48px;
+  font-weight: 500;
+  font-size: 50px;
   line-height: 56px;
   text-align: center;
   color: navy;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .homiylar {
@@ -709,12 +726,12 @@ section#logistika {
   color: navy;
   font-weight: 700;
   display: inline-block;
-  padding: 18px 48px;
+  padding: 15px 45px;
   border-radius: 50px;
   font-weight: 600;
   border: solid 2px navy;
-  font-size: 20px;
-  margin-left: 480px;
+  font-size: 17px;
+  margin-left: 490px;
   margin-top: 25px;
 }
 
@@ -861,12 +878,12 @@ section#logistika {
 
 .logosi p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   color: #fff;
-  line-height: 32px;
+  line-height: 28px;
   text-align: inherit;
-  margin-bottom: 30px;
-  margin-left: 31px;
+  margin-bottom: 25px;
+  margin-left: 30px;
 }
 
 .logosi h3 {
@@ -1272,9 +1289,9 @@ section#logistika {
 .icon-block {
   position: relative;
   color: #fff;
-  margin-top: 60px;
+  margin-top: 69px;
   display: flex;
-  margin-left: -50px;
+  margin-left: 30px;
 }
 
 .item .contact {
@@ -1325,6 +1342,7 @@ section#logistika {
 }
 
 .col-md-8 {
+  transform: translate(0px, 50px);
   margin-top: 100px;
   margin-left: 100px;
 }
@@ -1332,7 +1350,7 @@ section#logistika {
 .col-md-4 {
   text-align: center;
   margin-left: 890px;
-  margin-top: -80px;
+  margin-top: -40px;
 }
 
 .row {
@@ -1687,13 +1705,14 @@ section#logistika {
   }
 
   .portion p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 26px;
     font-weight: 400;
     color: white;
     width: 100%;
     margin-top: 58px;
     margin-left: 1px;
+    padding: 2rem;
   }
 
   .text {
@@ -1708,8 +1727,9 @@ section#logistika {
     font-size: 50px;
     transform: translate(10px, 0px);
     font-weight: 500;
-    margin-left: -35px;
+    margin-left: -38px;
     color: navy;
+    letter-spacing: 0.02em;
   }
 
   .haqimizda {
@@ -1732,6 +1752,7 @@ section#logistika {
     line-height: 30px;
     text-align: center;
     padding: 3px;
+    letter-spacing: 0.6px;
   }
 
   .malumoti {
@@ -1743,6 +1764,7 @@ section#logistika {
     margin-bottom: 20px;
     line-height: 30px;
     text-align: center;
+    letter-spacing: 0.6px;
   }
 
   .coluz {
@@ -1760,6 +1782,7 @@ section#logistika {
     margin-bottom: 50px;
     color: navy;
     border: solid 2px navy;
+    letter-spacing: 0.6px;
   }
 
   .btn i {
@@ -1775,11 +1798,12 @@ section#logistika {
   section#master h1 {
     text-align: center;
     width: 380px;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 15px;
     font-size: 40px;
     letter-spacing: 4px;
     color: white;
+    letter-spacing: 0.02em;
   }
 
   .xizmatlar {
@@ -1840,6 +1864,8 @@ section#logistika {
     padding: 0 10px;
     color: white;
     margin-bottom: 50px;
+    letter-spacing: 0.02em;
+    line-height: 1.72857;
   }
 
   .xizmat-haqida i {
@@ -1875,7 +1901,8 @@ section#logistika {
     padding: 12px 54px;
     margin-left: 190px;
     text-align: center;
-    border: solid 3px navy;
+    border: solid 2px navy;
+    letter-spacing: 0.02em;
   }
 
   .icon-block {
@@ -1914,6 +1941,7 @@ section#logistika {
     font-weight: 500;
     color: navy;
     margin-bottom: 60px;
+    letter-spacing: 0.02em;
   }
 
   .boglanish {
@@ -2161,7 +2189,7 @@ section#logistika {
   }
 
   .logosi p {
-    font-size: 14px;
+    font-size: 15px;
     padding: 0px 20px;
     transform: translate(10px, 0px);
   }
