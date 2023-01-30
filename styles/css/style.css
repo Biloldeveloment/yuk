@@ -1706,14 +1706,14 @@ section#logistika {
   }
   .malumoti {
     width: 97%;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: navy;
     transform: translate(-6px, 0px);
     margin-bottom: 20px;
-    line-height: 30px;
+    line-height: 27px;
     text-align: center;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.8px;
   }
   .coluz {
     display: none;
@@ -2071,7 +2071,7 @@ section#logistika {
     background-position: center;
   }
   .logosi p {
-    font-size: 10px;
+    font-size: 14px;
     padding: 0px 20px;
     transform: translate(10px, 0px);
   }
