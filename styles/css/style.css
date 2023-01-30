@@ -1794,11 +1794,11 @@ section#logistika {
   }
   .xizmat-haqida {
     width: 99%;
-    text-align: center;
+    text-align: justify;
     font-size: 14px;
     line-height: 29px;
     font-weight: 400;
-    padding: 0 10px;
+    /* padding: 0 10px; */
     color: white;
     margin-bottom: 50px;
     letter-spacing: 0.02em;
