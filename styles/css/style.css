@@ -1661,14 +1661,14 @@ section#logistika {
     margin-top: 20px;
   }
   .portion p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: white;
     width: 100%;
     margin-top: 58px;
     margin-left: 1px;
-    /* padding: 2rem; */
+    padding: 1rem;
     letter-spacing: 0.02em;
   }
   .text {
