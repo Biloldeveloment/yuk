@@ -1633,7 +1633,7 @@ section#logistika {
     margin-top: -6px;
   }
   .engkichik {
-    height: 530px;
+    height: 560px;
     transform: translate(0px, -30px);
     width: 95%;
     background: rgb(0, 75, 169);
@@ -1642,7 +1642,7 @@ section#logistika {
     border: solid 1px white;
   }
   .orta {
-    height: 610px;
+    height: 650px;
     transform: translate(0px, -30px);
     width: 95%;
     background: rgb(0, 75, 169);
@@ -1795,7 +1795,7 @@ section#logistika {
   }
   .xizmat-haqida {
     width: 100%;
-    text-align: inherit;
+    text-align: center;
     font-size: 14px;
     line-height: 29px;
     font-weight: 400;
