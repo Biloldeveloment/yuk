@@ -1602,7 +1602,7 @@ section#logistika {
     height: 499px;
   }
   .engkatta {
-    height: 750px;
+    height: 700px;
     width: 95%;
     background: rgb(0, 75, 169);
     margin-left: 6px;
@@ -1702,9 +1702,9 @@ section#logistika {
     font-weight: 400;
     color: navy;
     transform: translate(-3px, 0px);
-    line-height: 30px;
+    /* line-height: 30px; */
     text-align: center;
-    padding: 3px;
+    /* padding: 3px; */
   }
   .malumoti {
     width: 97%;
