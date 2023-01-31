@@ -1602,7 +1602,7 @@ section#logistika {
     height: 499px;
   }
   .engkatta {
-    height: 700px;
+    height: 650px;
     width: 95%;
     background: rgb(0, 75, 169);
     margin-left: 6px;
@@ -1664,7 +1664,7 @@ section#logistika {
   .portion p {
     font-size: 14px;
     line-height: 26px;
-    font-weight: 400;
+    font-weight: 500;
     color: white;
     width: 100%;
     margin-top: 58px;
@@ -1863,7 +1863,7 @@ section#logistika {
     font-size: 45px;
     margin-top: 10px;
     margin-left: 100px;
-    font-weight: 500;
+    font-weight: 100;
     color: navy;
     margin-bottom: 60px;
     letter-spacing: 0.02em;
