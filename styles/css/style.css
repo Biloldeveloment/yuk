@@ -2355,7 +2355,7 @@ section#logistika {
   }
   .full-about p {
     width: 100%;
-    font-size: 14px;
+    font-size: 13px;
     margin: 0 0 20px;
     padding: 10px 10px;
     line-height: 25px;
@@ -2366,7 +2366,8 @@ section#logistika {
   .full-about ul {
     margin-left: 10px;
     width: 100%;
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 20px;
   }
   .full-about {
     display: block;
