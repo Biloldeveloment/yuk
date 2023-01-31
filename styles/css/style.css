@@ -1633,7 +1633,7 @@ section#logistika {
     margin-top: -6px;
   }
   .engkichik {
-    height: 600px;
+    height: 530px;
     transform: translate(0px, -30px);
     width: 95%;
     background: rgb(0, 75, 169);
@@ -1642,7 +1642,7 @@ section#logistika {
     border: solid 1px white;
   }
   .orta {
-    height: 670px;
+    height: 610px;
     transform: translate(0px, -30px);
     width: 95%;
     background: rgb(0, 75, 169);
@@ -1697,7 +1697,7 @@ section#logistika {
     display: none;
   }
   .malumot {
-    width: 90%;
+    width: 97%;
     font-size: 14px;
     font-weight: 400;
     color: navy;
