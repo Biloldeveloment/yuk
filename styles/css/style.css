@@ -363,7 +363,7 @@ header#headerin ul {
   width: 220px;
   height: 200px;
   background: #fdfdfd;
-  border-radius: 12px;
+  border-radius: 16px;
   box-shadow: 0px 4px 28px -11px;
   margin-bottom: 30px;
 }
@@ -1569,7 +1569,14 @@ section#logistika {
     /* background-image: url(/images/bg3.png); */
   }
   .servis i {
+    display: none;
     font-size: 35px;
+    margin-left: 13px;
+    color: rgb(202, 194, 187);
+    transform: translate(0px, 35px);
+  }
+  .servis span {
+    font-size: 40px;
     margin-left: 13px;
     color: rgb(202, 194, 187);
     transform: translate(0px, 35px);
@@ -2324,7 +2331,7 @@ section#logistika {
     width: 0;
   }
   .menuBar.active > span:nth-child(1),
-.menuBar.active > span:nth-child(3) {
+  .menuBar.active > span:nth-child(3) {
     transition-delay: 0.4s;
   }
   .menuBar.active > span:nth-child(1) {
