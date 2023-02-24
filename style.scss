@@ -1721,7 +1721,7 @@ section#logistika {
   }
 
   .orta {
-    height: 650px;
+    height: 600px;
     transform: translate(0px, -30px);
     width: 95%;
     background: rgba(0, 75, 169, 1);
@@ -1787,10 +1787,8 @@ section#logistika {
     font-size: 14px;
     font-weight: 400;
     color: navy;
-    transform: translate(-3px, 0px);
-    /* line-height: 30px; */
+    transform: translate(-12px, 0px);
     text-align: center;
-    /* padding: 3px; */
   }
 
   .malumoti {
@@ -2584,5 +2582,10 @@ section#logistika {
     margin-left: 10px;
     width: 90%;
     letter-spacing: 0.02em;
+  }
+
+  .orta .material-symbols-outlined {
+    font-size: 100px;
+    transform: translate(135px, 20px);
   }
 }
