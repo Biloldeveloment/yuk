@@ -1638,7 +1638,7 @@ section#logistika {
     height: 499px;
   }
   .engkatta {
-    height: 650px;
+    height: 620px;
     width: 95%;
     background: rgb(0, 75, 169);
     margin-left: 6px;
@@ -1669,7 +1669,7 @@ section#logistika {
     margin-top: -6px;
   }
   .engkichik {
-    height: 560px;
+    height: 540px;
     transform: translate(0px, -30px);
     width: 95%;
     background: rgb(0, 75, 169);
@@ -1737,7 +1737,7 @@ section#logistika {
     font-size: 14px;
     font-weight: 400;
     color: navy;
-    transform: translate(-12px, 0px);
+    transform: translate(-8px, 0px);
     text-align: center;
   }
   .malumoti {
