@@ -706,7 +706,7 @@ section#master h1 {
   padding: 8px;
   font-size: 12px;
   transition: all 0.8s ease;
-  line-height: 18px;
+  line-height: 20px;
   text-align: center;
   color: whitesmoke;
   transform: translate(0px, -70px);
@@ -2489,7 +2489,7 @@ section#logistika {
     font-size: 0.9em;
   }
 
-  .menuBar {
+  /* .menuBar {
     cursor: pointer;
     display: inline-block;
     transition: all 0.4s ease-in-out;
@@ -2528,7 +2528,7 @@ section#logistika {
     border-radius: 10px;
     height: 585px;
     transform: translate(0px, -10px);
-  }
+  } */
 
   .glavniy {
     display: none;
@@ -2585,6 +2585,11 @@ section#logistika {
   }
 
   .orta .material-symbols-outlined {
+    font-size: 100px;
+    transform: translate(135px, 20px);
+  }
+
+  .engkichik .material-symbols-outlined {
     font-size: 100px;
     transform: translate(135px, 20px);
   }
