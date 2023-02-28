@@ -72,7 +72,6 @@ header.type_inner {
   color: navy;
   letter-spacing: 0.02em;
 }
-
 .serviecec {
   display: none;
 }
@@ -227,7 +226,6 @@ section#master {
   background-size: inherit;
   background-repeat: no-repeat;
   border-radius: 10px;
-
   margin-left: 35px;
 }
 
@@ -1316,7 +1314,7 @@ section#logistika {
   color: #fff;
   margin-top: 69px;
   display: flex;
-  margin-left: 30px;
+  margin-left: 115px;
 }
 
 .item .contact {
@@ -1367,7 +1365,7 @@ section#logistika {
 }
 
 .col-md-8 {
-  transform: translate(0px, 50px);
+  /* transform: translate(0px, 50px); */
   margin-top: 100px;
   margin-left: 100px;
 }
@@ -2322,15 +2320,13 @@ section#logistika {
     transition: transform 0.5s ease-in;
   }
   header#header .sider .sidebar li {
-    padding: 15px 0px;
-
-    font-size: 16px;
+    padding: 18px 0px;
+    font-size: 15px;
     margin-left: -5px;
-
     color: white;
-
-    border-radius: 10px;
+    border-radius: 15px;
     transition: all 0.5s ease-in;
+    font-weight: 400;
   }
   header#header .sider .sidebar li:hover {
     background-color: rgba(0, 0, 0, 0.4);
@@ -2383,7 +2379,6 @@ section#logistika {
     border-radius: 50%;
     text-align: center;
     background: rgba(121, 118, 118, 0.68);
-    /* margin-left: 10px; */
     transform: translate(-8px, 1px);
     margin-top: 22px;
   }
@@ -2467,10 +2462,10 @@ section#logistika {
     transform: translate(8px, 0px);
   }
 
-  .biz-haqimizda {
+  /* .biz-haqimizda {
     background-image: url(/images/Good-idea-market-analysis-for-business-plan.jpg);
     background-repeat: no-repeat;
-  }
+  } */
 
   .col-md {
     padding: 10px 0;
@@ -2488,47 +2483,6 @@ section#logistika {
     display: inline-block;
     font-size: 0.9em;
   }
-
-  /* .menuBar {
-    cursor: pointer;
-    display: inline-block;
-    transition: all 0.4s ease-in-out;
-  }
-  .menuBar > span {
-    width: 28px;
-    height: 2px;
-    border-radius: 1px;
-    background-color: #ff9100;
-    display: block;
-    transition: all 0.4s ease-in-out;
-  }
-  .menuBar > span:not(:last-child) {
-    margin-bottom: 7px;
-  }
-  .menuBar.active {
-    transition-delay: 0.8s;
-    transform: rotate(45deg);
-  }
-  .menuBar.active > span:nth-child(2) {
-    width: 0;
-  }
-  .menuBar.active > span:nth-child(1),
-  .menuBar.active > span:nth-child(3) {
-    transition-delay: 0.4s;
-  }
-  .menuBar.active > span:nth-child(1) {
-    transform: translateY(9px);
-  }
-  .menuBar.active > span:nth-child(3) {
-    transform: translateY(-9px) rotate(90deg);
-  }
-
-  .fonchroy {
-    background: rgba(255, 255, 255, 0.55);
-    border-radius: 10px;
-    height: 585px;
-    transform: translate(0px, -10px);
-  } */
 
   .glavniy {
     display: none;
