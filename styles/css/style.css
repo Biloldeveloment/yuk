@@ -394,7 +394,7 @@ header#headerin ul {
   margin-bottom: 30px;
 }
 
-.Inport {
+.panel {
   width: 1527px;
   height: 750px;
   background-position: center;
@@ -1393,7 +1393,6 @@ section#logistika {
   display: inline-block;
   font-size: 62px;
   line-height: 1;
-  /* color: #565a5b; */
 }
 
 .contact-info .item_ .name {
@@ -1491,7 +1490,6 @@ section#logistika {
   .serviecec {
     width: 100%;
     position: fixed;
-    /* transform: translate(-28px, -100px); */
     z-index: 17;
     height: 80px;
     margin-top: -27px;
@@ -1527,7 +1525,6 @@ section#logistika {
     font-size: 38px;
     text-align: center;
     font-weight: 100;
-    /* transform: translate(1px, 0px); */
     margin-bottom: 30px;
     color: black;
   }
@@ -1592,7 +1589,6 @@ section#logistika {
     height: 65px;
     background: rgb(66, 66, 63);
     background-size: cover;
-    /* background-image: url(/images/bg3.png); */
   }
   .servis i {
     display: none;
@@ -1620,7 +1616,7 @@ section#logistika {
     margin-left: 370px;
     transform: translate(-40px, -18px);
   }
-  .Inport {
+  .panel {
     height: 500px;
     background-image: url(/images/6.jpg);
     background-position: center;
@@ -1652,7 +1648,6 @@ section#logistika {
     border-radius: 11px;
     margin-left: -6px;
     margin-top: -6px;
-    /* border: solid 2px black; */
   }
   .soyani {
     height: 706px;
@@ -1834,7 +1829,6 @@ section#logistika {
     font-size: 14px;
     line-height: 29px;
     font-weight: 400;
-    /* padding: 0 10px; */
     color: white;
     margin-bottom: 50px;
     letter-spacing: 0.02em;
@@ -1914,7 +1908,7 @@ section#logistika {
     height: 500px;
     margin-bottom: 100px;
   }
-  .boglanish h6 {
+  /* .boglanish h6 {
     text-align: center;
     font-size: 90px;
     color: black;
@@ -1922,49 +1916,60 @@ section#logistika {
     margin-left: -100px;
     font-weight: 500;
   }
+
   .karta .lakatsiya {
     display: none;
   }
+
   .manzil {
     transform: translate(280px, 0px);
   }
+
   .tarmoq {
     transform: translate(280px, 0px);
   }
+
   .tell {
     transform: translate(280px, 0px);
   }
+
   .boglanish i {
     font-size: 35px;
     color: black;
   }
+
   .manzil a p {
     font-size: 40px;
     color: black;
     width: 600px;
   }
+
   .tarmoq p {
     font-size: 40px;
     margin-left: 15px;
     color: black;
   }
+
   .tell p {
     font-size: 40px;
     margin-left: 15px;
     width: 300px;
     color: black;
   }
+
   .boglanish span {
     color: black;
     margin-left: 300px;
   }
+
   .croy {
     margin-left: 270px;
   }
+
   .lakatsiya {
     width: 630px;
     height: 350px;
-  }
+  } */
   .footer-col {
     margin: 2rem 0;
     display: grid;
